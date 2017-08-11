@@ -11,7 +11,7 @@ keywords: "EZLippi"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss: 
+rss:
 
 # Specify the date when the site was setup
 since: 2014
@@ -44,8 +44,8 @@ menu:
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
-#swiftype_key: F1mVLd_RPaPM-WhSr4A4 
-  
+#swiftype_key: F1mVLd_RPaPM-WhSr4A4
+
 # Enable/Disable menu icons.
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
@@ -136,9 +136,9 @@ font:
 #social:
   #LinkLabel: Link
 social:
-  GitHub: https://github.com/EZLippi
-  weibo: http://weibo.com/ouyanglip
-  zhihu: http://www.zhihu.com/people/lippi-ouyang
+  GitHub: https://github.com/zhyjor
+  weibo: http://weibo.com/zhyjor
+  zhihu: http://weibo.com/zhyjor
   #Others:
 
 # Social Links Icons
@@ -153,7 +153,7 @@ social_icons:
   GitHub: github
   Twitter: twitter
   weibo: weibo
-  zhihu: battery-3 
+  zhihu: battery-3
 
 
 # Sidebar Avatar
@@ -201,16 +201,16 @@ sidebar:
   #Title: http://example.com/
 
 # title, chinese available
-links_title: 友情链接 
+links_title: 友情链接
 # # links
 links:
    Qisen Tang: http://www.woaitqs.cc/
    szhshp的博客: http://szhshp.org
    JuniorCoder: http://python.zhangwei.website
    Hippo: http://hippo-jessy.com
-   友链出租: https://www.zhihu.com/people/lippi-ouyang    
+   友链出租: https://www.zhihu.com/people/lippi-ouyang
 link_icons:
-  enable: true  
+  enable: true
 # ---------------------------------------------------------------
 # Post Settings
 # ---------------------------------------------------------------
@@ -259,7 +259,7 @@ word_count: true
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: true 
+  enabled: true
   image: /images/avatar.jpg
 
 # Code Highlight theme
@@ -289,7 +289,7 @@ baidu_analytics: 340874ba9357cbe81570aa4ac1185941
 
 # Duoshuo ShortName
 #duoshuo_shortname:
-duoshuo_shortname: ezlippi 
+duoshuo_shortname: ezlippi
 # Disqus
 #disqus_shortname:
 
