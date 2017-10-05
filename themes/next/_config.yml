@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.ico
+favicon: /images/favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "EZLippi"
@@ -11,7 +11,7 @@ keywords: "EZLippi"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 # Specify the date when the site was setup
 since: 2014
@@ -299,6 +299,10 @@ duoshuo_shortname: ezlippi
 # Gentie productKey
 #gentie_productKey:
 
+# Support for LiveRe comments system.
+# You can get your uid from https://livere.com/insight/myCode (General web site)
+livere_uid: MTAyMC8zMTE5Ny83NzQ2
+
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
 #youyan_uid: your uid
@@ -311,7 +315,7 @@ duoshuo_shortname: ezlippi
 ##  type: button
 
 # Share
-#jiathis:
+jiathis: true
 # Warning: JiaThis does not support https.
 #add_this_id:
 
@@ -498,3 +502,10 @@ images: images
 
 # Theme version
 version: 5.1.0
+
+# Post wordcount display settings
+# Dependencies: https://github.com/willin/hexo-wordcount
+post_wordcount:
+  item_text: true
+  wordcount: true
+  min2read: true
