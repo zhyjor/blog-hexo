@@ -91,3 +91,5 @@ event.touches[0]
 
 * * rotation：表示手指变化引起的旋转角度，负值表示逆时针，正值表示顺时针，从零开始。
 * * scale：表示两个手指之间的距离情况，向内收缩会缩短距离，这个值从1开始，并随距离拉大而增长。
+
+![](http://oankigr4l.bkt.clouddn.com/8192dd88gy1fkekqy1wj6j20q10ecjsz.jpg)
