@@ -9,8 +9,11 @@ tags:
 categories: android
 copyright: true
 ---
-### api
+最近在整理混合开发，WebView需系统的学习下，对基本的api，性能的优化，源码方面都要进行分析
+<!--more-->
 #### webview中loadDataWithBaseURL()与loadData()的差别
+在第一篇中，我们就已经讲了通过loadUrl()来加载本地页面和在线地址的方式，这里给大家再补充两个方法LoadData()与loadDataWithBaseURL()，它们不是用来加载整个页面文件的，而是用来加载一段代码片的。
+
 
 **1、参数差别**
 ```
@@ -76,3 +79,32 @@ webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setDomStorageEnabled(true);  
 
 ```
+
+####  shouldOverrideUrlLoading用途
+
+在利用shouldOverrideUrlLoading来拦截URL时，如果return true，则会屏蔽系统默认的显示URL结果的行为，不需要处理的URL也需要调用loadUrl()来加载进WebVIew，不然就会出现白屏；如果return false，则系统默认的加载URL行为是不会被屏蔽的，所以一般建议大家return false，我们只关心我们关心的拦截内容，对于不拦截的内容，让系统自己来处理即可。
+
+```
+public boolean shouldOverrideUrlLoading(WebView view, String url) {  
+   if (url.contains("blog.csdn.net")){  
+        view.loadUrl("http://www.baidu.com");  
+    }else {  
+        view.loadUrl(url);  
+    }  
+   return true;  
+}  
+
+
+mWebView.setWebViewClient(new WebViewClient(){  
+    @Override  
+    public boolean shouldOverrideUrlLoading(WebView view, String url) {  
+        if (url.contains("blog.csdn.net")){  
+            view.loadUrl("http://www.baidu.com");  
+        }  
+        return false;  
+    }  
+}      
+```
+
+#### WebViewClient之shouldInterceptRequest
+在每一次请求资源时，都会通过这个函数来回调，比如超链接、JS文件、CSS文件、图片等，也就是说浏览器中每一次请求资源时，都会回调回来，无论任何资源！但是必须注意的是shouldInterceptRequest函数是在非UI线程中执行的，在其中不能直接做UI操作，如果需要做UI操作，则需要利用Handler来实现
