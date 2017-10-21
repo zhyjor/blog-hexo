@@ -1,7 +1,10 @@
 ---
 title: html中meta的标签总结
 date: 2017-10-12 18:26:24
-tags: html meta 
+tags:   
+  - html
+  - meta
+  - 适配
 categories: html
 copyright: true
 ---

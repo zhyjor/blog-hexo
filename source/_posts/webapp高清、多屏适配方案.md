@@ -2,8 +2,11 @@
 title: webapp高清、多屏适配方案
 date: 2017-10-13 10:05:15
 tags:
+  - 适配
+  - html
+
 categories:
-copyright:
+copyright: html
 ---
 https://github.com/amfe/article/issues/17
 

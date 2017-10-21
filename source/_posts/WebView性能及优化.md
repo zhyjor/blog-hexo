@@ -5,6 +5,7 @@ tags:
   - webview
   - android
 categories: android
+copyright: true
 ---
 
 一个网页的加载过程，native、网络、后端处理、cpu都会参与，各种都有必要的工作和依赖关系；让各个工作可以并行进行，就可以让网页的加载更快
