@@ -108,3 +108,38 @@ mWebView.setWebViewClient(new WebViewClient(){
 
 #### WebViewClient之shouldInterceptRequest
 在每一次请求资源时，都会通过这个函数来回调，比如超链接、JS文件、CSS文件、图片等，也就是说浏览器中每一次请求资源时，都会回调回来，无论任何资源！但是必须注意的是shouldInterceptRequest函数是在非UI线程中执行的，在其中不能直接做UI操作，如果需要做UI操作，则需要利用Handler来实现
+
+
+### 异常 
+**All WebView methods must be called on the same thread. **
+新版的Android的SDK要求在创建WebView所在的线程中操作它，在其它线程中操作它都会报这个错误。无论是否是loadUrl的方法的执行，还是其他的地方，只要新建线程就必须post到mianlooper里面。
+
+**解决方式一：**
+
+```
+if (null != sessionClient) {
+            Runnable callbackRunnable = new Runnable() {
+                @Override
+                public void run() {
+                   
+                }
+
+            };
+            if (Looper.getMainLooper() == Looper.myLooper()) {
+                callbackRunnable.run();
+            } else {
+                new Handler(Looper.getMainLooper()).post(callbackRunnable);
+            }
+        }
+```
+
+**解决方式二：**
+BroswerActivity就是webview所在的Activity。
+```
+BroswerActivity.this.runOnUiThread(new Runnable() {
+	@Override
+	public void run() {
+		webview.loadUrl("http://www.lanhusoft.com");  
+	}
+});
+```
