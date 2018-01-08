@@ -1,7 +1,10 @@
 ---
 title: vue项目从开发到发布脚手架配置
 date: 2017-10-08 14:52:35
-tags: vue js
+tags: 
+  - vue 
+  - js
+  
 categories: vue
 copyright: true
 ---

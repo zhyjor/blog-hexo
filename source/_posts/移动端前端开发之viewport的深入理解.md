@@ -1,7 +1,11 @@
 ---
 title: 移动端前端开发之viewport的深入理解
 date: 2017-10-12 18:28:53
-tags: html 适配 viewport
+tags: 
+  - html 
+  - 适配 
+  - viewport
+
 categories: html
 copyright: true
 ---
