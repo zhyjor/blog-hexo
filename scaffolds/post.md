@@ -5,7 +5,7 @@ tags:
   - dev
   
 
-categories:
+categories: dev
 copyright: true
 ---
 
