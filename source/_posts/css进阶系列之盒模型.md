@@ -76,5 +76,9 @@ css的盒模型由content(内容)、padding(内边距)、border(边框)、margin
 因为若不声明DOCTYPE类型，IE浏览器会将盒子模型解释为IE盒子模型，FireFox等会将其解释为W3C盒子模型；若在页面中声明了DOCTYPE类型，所有的浏览器都会把盒模型解释为W3C盒模型。
 
 
-[参考](http://blog.csdn.net/eavan_zhou/article/details/52289351)
-[参考](https://juejin.im/post/59ef72f5f265da4320026f76)
+
+
+**参考资料**
+[深入理解BFC和Margin Collapse](https://www.w3cplus.com/css/understanding-bfc-and-margin-collapse.html)
+[神奇的CSS盒子模型](http://blog.csdn.net/eavan_zhou/article/details/52289351)
+[CSS盒模型详解](https://juejin.im/post/59ef72f5f265da4320026f76)
