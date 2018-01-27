@@ -85,3 +85,9 @@ deploy:
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 plugins: hexo-generate-feed
+
+# npm install -save hexo-helper-live2d，看板娘
+# wanko: dog in bowl,tororo:white cat,nipsilon(litte girl),
+live2d:
+  model: tororo
+  bottom: -30
