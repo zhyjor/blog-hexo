@@ -14,4 +14,4 @@ copyright: true
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/my_wx_code)
+![](http://oankigr4l.bkt.clouddn.com/wexin.png)
