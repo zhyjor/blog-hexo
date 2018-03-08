@@ -3,6 +3,7 @@ title: js之事件冒泡
 date: 2017-08-16 20:18:35
 tags:
   - js
+  - js基础
   - 冒泡机制
 categories: js
 description: 事件处理程序中的变量event保留着事件对象，event.target属性保存着事件的目标元素。

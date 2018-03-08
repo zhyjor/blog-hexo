@@ -1,5 +1,5 @@
 ---
-title: 'ES6探索之一:初探promise'
+title: 'ES6初探promise'
 tags:
   - ES6
   - promise
