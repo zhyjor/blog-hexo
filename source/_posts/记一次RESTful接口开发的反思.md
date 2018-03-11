@@ -1,8 +1,8 @@
 ---
 title: 记一次不成功的RESTful接口开发的反思
 tags:
-  - dev
-categories: dev
+  - REST
+categories: REST
 copyright: true
 date: 2018-02-26 18:02:15
 ---
@@ -17,8 +17,7 @@ date: 2018-02-26 18:02:15
 * 其三，关键点总结。
 
 我一直认为协议在某种程度上就是互相妥协的产物，通过互相妥协来寻找最优的方案。让我们先了解一下何为restful风格。
-### 何为REST
-Representational State Transfer，简称REST
+### REST的出现
 
 **参考资料**
 []()
