@@ -11,12 +11,15 @@ date: 2018-03-15 14:12:57
 <!--more-->
 ### css/css3
 涉及到canvas,svg等知识
+[说说标准——CSS中非常重要的可视化格式模型](https://bbs.csdn.net/topics/340204423)
 
 ### Js/ES6/TypeSctipt
 [ECMAScript 6 入门(阮一峰)](http://es6.ruanyifeng.com/)
 [Promise原理讲解 && 实现一个Promise对象 (遵循Promise/A+规范)](https://juejin.im/post/5aa7868b6fb9a028dd4de672)
 [深度解析原型中的各个难点](https://juejin.im/post/5aa78fe66fb9a028d2079ca4)
 [JavaScript变量的生命周期：为什么let不被提升](https://juejin.im/post/5aa631ab5188255587233214?utm_medium=fe&utm_source=weixinqun)
+[Promise原理讲解 && 实现一个Promise对象 (遵循Promise/A+规范)](https://juejin.im/post/5aa7868b6fb9a028dd4de672)
+[深入理解JavaScript系列-汤姆大叔的博客](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
 
 ### 算法与数据结构
 [十大经典排序算法](https://github.com/hustcc/JS-Sorting-Algorithm)
@@ -37,12 +40,20 @@ sql/mongo
 [从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](https://zhuanlan.zhihu.com/p/34453198?group_id=957277540147056640)
 [从输入 URL 到页面加载完成的过程中都发生了什么事情？](http://fex.baidu.com/blog/2014/05/what-happen/)
 [浏览器和Node不同的事件循环（Event Loop）](https://juejin.im/post/5aa5dcabf265da239c7afe1e?utm_medium=fe&utm_source=weixinqun)
+[从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872)
+[V8 内存浅析](https://zhuanlan.zhihu.com/p/33816534)
 
 ### 网络安全
 xss/csrf
 
 ### MVVM框架的使用、原理及源码阅读
-diff算法等
+
+#### 理论基础
+[深入浅出 - vue变化侦测原理](https://github.com/berwin/Blog/issues/17)
+[Vue 模板编译原理](https://github.com/berwin/Blog/issues/18?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+
+
+#### 源码学习
 [Vue2.1.7源码学习](http://hcysun.me/2017/03/03/Vue%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/)
 [阅读vue.js源码可以从哪几方面入手？](https://www.zhihu.com/question/36986850)
 [Vue.js 作者尤大知乎 live 笔记](https://www.jianshu.com/p/5449f51ca90f)
