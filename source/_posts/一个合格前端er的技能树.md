@@ -20,6 +20,7 @@ date: 2018-03-15 14:12:57
 [JavaScript变量的生命周期：为什么let不被提升](https://juejin.im/post/5aa631ab5188255587233214?utm_medium=fe&utm_source=weixinqun)
 [Promise原理讲解 && 实现一个Promise对象 (遵循Promise/A+规范)](https://juejin.im/post/5aa7868b6fb9a028dd4de672)
 [深入理解JavaScript系列-汤姆大叔的博客](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
+[js深入系列目录/专题系列目录](https://github.com/mqyqingfeng/Blog)
 
 ### 算法与数据结构
 [十大经典排序算法](https://github.com/hustcc/JS-Sorting-Algorithm)
@@ -36,7 +37,10 @@ date: 2018-03-15 14:12:57
 ### 数据库知识
 sql/mongo
 
-### 浏览器的渲染机制与性能优化
+### 性能优化
+[优化网站设计系列文章总结和导读(雅虎35条)](http://www.cnblogs.com/chenxizhang/archive/2013/05/20/3088196.html)
+
+### 浏览器的渲染机制
 [从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](https://zhuanlan.zhihu.com/p/34453198?group_id=957277540147056640)
 [从输入 URL 到页面加载完成的过程中都发生了什么事情？](http://fex.baidu.com/blog/2014/05/what-happen/)
 [浏览器和Node不同的事件循环（Event Loop）](https://juejin.im/post/5aa5dcabf265da239c7afe1e?utm_medium=fe&utm_source=weixinqun)
@@ -48,9 +52,14 @@ xss/csrf
 
 ### MVVM框架的使用、原理及源码阅读
 
+#### vue的难点
+[为什么使用v-for时必须添加唯一的key?](https://juejin.im/post/5aae19aa6fb9a028d4445d1a?utm_medium=fe&utm_source=weixinqun)
+[]()
+
 #### 理论基础
 [深入浅出 - vue变化侦测原理](https://github.com/berwin/Blog/issues/17)
 [Vue 模板编译原理](https://github.com/berwin/Blog/issues/18?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+[深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)
 
 
 #### 源码学习
@@ -59,18 +68,31 @@ xss/csrf
 [Vue.js 作者尤大知乎 live 笔记](https://www.jianshu.com/p/5449f51ca90f)
 [Vue.js 2.0源码解析之前端渲染篇](https://cloud.tencent.com/developer/article/1004551)
 [Vue.js 源码学习笔记](http://jiongks.name/blog/vue-code-review/)
+[React中jsx模板语法的具体实现](https://gist.github.com/lygaret/a68220defa69174bdec5)
 
 ### 测试
 
+
+### Hybrid 混合开发
+[极致的 Hybrid 混合式开发](https://juejin.im/entry/5aae67ba6fb9a028b86dccfc?utm_medium=fe&utm_source=weixinqun)
+
 ### 前端工程化自动化
+webpack的使用，webpack4.0升级指南
+gulp的插件与任务的编写
+
+### 计算机原理相关
+#### 字符集与字符编码
+[学点编码知识又不会死：Unicode的流言终结者和编码大揭秘](http://www.freebuf.com/articles/others-articles/25623.html)
+
 
 ### 黑科技
 jhipster
 
 ### 合集
 [前端知识集锦](https://juejin.im/post/5a961d496fb9a06356314a36)
+[前端面试考点多？看这几篇文章就够了](https://juejin.im/post/5aae076d6fb9a028cc6100a9?utm_medium=fe&utm_source=weixinqun)
 
 **参考资料**
-[]()
+
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

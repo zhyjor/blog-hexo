@@ -27,6 +27,30 @@ $_gutter:                      20px !default;     // Width of the gutter
 $_gridsystem-width:            $_columns * ($_column-width + $_gutter); //grid system width
 ```
 
+**sass在带单位计算时，有些写法解析出来会多个空格**
+```
+//sass
+@for $num from 1 through 12 {
+      &:nth-child(#{$num}) {
+        animation-delay: (($num - 1)/12) s;
+        transform: rotate(30deg * ($num - 6)) translateY(-150%);
+      }
+    }
+
+//css
+xxx:nth-child(2) {
+    animation-delay: 0.08333 s;// 这里多了一个空格
+    transform: rotate(-120deg) translateY(-150%);
+}
+
+// 修改后的写法
+animation-delay: (($num - 1)/12) + s;
+// 或者
+animation-delay: (($num - 1)/12) * 1s;
+```
+
+
+
 ### 条件判断
 #### @if判断
 @if可一个条件单独使用，也可以和 @else结合多条件使用
