@@ -21,6 +21,7 @@ date: 2018-03-15 14:12:57
 [Promise原理讲解 && 实现一个Promise对象 (遵循Promise/A+规范)](https://juejin.im/post/5aa7868b6fb9a028dd4de672)
 [深入理解JavaScript系列-汤姆大叔的博客](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
 [js深入系列目录/专题系列目录](https://github.com/mqyqingfeng/Blog)
+[深度解析原型中的各个难点](https://juejin.im/post/5aa78fe66fb9a028d2079ca4)
 
 ### 算法与数据结构
 [十大经典排序算法](https://github.com/hustcc/JS-Sorting-Algorithm)
@@ -28,6 +29,9 @@ date: 2018-03-15 14:12:57
 [《算法 (第4版)》、牛课堂、《剑指Offer》](https://github.com/nibnait/algorithms)
 [LeetCode算法题典](https://github.com/Wang-Jun-Chao/leetcode)
 [算法学习笔记](https://github.com/nonstriater/Learn-Algorithms)
+
+[数据结构与算法系列_目录](http://www.cnblogs.com/skywang12345/p/3603935.html)
+
 
 ### TCP/http/TSL/SSL/
 [图解SSL/TLS协议](http://www.ruanyifeng.com/blog/2014/09/illustration-ssl.html?utm_source=tuicool&utm_medium=referral)
