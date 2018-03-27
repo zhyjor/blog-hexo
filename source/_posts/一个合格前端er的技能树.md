@@ -50,9 +50,11 @@ sql/mongo
 [浏览器和Node不同的事件循环（Event Loop）](https://juejin.im/post/5aa5dcabf265da239c7afe1e?utm_medium=fe&utm_source=weixinqun)
 [从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872)
 [V8 内存浅析](https://zhuanlan.zhihu.com/p/33816534)
+GC，垃圾回收机制，强弱引用的应用
 
 ### 网络安全
 xss/csrf
+加密算法，aes,rsa等，这些合https也有结合
 
 ### MVVM框架的使用、原理及源码阅读
 
