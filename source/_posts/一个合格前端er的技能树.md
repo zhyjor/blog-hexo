@@ -16,6 +16,7 @@ date: 2018-03-15 14:12:57
 ### Js/ES6/TypeSctipt
 [ECMAScript 6 入门(阮一峰)](http://es6.ruanyifeng.com/)
 [Promise原理讲解 && 实现一个Promise对象 (遵循Promise/A+规范)](https://juejin.im/post/5aa7868b6fb9a028dd4de672)
+[性感的Promise](https://juejin.im/post/5ab20c58f265da23a228fe0f)
 [深度解析原型中的各个难点](https://juejin.im/post/5aa78fe66fb9a028d2079ca4)
 [JavaScript变量的生命周期：为什么let不被提升](https://juejin.im/post/5aa631ab5188255587233214?utm_medium=fe&utm_source=weixinqun)
 [Promise原理讲解 && 实现一个Promise对象 (遵循Promise/A+规范)](https://juejin.im/post/5aa7868b6fb9a028dd4de672)
@@ -43,6 +44,7 @@ sql/mongo
 
 ### 性能优化
 [优化网站设计系列文章总结和导读(雅虎35条)](http://www.cnblogs.com/chenxizhang/archive/2013/05/20/3088196.html)
+[前端优化系列 - JS混淆引入性能天坑](https://juejin.im/post/5aaf1d4c6fb9a028bc2d89d6)
 
 ### 浏览器的渲染机制
 [从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](https://zhuanlan.zhihu.com/p/34453198?group_id=957277540147056640)
@@ -50,7 +52,9 @@ sql/mongo
 [浏览器和Node不同的事件循环（Event Loop）](https://juejin.im/post/5aa5dcabf265da239c7afe1e?utm_medium=fe&utm_source=weixinqun)
 [从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872)
 [V8 内存浅析](https://zhuanlan.zhihu.com/p/33816534)
-GC，垃圾回收机制，强弱引用的应用
+[关于WeakMap的一个问题](https://github.com/ruanyf/es6tutorial/issues/362#issuecomment-292109104)
+GC，垃圾回收机制，强弱引用的应用，nodejs，浏览器进行内存分析的方式
+[浏览器渲染流水线解析](https://juejin.im/post/5ab9a8006fb9a028db58b354)
 
 ### 网络安全
 xss/csrf
@@ -66,6 +70,7 @@ xss/csrf
 [深入浅出 - vue变化侦测原理](https://github.com/berwin/Blog/issues/17)
 [Vue 模板编译原理](https://github.com/berwin/Blog/issues/18?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 [深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)
+[AST语法树的实现]()
 
 
 #### 源码学习
