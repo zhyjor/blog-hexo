@@ -94,6 +94,10 @@ gulp的插件与任务的编写
 ### 计算机原理相关
 #### 字符集与字符编码
 [学点编码知识又不会死：Unicode的流言终结者和编码大揭秘](http://www.freebuf.com/articles/others-articles/25623.html)
+[常见几种校验方法（CS和校验、CRC16、CRC32、BCC异或校验）](http://www.cnblogs.com/BHfeimao/p/7410537.html)
+
+### 23种设计模式
+
 
 
 ### 黑科技
