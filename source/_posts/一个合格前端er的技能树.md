@@ -12,6 +12,7 @@ date: 2018-03-15 14:12:57
 ### css/css3
 涉及到canvas,svg等知识
 [说说标准——CSS中非常重要的可视化格式模型](https://bbs.csdn.net/topics/340204423)
+[CSS 值的解析](https://www.aliyun.com/jiaocheng/656339.html)
 
 ### Js/ES6/TypeSctipt
 [ECMAScript 6 入门(阮一峰)](http://es6.ruanyifeng.com/)
@@ -24,12 +25,19 @@ date: 2018-03-15 14:12:57
 [js深入系列目录/专题系列目录](https://github.com/mqyqingfeng/Blog)
 [深度解析原型中的各个难点](https://juejin.im/post/5aa78fe66fb9a028d2079ca4)
 
+[babel插件入门-AST](https://juejin.im/post/5ab9f2f3f265da239b4174f0)
+
+[抱歉，学会 Proxy 真的可以为所欲为](https://zhuanlan.zhihu.com/p/35080324)
+
+[JavaScript instanceof 运算符深入剖析](https://www.ibm.com/developerworks/cn/web/1306_jiangjj_jsinstanceof/)
+
 ### 算法与数据结构
 [十大经典排序算法](https://github.com/hustcc/JS-Sorting-Algorithm)
 [算法/数据结构/Python/剑指offer/机器学习/leetcode](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython)
 [《算法 (第4版)》、牛课堂、《剑指Offer》](https://github.com/nibnait/algorithms)
 [LeetCode算法题典](https://github.com/Wang-Jun-Chao/leetcode)
 [算法学习笔记](https://github.com/nonstriater/Learn-Algorithms)
+[八大基础排序总结](https://juejin.im/post/5ab9ae9cf265da23830ae617)
 
 [数据结构与算法系列_目录](http://www.cnblogs.com/skywang12345/p/3603935.html)
 
@@ -56,6 +64,8 @@ sql/mongo
 GC，垃圾回收机制，强弱引用的应用，nodejs，浏览器进行内存分析的方式
 [浏览器渲染流水线解析](https://juejin.im/post/5ab9a8006fb9a028db58b354)
 
+[浏览器工作原理(10篇)](https://blog.csdn.net/lxcao/article/category/6472061)
+
 ### 网络安全
 xss/csrf
 加密算法，aes,rsa等，这些合https也有结合
@@ -64,13 +74,13 @@ xss/csrf
 
 #### vue的难点
 [为什么使用v-for时必须添加唯一的key?](https://juejin.im/post/5aae19aa6fb9a028d4445d1a?utm_medium=fe&utm_source=weixinqun)
-[]()
+
 
 #### 理论基础
 [深入浅出 - vue变化侦测原理](https://github.com/berwin/Blog/issues/17)
 [Vue 模板编译原理](https://github.com/berwin/Blog/issues/18?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 [深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)
-[AST语法树的实现]()
+
 
 
 #### 源码学习
@@ -80,6 +90,9 @@ xss/csrf
 [Vue.js 2.0源码解析之前端渲染篇](https://cloud.tencent.com/developer/article/1004551)
 [Vue.js 源码学习笔记](http://jiongks.name/blog/vue-code-review/)
 [React中jsx模板语法的具体实现](https://gist.github.com/lygaret/a68220defa69174bdec5)
+[大白话Vue源码系列目录](http://www.cnblogs.com/iovec/p/vue_catalog.html)
+[vue源码学习系列](https://github.com/youngwind/blog/labels/Vue)
+[Vue 源码解析：深入响应式原理](https://juejin.im/post/5825874ad203090055311b30)
 
 ### 测试
 
@@ -106,6 +119,7 @@ jhipster
 ### 合集
 [前端知识集锦](https://juejin.im/post/5a961d496fb9a06356314a36)
 [前端面试考点多？看这几篇文章就够了](https://juejin.im/post/5aae076d6fb9a028cc6100a9?utm_medium=fe&utm_source=weixinqun)
+[3月前端知识集锦](https://juejin.im/post/5abb22925188255c4c1050e0)
 
 **参考资料**
 
