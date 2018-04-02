@@ -1,11 +1,10 @@
 ---
-title: js基础之继承与原型
+title: 一个android开发者的技能树
 tags:
-  - js基础
-  - js
+  - dev
+categories: dev
 copyright: true
-date: 2017-11-28 10:29:38
-categories: js
+date: 2018-04-02 17:51:27
 ---
 
 <!--more-->
