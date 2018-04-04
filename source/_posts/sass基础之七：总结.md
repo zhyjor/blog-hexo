@@ -13,6 +13,7 @@ date: 2018-03-20 20:30:45
 在以上的文章中
 
 **参考资料**
-[]()
+[Sass的新特性](https://www.w3cplus.com/preprocessor/future-sass.html)
+[CSS预编译：sass-scss](https://www.aliyun.com/jiaocheng/640575.html)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

@@ -6,6 +6,7 @@ tags:
 categories: 前端
 copyright: true
 date: 2018-03-15 14:12:57
+top: true
 ---
 前端涉及到知识点整理
 <!--more-->
@@ -13,6 +14,7 @@ date: 2018-03-15 14:12:57
 涉及到canvas,svg等知识
 [说说标准——CSS中非常重要的可视化格式模型](https://bbs.csdn.net/topics/340204423)
 [CSS 值的解析](https://www.aliyun.com/jiaocheng/656339.html)
+[编写模块化CSS：BEM](https://www.w3cplus.com/blog/tags/325.html)
 
 ### Js/ES6/TypeSctipt
 [ECMAScript 6 入门(阮一峰)](http://es6.ruanyifeng.com/)
@@ -30,6 +32,7 @@ date: 2018-03-15 14:12:57
 [抱歉，学会 Proxy 真的可以为所欲为](https://zhuanlan.zhihu.com/p/35080324)
 
 [JavaScript instanceof 运算符深入剖析](https://www.ibm.com/developerworks/cn/web/1306_jiangjj_jsinstanceof/)
+[[译] 一些ES6的小技巧](https://juejin.im/post/5ac23113f265da23906c2fbc)
 
 ### 算法与数据结构
 [十大经典排序算法](https://github.com/hustcc/JS-Sorting-Algorithm)
@@ -53,6 +56,7 @@ sql/mongo
 ### 性能优化
 [优化网站设计系列文章总结和导读(雅虎35条)](http://www.cnblogs.com/chenxizhang/archive/2013/05/20/3088196.html)
 [前端优化系列 - JS混淆引入性能天坑](https://juejin.im/post/5aaf1d4c6fb9a028bc2d89d6)
+[2018 前端性能检查表](https://juejin.im/post/5ac1d117f265da2396128b9f)
 
 ### 浏览器的渲染机制
 [从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](https://zhuanlan.zhihu.com/p/34453198?group_id=957277540147056640)
@@ -111,6 +115,9 @@ gulp的插件与任务的编写
 
 ### 23种设计模式
 
+### PWA应用及其他相关技术
+[第一本 PWA 中文书](https://juejin.im/entry/5a1c394a5188255851326da5)
+[快应用入门，看这篇就够了](https://juejin.im/post/5abdc774f265da23953117eb)
 
 
 ### 黑科技
