@@ -57,6 +57,7 @@ sql/mongo
 [优化网站设计系列文章总结和导读(雅虎35条)](http://www.cnblogs.com/chenxizhang/archive/2013/05/20/3088196.html)
 [前端优化系列 - JS混淆引入性能天坑](https://juejin.im/post/5aaf1d4c6fb9a028bc2d89d6)
 [2018 前端性能检查表](https://juejin.im/post/5ac1d117f265da2396128b9f)
+[「前端那些事儿」② 极限性能优化](https://juejin.im/post/59ff2dbe5188254dd935c8ab)
 
 ### 浏览器的渲染机制
 [从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](https://zhuanlan.zhihu.com/p/34453198?group_id=957277540147056640)
@@ -73,6 +74,7 @@ GC，垃圾回收机制，强弱引用的应用，nodejs，浏览器进行内存
 ### 网络安全
 xss/csrf
 加密算法，aes,rsa等，这些合https也有结合
+[Web安全的三个攻防姿势](https://juejin.im/post/59e6b21bf265da43247f861d)
 
 ### MVVM框架的使用、原理及源码阅读
 
@@ -97,6 +99,8 @@ xss/csrf
 [大白话Vue源码系列目录](http://www.cnblogs.com/iovec/p/vue_catalog.html)
 [vue源码学习系列](https://github.com/youngwind/blog/labels/Vue)
 [Vue 源码解析：深入响应式原理](https://juejin.im/post/5825874ad203090055311b30)
+
+[走进Vue-cli源码，自己动手搭建前端脚手架工具](https://segmentfault.com/a/1190000013975247)
 
 ### 测试
 
