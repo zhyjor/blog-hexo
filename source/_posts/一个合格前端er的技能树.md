@@ -86,6 +86,7 @@ xss/csrf
 [深入浅出 - vue变化侦测原理](https://github.com/berwin/Blog/issues/17)
 [Vue 模板编译原理](https://github.com/berwin/Blog/issues/18?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 [深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)
+[面试题：你能写一个Vue的双向数据绑定吗？](https://juejin.im/post/5acc17cb51882555745a03f8)
 
 
 
