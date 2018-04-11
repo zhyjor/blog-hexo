@@ -69,6 +69,8 @@ sql/mongo
 GC，垃圾回收机制，强弱引用的应用，nodejs，浏览器进行内存分析的方式
 [浏览器渲染流水线解析](https://juejin.im/post/5ab9a8006fb9a028db58b354)
 
+[从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](https://juejin.im/post/5a6547d0f265da3e283a1df7)
+
 [浏览器工作原理(10篇)](https://blog.csdn.net/lxcao/article/category/6472061)
 
 ### 网络安全
