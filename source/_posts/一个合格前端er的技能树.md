@@ -114,6 +114,7 @@ xss/csrf
 ### 前端工程化自动化
 webpack的使用，webpack4.0升级指南
 gulp的插件与任务的编写
+[Webpack 常见静态资源处理 - 模块加载器（Loaders）+ExtractTextPlugin插件](https://www.cnblogs.com/sloong/p/5826818.html)
 
 ### 计算机原理相关
 #### 字符集与字符编码
