@@ -8,8 +8,6 @@ copyright: true
 date: 2018-04-24 09:21:33
 ---
 
-<!--more-->
-
 ## 移动开发的演进
 
 cordova
@@ -18,7 +16,7 @@ cordova
 
 利用Cordova+Famous 创建高性能跨平台APP - CSDN博客
 
-
+<!--more-->
 RN直接丢掉了浏览器，js调用原生的接口
 
 淘宝的weex
@@ -61,6 +59,13 @@ ocp开闭原则
 
 ## Brower.js
 
+
+## 环境
+react-native-cli 
+
+## google的适配方案，dip
+
+## femo.us
 
 
 **参考资料**
