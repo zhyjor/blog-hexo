@@ -110,7 +110,9 @@ xss/csrf
 [Vue 源码解析：深入响应式原理](https://juejin.im/post/5825874ad203090055311b30)
 
 [走进Vue-cli源码，自己动手搭建前端脚手架工具](https://segmentfault.com/a/1190000013975247)
-
+[Vue nextTick 机制](https://juejin.im/post/5ae3f0956fb9a07ac90cf43e)
+[解读Vue源码-系列](https://github.com/monkeyWangs/blogs)
+[【Vue源码】Vue中DOM的异步更新策略以及nextTick机制](https://funteas.com/topic/5a8dc7c8f7f37aa60a177bb7)
 ## 测试
 
 

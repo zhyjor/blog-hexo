@@ -16,10 +16,39 @@ css中居中是个永恒的话题，“人类都已经可以登上月球，但�
 景可以相当广泛，可能唯一的不足就是此居中计算 IE8 及以上版本浏览器才支持。至少对我来
 讲，如果项目无须兼容 IE7 浏览器，绝对定位下的 margin:auto 居中是我用得最频繁的块级
 元素垂直居中对齐方式
+```css
+.dad {
+    position: relative;
+}
 
-### translation 50%法
+.son {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+```
+
+### marign 元素一般法
 比 top:50%然后 margin 负一半元素高度的方法要好使得多。
+```css
+.dad {
+    position: relative;
+}
 
+.son {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+```
 ### 内联元素（小图标）的1ex法
 
 ### 为什么 line-height 可以让内联元素“垂直居中”
