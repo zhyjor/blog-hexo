@@ -67,6 +67,7 @@ new ExtractTextPlugin([id: string], filename: string, [options])
 
 
 **参考资料**
+[webpack4-用之初体验，一起敲它十一遍](https://juejin.im/post/5adea0106fb9a07a9d6ff6de)
 [Webpack 常见静态资源处理 - 模块加载器（Loaders）+ExtractTextPlugin插件](https://www.cnblogs.com/sloong/p/5826818.html)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
