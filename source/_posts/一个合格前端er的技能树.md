@@ -49,6 +49,16 @@ top: true
 
 
 ## TCP/http/TSL/SSL/
+
+### jwt
+[理解JWT的使用场景和优劣](https://toutiao.io/posts/p6goeb)
+
+### http
+[Node HTTP/2 Server Push 从了解到放弃](https://juejin.im/post/5ae3f17ef265da0ba062e7e3)
+
+### https
+[分分钟让你理解HTTPS](https://juejin.im/post/5ad6ad575188255c272273c4)
+
 [图解SSL/TLS协议](http://www.ruanyifeng.com/blog/2014/09/illustration-ssl.html?utm_source=tuicool&utm_medium=referral)
 [Node.js 部署免费/自动续订 HTTPS](https://juejin.im/post/5aa9e0906fb9a028bc2d7644)
 [从 HTTP 到 HTTPS](https://tasaid.com/blog/20161003001126.html)
@@ -110,7 +120,9 @@ xss/csrf
 [Vue 源码解析：深入响应式原理](https://juejin.im/post/5825874ad203090055311b30)
 
 [走进Vue-cli源码，自己动手搭建前端脚手架工具](https://segmentfault.com/a/1190000013975247)
-
+[Vue nextTick 机制](https://juejin.im/post/5ae3f0956fb9a07ac90cf43e)
+[解读Vue源码-系列](https://github.com/monkeyWangs/blogs)
+[【Vue源码】Vue中DOM的异步更新策略以及nextTick机制](https://funteas.com/topic/5a8dc7c8f7f37aa60a177bb7)
 ## 测试
 
 
@@ -121,6 +133,9 @@ xss/csrf
 webpack的使用，webpack4.0升级指南
 gulp的插件与任务的编写
 [实战笔记：Jenkins打造强大的前端自动化工作流](https://juejin.im/post/5ad1980e6fb9a028c42ea1be)
+
+### wepack
+[webpack4-用之初体验，一起敲它十一遍](https://juejin.im/post/5adea0106fb9a07a9d6ff6de)
 [Webpack 常见静态资源处理 - 模块加载器（Loaders）+ExtractTextPlugin插件](https://www.cnblogs.com/sloong/p/5826818.html)
 
 ## 计算机原理相关
@@ -131,12 +146,19 @@ gulp的插件与任务的编写
 ## 23种设计模式
 
 ## PWA应用及其他相关技术
+### pwa
 [第一本 PWA 中文书](https://juejin.im/entry/5a1c394a5188255851326da5)
+[百度在 PWA 方面的探索与最佳实践](https://toutiao.io/posts/d9j4uf)
+[PWA介绍及快速上手搭建一个PWA应用](https://juejin.im/post/5ae2f82f6fb9a07acd4d761e)
+
+
+### 快应用
 [快应用入门，看这篇就够了](https://juejin.im/post/5abdc774f265da23953117eb)
 
 
 ## 黑科技
 jhipster
+[用flow.js提升前端健壮性](https://juejin.im/post/5ae292c86fb9a07a9c03efab)
 
 ## 合集
 [前端知识集锦](https://juejin.im/post/5a961d496fb9a06356314a36)
