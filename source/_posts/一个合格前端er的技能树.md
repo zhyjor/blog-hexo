@@ -85,6 +85,8 @@ GC，垃圾回收机制，强弱引用的应用，nodejs，浏览器进行内存
 [从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](https://juejin.im/post/5a6547d0f265da3e283a1df7)
 
 [浏览器工作原理(10篇)](https://blog.csdn.net/lxcao/article/category/6472061)
+[Chrome 渲染优化 - 层模型](https://www.oschina.net/translate/chrome-accelerated-rendering)
+
 
 ## 网络安全
 xss/csrf

@@ -14,6 +14,10 @@ date: 2017-09-16 09:54:46
 <!--more-->
 
 **参考资料**
+[cordova博客](https://wangzzzz.github.io/)
+[利用 Cordova+Famous 创建高性能跨平台APP](http://ms.csdn.net/geek/87875?from=groupmessage&isappinstalled=1)
+[你好，Flutter](https://www.jianshu.com/p/8baa8ed2414d)
 
+[一个开源的快速混合开发框架：quickhybrid](https://quickhybrid.github.io/quickhybrid-doc/index.html)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

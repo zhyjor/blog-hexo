@@ -1,5 +1,5 @@
 ---
-title: css进阶系列之盒模型
+title: css进阶之七：box-sizing盒模型
 tags: 
   - css
   - css进阶
