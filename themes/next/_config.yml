@@ -509,3 +509,13 @@ post_wordcount:
   item_text: true
   wordcount: true
   min2read: true
+
+# Gitment comments
+
+gitment:
+  enable: true
+  githubID: zhyjor
+  repo: https://github.com/zhyjor/zhyjor.github.io.git
+  ClientID: 69fec66ef7f45cfd50fd
+  ClientSecret: 60ced215f9baa061a099d5b1d370df771a1f70c2
+  lazy: true
