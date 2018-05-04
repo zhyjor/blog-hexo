@@ -115,6 +115,22 @@ css中居中是个永恒的话题，“人类都已经可以登上月球，但�
 	```
 * 容器设置 overflow:auto 可以实现弹框高度超过一屏时依然能看见屏幕外的内容，传统实现方法则比较尴尬。
 
+## 小图片的对齐方案
+### 1em方法
+
+### 相对布局法
+```css
+p > img {
+	width: 16px; height: 16px;
+	vertical-align: 25%;
+	position: relative;
+	top: 8px;
+}
+```
+其居中原理本质上和绝对定位元素 50%定位加偏移自身 1/2 尺寸实现居中是一样的，只不过这里的偏移使用的是 vertical-align 百分比值。
+
+使用 vertical-align:.6ex 实现的垂直居中效果不会受 line-height 变化影响，而使用 vertical-align:25%， line-height 一旦变化，就必须改变原来的vertical-align 大小、重新调整垂直位置，这容错性明显就降了一个层次。
+
 **参考资料**
 [大小不固定的图片、多行文字的水平垂直居中](http://www.zhangxinxu.com/wordpress/2009/08/%E5%A4%A7%E5%B0%8F%E4%B8%8D%E5%9B%BA%E5%AE%9A%E7%9A%84%E5%9B%BE%E7%89%87%E3%80%81%E5%A4%9A%E8%A1%8C%E6%96%87%E5%AD%97%E7%9A%84%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/)
 
