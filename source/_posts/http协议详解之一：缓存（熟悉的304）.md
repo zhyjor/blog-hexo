@@ -1,5 +1,5 @@
 ---
-title: http协议详解之一：缓存
+title: http协议详解之一：缓存（熟悉的304）
 tags:
   - http
   - http协议详解
