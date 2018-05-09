@@ -87,6 +87,11 @@ GC，垃圾回收机制，强弱引用的应用，nodejs，浏览器进行内存
 [浏览器工作原理(10篇)](https://blog.csdn.net/lxcao/article/category/6472061)
 [Chrome 渲染优化 - 层模型](https://www.oschina.net/translate/chrome-accelerated-rendering)
 
+[“浏览器工作原理:现代网络浏览器幕后揭秘”文章分析](https://www.jianshu.com/p/0b75dbf7af36)
+[浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
+
+[现代浏览器的工作原理](http://blog.jobbole.com/12749/)
+
 
 ## 网络安全
 xss/csrf
