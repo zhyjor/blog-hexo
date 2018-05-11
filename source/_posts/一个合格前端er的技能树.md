@@ -34,6 +34,9 @@ top: true
 [JavaScript instanceof 运算符深入剖析](https://www.ibm.com/developerworks/cn/web/1306_jiangjj_jsinstanceof/)
 [[译] 一些ES6的小技巧](https://juejin.im/post/5ac23113f265da23906c2fbc)
 
+### BOM与DOM相关api
+[JavaScript操作DOM常用的API](https://juejin.im/post/5af43bd5f265da0b8336c6f7)
+
 ### js中的奇怪问题
 [JavaScript 赌运气的四舍五入](https://juejin.im/post/5ad5c104518825558002bdc0)
 

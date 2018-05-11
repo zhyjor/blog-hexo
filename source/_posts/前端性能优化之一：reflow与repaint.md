@@ -5,7 +5,7 @@ tags:
 categories: 前端性能
 top: false
 copyright: true
-date: 2018-05-09 15:11:41
+date: 2018-01-19 15:11:41
 ---
 对于前端来说，对性能最大的挑战就是dom的操作引起的浏览器的reflow与repaint，回流与重绘，引起reflow的原因除了dom的结构的改变还有一些属性的获取，引起repaint的原因主要是一些颜色等的改变。为了减少dom的操作也出现了很多visual dom的框架，以期提高性能，如vue，react。
 

@@ -5,7 +5,7 @@ tags:
 categories: 前端性能
 top: false
 copyright: true
-date: 2018-05-09 17:15:03
+date: 2018-02-06 12:15:23
 ---
 网络优化是大有可为的，比如使用缓存、http传输压缩、减少http请求数目，以及dns发散与dns收敛的不同作用等等。
 <!--more-->
