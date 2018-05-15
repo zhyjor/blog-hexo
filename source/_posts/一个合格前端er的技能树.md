@@ -105,6 +105,7 @@ xss/csrf
 
 ### vue的难点
 [为什么使用v-for时必须添加唯一的key?](https://juejin.im/post/5aae19aa6fb9a028d4445d1a?utm_medium=fe&utm_source=weixinqun)
+[vue-cli脚手架中webpack配置基础文件详解](https://segmentfault.com/a/1190000014804826)
 
 
 ### 理论基础
@@ -160,6 +161,12 @@ gulp的插件与任务的编写
 [第一本 PWA 中文书](https://juejin.im/entry/5a1c394a5188255851326da5)
 [百度在 PWA 方面的探索与最佳实践](https://toutiao.io/posts/d9j4uf)
 [PWA介绍及快速上手搭建一个PWA应用](https://juejin.im/post/5ae2f82f6fb9a07acd4d761e)
+[PWA介绍及快速上手搭建一个PWA应用](https://juejin.im/post/5ae2f82f6fb9a07acd4d761e#comment)
+[饿了么的 PWA 升级实践](https://zhuanlan.zhihu.com/p/27853228)
+[PWA 在饿了么的实践经验](https://zhuanlan.zhihu.com/p/25800461)
+[Service Worker 全面进阶](https://www.villainhr.com/page/2017/01/08/Service%20Worker%20%E5%85%A8%E9%9D%A2%E8%BF%9B%E9%98%B6)
+[pwa-collection](https://github.com/ljinkai/pwa-collection)
+[改造你的网站，变身 PWA](https://juejin.im/post/58dba0b3a22b9d00647db6c3)
 
 
 ### 快应用
