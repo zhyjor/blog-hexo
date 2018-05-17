@@ -134,6 +134,11 @@ xss/csrf
 [Vue nextTick 机制](https://juejin.im/post/5ae3f0956fb9a07ac90cf43e)
 [解读Vue源码-系列](https://github.com/monkeyWangs/blogs)
 [【Vue源码】Vue中DOM的异步更新策略以及nextTick机制](https://funteas.com/topic/5a8dc7c8f7f37aa60a177bb7)
+[【大型干货】手拉手带你过一遍vue部分源码](https://juejin.im/post/5adff30f518825672d33d596)
+[【大型干货】来看看vue对template做了什么](https://juejin.im/post/5ae1abfdf265da0b7c06fbb3)
+[当面试官问你Vue响应式原理，你可以这么回答他](https://juejin.im/post/5adf0085518825673123da9a)
+[深入理解Vue的computed实现原理及其实现方式](https://juejin.im/post/5afbfce56fb9a07ac0226f21)
+
 ## 测试
 
 
