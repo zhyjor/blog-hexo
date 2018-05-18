@@ -1,8 +1,7 @@
 ---
-title: 网络协议碎片拾撷之一：深入WebSocket协议
+title: 网络协议之一：深入WebSocket协议理论与实践
 tags:
   - WebSocket
-  - 网络协议碎片拾撷
 categories: 网络协议
 top: false
 copyright: true
