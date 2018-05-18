@@ -26,13 +26,14 @@ top: true
 [深入理解JavaScript系列-汤姆大叔的博客](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
 [js深入系列目录/专题系列目录](https://github.com/mqyqingfeng/Blog)
 [深度解析原型中的各个难点](https://juejin.im/post/5aa78fe66fb9a028d2079ca4)
-
-[babel插件入门-AST](https://juejin.im/post/5ab9f2f3f265da239b4174f0)
-
 [抱歉，学会 Proxy 真的可以为所欲为](https://zhuanlan.zhihu.com/p/35080324)
 
 [JavaScript instanceof 运算符深入剖析](https://www.ibm.com/developerworks/cn/web/1306_jiangjj_jsinstanceof/)
 [[译] 一些ES6的小技巧](https://juejin.im/post/5ac23113f265da23906c2fbc)
+
+### babel
+[入门babel--实现一个es6的class转换器](https://juejin.im/post/5ac1c5bf518825558949f898)
+[babel插件入门-AST](https://juejin.im/post/5ab9f2f3f265da239b4174f0)
 
 ### BOM与DOM相关api
 [JavaScript操作DOM常用的API](https://juejin.im/post/5af43bd5f265da0b8336c6f7)
@@ -102,6 +103,9 @@ xss/csrf
 [Web安全的三个攻防姿势](https://juejin.im/post/59e6b21bf265da43247f861d)
 
 ## MVVM框架的使用、原理及源码阅读
+
+### domDIFF
+[浅入浅出图解domDIff](https://juejin.im/post/5ad550f06fb9a028b4118d99)
 
 ### vue的难点
 [为什么使用v-for时必须添加唯一的key?](https://juejin.im/post/5aae19aa6fb9a028d4445d1a?utm_medium=fe&utm_source=weixinqun)
