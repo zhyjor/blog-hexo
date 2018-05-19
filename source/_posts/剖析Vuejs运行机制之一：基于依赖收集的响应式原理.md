@@ -8,9 +8,12 @@ top: false
 copyright: true
 date: 2018-05-18 16:31:53
 ---
-实现数据双向绑定的方式有很多种，例如knockout的观察者模式,Ember的数据模型,Angularjs的藏检测,为什么最近几年的框架选择了Object.defineProperties 或 Proxy这种基于数据劫持的方式。
+实现数据双向绑定的方式有很多种，例如knockout的观察者模式,Ember的数据模型,Angularjs的脏检测,为什么最近几年的框架选择了Object.defineProperties 或 Proxy这种基于数据劫持的方式。
 说到vue的响应式原理，很多人都知道这是通过`Object.defineProperty`方法将data的属性全部转化为`getter/setter`,当属性被修改或者被访问时通知变化。而具体怎么通知的，又是怎么实现的，这些具体的问题就很难回答了。
 <!--more-->
+
+[lite-vue源码（github）](https://github.com/zhyjor/lite-vue.git)
+
 ## 前言
 > 数据模型仅仅是普通的 JavaScript 对象。而当你修改它们时，视图会进行更新。这使得状态管理非常简单直接。
 
@@ -128,11 +131,10 @@ function watcher (obj, key, cb) {
 ## 依赖收集
 我们知道，当一个可观测对象的属性被读写时，会触发它的getter/setter方法。换个思路，如果我们可以在可观测对象的getter/setter里面，去执行监听器里面的onComputedUpdate()方法，是不是就能够实现让对象主动发出通知的功能呢？
 
-由于监听器内的onComputedUpdate()方法需要接收回调函数的值作为参数，而可观测对象内并没有这个回调函数，所以我们需要借助一个第三方来帮助我们把监听器和可观测对象连接起来。
+我们需要将我们观测值的回调在观测值发生变换的时候调用，而且可能有很多位置都在观测某个属性，这里我们需要实现一个发布/订阅模式。
 
-这个第三方就做一件事情——收集监听器内的回调函数的值以及onComputedUpdate()方法。
 
-现在我们把这个第三方命名为“依赖收集器”，一起来看看应该怎么写：
+现在我们把这个**调度中心**命名为“依赖收集器”，一起来看看应该怎么写：
 ```js
 const Dep = {
   target: null
@@ -197,9 +199,15 @@ function defineReactive (obj, key, val) {
 至于为什么这里的deps是一个数组而不是一个变量，是因为可能同一个属性会被多个计算属性所依赖，也就是存在多个Dep.target。定义deps为数组，若当前属性的setter被触发，就可以批量调用多个计算属性的onComputedUpdate()方法了。
 
 ## 总结
-写到这里基本已经实现了一个简单的响应式系统，这里和vue的实现原理是相同的。接下来让我们用一张图来总结这一切。
+写到这里基本已经实现了一个简单的响应式系统，这里和vue的实现原理是相同的。总的来说，
+* 首先实现了一个可观测的对象，对象的读取，修改都被代理了，我们操作该对象的时候，可以发现任何一个操作会被通知出来。但是仅仅这样还是不够的，**我们需要在对象进行操作后，来修改页面，修改我们需要的计算属性**。
+* 所以我们需要实现一个监听器watcher,watcher的作用是观察属性，在属性变化时更新页面，更新计算属性。具体怎么实现呢。可观测对象的属性被读写时，触发了getter/setter方法，所以可以在getter/setter方法里来执行watcher提供的计算属性或者页面更新函数。
+* 这时就需要实现一个订阅模式的发布中心，来统一处理所有的watcher
+
+首先在 observer 的过程中会注册 get 方法，该方法用来进行「依赖收集」。在它的闭包中会有一个 Dep 对象，这个对象用来存放 Watcher 对象的实例。其实「依赖收集」的过程就是把 Watcher 实例存放到对应的 Dep 对象中去。get 方法可以让当前的 Watcher 对象（Dep.target）存放到它的 subs 中（addSub）方法，在数据变化时，set 会调用 Dep 对象的 notify 方法通知它内部所有的 Watcher 对象进行视图更新。
 
 **参考资料**
-[]()
+[Understanding Vue.js Reactivity in Depth with Object.defineProperty()](https://www.timo-ernst.net/blog/2017/07/26/understanding-vue-js-reactivity-depth-object-defineproperty/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Vue.js%20Feed)
+
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

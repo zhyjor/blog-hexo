@@ -101,6 +101,8 @@ GC，垃圾回收机制，强弱引用的应用，nodejs，浏览器进行内存
 xss/csrf
 加密算法，aes,rsa等，这些合https也有结合
 [Web安全的三个攻防姿势](https://juejin.im/post/59e6b21bf265da43247f861d)
+[前端安全之XSS攻击](http://www.cnblogs.com/lovesong/p/5199623.html)
+[Web安全之点击劫持（ClickJacking）](http://www.cnblogs.com/lovesong/p/5248483.html)
 
 ## MVVM框架的使用、原理及源码阅读
 
@@ -164,6 +166,8 @@ gulp的插件与任务的编写
 [常见几种校验方法（CS和校验、CRC16、CRC32、BCC异或校验）](http://www.cnblogs.com/BHfeimao/p/7410537.html)
 
 ## 23种设计模式
+[JavaScript 中常见设计模式整理](https://juejin.im/post/5afe6430518825428630bc4d)
+[设计模式（三）：观察者模式与发布/订阅模式区别](https://www.cnblogs.com/lovesong/p/5272752.html)
 
 ## PWA应用及其他相关技术
 ### pwa
@@ -191,6 +195,12 @@ jhipster
 [前端面试考点多？看这几篇文章就够了](https://juejin.im/post/5aae076d6fb9a028cc6100a9?utm_medium=fe&utm_source=weixinqun)
 [3月前端知识集锦](https://juejin.im/post/5abb22925188255c4c1050e0)
 **[前端进阶系列-目录](http://hpoenixf.com/%E5%89%8D%E7%AB%AF%E8%BF%9B%E9%98%B6%E7%B3%BB%E5%88%97-%E7%9B%AE%E5%BD%95.html)**
+
+## 思考
+[前端反思录（一）－技术就是核心竞争力](http://jartto.wang/2018/03/29/audition-of-f2e/)
+
+## 优秀博客
+[Jartto()](http://jartto.wang/)
 
 **参考资料**
 

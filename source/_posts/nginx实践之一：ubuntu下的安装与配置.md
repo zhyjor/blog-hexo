@@ -77,7 +77,7 @@ nginx -s signal
 * reopen－－重新打开log文件
 
 命令执行之后才能生效，一旦主线程收到这个命令，它就会检查新的配置文件的语法是否正确，然后让配置生效。如果成功之后，主线程会新开一个工作进程，然后发送消息通知旧的工作进程，要求旧的进程停止。
-同时也可以发送一些unix命令给nginx服务器，比如kill。这个例子中，信号直接通过给定的进程ID发送给进程。默认情况下nginx服务器的nginx.id在/usr/local/nginx/logs或者/var/run目录下。如果主线程的ID是62363，那么可以直接发送QUIT命令让主线程停止。
+同时也可以发送一些unix命令给nginx服务器，比如kill。这个例子中，信号直接通过给定的进程ID发送给进程。默认情况下nginx服务器的nginx.id在/usr/local/npidginx/logs或者/var/run目录下。如果主线程的ID是62363，那么可以直接发送QUIT命令让主线程停止。
 
 ```
 kill -s QUIT 62363  
