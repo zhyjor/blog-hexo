@@ -1,7 +1,8 @@
 ---
-title: nginx实践之一：ubuntu下的安装与配置
+title: nginx实践之一：ubuntu16.04下的安装与配置
 tags:
   - nginx实践
+  - linux
 categories: nginx
 top: false
 copyright: true
@@ -39,8 +40,25 @@ Get:2 http://mirrors.aliyun.com/ubuntu xenial-updates/main amd64 nginx-core amd6
 Get:3 http://mirrors.aliyun.com/ubuntu xenial-updates/main amd64 nginx all 
 ..........
 
+安装好的文件位置：
+
+/usr/sbin/nginx：主程序
+
+/etc/nginx：存放配置文件
+
+/usr/share/nginx：存放静态文件
+
+/var/log/nginx：存放日志
 ```
 
+
+其实从上面的根目录文件夹可以知道，Linux系统的配置文件一般放在`/etc`，日志一般放在`/var/log`，运行的程序一般放在`/usr/sbin`或者`/usr/bin`。
+
+当然，如果要更清楚Nginx的配置项放在什么地方，可以打开`/etc/nginx/nginx.conf`
+
+我猜测，Nginx如果指定默认加载`/etc/nginx/nginx.conf`的配置文件。如果要查看加载的是哪个配置文件，可以用这个命令`sudo nginx -t`或者`ps -ef | grep nginx`
+
+然后通过这种方式安装的，会自动创建服务，会自动在/etc/init.d/nginx新建服务脚本，然后就可以使用`sudo service nginx {start|stop|restart|reload|force-reload|status|configtest|rotate|upgrade}`的命令启动。
 ### 查看 Nginx 进程是否已经启动
 ```
 ps aux|grep nginx
@@ -231,8 +249,8 @@ server {
 ```
 这个会将所有的的除了静态图片的请求路由到FastCGI服务器中。
 
-
 **参考资料**
-[]()
+[Ubuntu 16.04安装Nginx](https://www.cnblogs.com/EasonJim/p/7806879.html)
+[当前标签: nginx](http://www.cnblogs.com/EasonJim/tag/nginx/)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

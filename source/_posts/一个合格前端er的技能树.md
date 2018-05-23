@@ -182,6 +182,9 @@ gulp的插件与任务的编写
 [Service Worker 全面进阶](https://www.villainhr.com/page/2017/01/08/Service%20Worker%20%E5%85%A8%E9%9D%A2%E8%BF%9B%E9%98%B6)
 [pwa-collection](https://github.com/ljinkai/pwa-collection)
 [改造你的网站，变身 PWA](https://juejin.im/post/58dba0b3a22b9d00647db6c3)
+[迁移Hexo博客到Google渐进式Web应用(PWA)](https://blog.csdn.net/qinyuanpei/article/details/78574205)
+[PWA 入门: 写个非常简单的 PWA 页面](https://zhuanlan.zhihu.com/p/25459319)
+
 
 
 ### 快应用
