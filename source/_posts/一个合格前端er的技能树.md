@@ -124,6 +124,8 @@ xss/csrf
 [Vue.js 2.0源码解析之前端渲染篇](https://cloud.tencent.com/developer/article/1004551)
 [浅入浅出图解domDIff](https://juejin.im/post/5ad550f06fb9a028b4118d99)
 [vue中需要注意的问题总结(上)](https://juejin.im/post/5ad56d86518825556534ff4b)
+[Vue 2.0学习笔记：Vue的render函数](http://www.open-open.com/lib/view/open1524302857219.html)
+[你不知道的Vuejs - 深入浅出响应式系统](http://www.open-open.com/lib/view/open1517624196942.html)
 
 
 
