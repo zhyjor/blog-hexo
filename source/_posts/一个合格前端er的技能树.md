@@ -56,11 +56,13 @@ top: true
 
 ## TCP/http/TSL/SSL/
 
+[面试时如何优雅的谈论HTTP／1.0／1.1／2.0](https://juejin.im/entry/5a40777df265da4322416cf0)
 ### jwt
 [理解JWT的使用场景和优劣](https://toutiao.io/posts/p6goeb)
 
 ### http
 [Node HTTP/2 Server Push 从了解到放弃](https://juejin.im/post/5ae3f17ef265da0ba062e7e3)
+[Http协议](https://juejin.im/entry/5a5246c6f265da3e347b15ad)
 
 ### https
 [分分钟让你理解HTTPS](https://juejin.im/post/5ad6ad575188255c272273c4)
@@ -71,12 +73,19 @@ top: true
 
 ## 数据库知识
 sql/mongo
+[开工献礼 技术胖21集原创MongoDB基础视频教程](https://juejin.im/entry/5a935d6f6fb9a06361089806)
+[HTML5 indexedDB 前端本地存储数据库实例教程](https://juejin.im/entry/599b8867518825241f787cae)
+[彻底捋一捋缓存（三）——数据存储：cookie、Storage、indexedDB](https://juejin.im/entry/5ac95b6ef265da237a4d4629)
+
+## 函数式编程
+[翻译连载 | JavaScript 轻量级函数式编程-第2章:函数基础 |《你不知道的JS》姊妹篇](https://juejin.im/post/599e4beb5188252428610762)
 
 ## 性能优化
 [优化网站设计系列文章总结和导读(雅虎35条)](http://www.cnblogs.com/chenxizhang/archive/2013/05/20/3088196.html)
 [前端优化系列 - JS混淆引入性能天坑](https://juejin.im/post/5aaf1d4c6fb9a028bc2d89d6)
 [2018 前端性能检查表](https://juejin.im/post/5ac1d117f265da2396128b9f)
 [「前端那些事儿」② 极限性能优化](https://juejin.im/post/59ff2dbe5188254dd935c8ab)
+[web前端性能优化](https://juejin.im/post/5a6941e1f265da3e33048429)
 
 ## 浏览器的渲染机制
 [从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](https://zhuanlan.zhihu.com/p/34453198?group_id=957277540147056640)
@@ -149,6 +158,9 @@ xss/csrf
 [当面试官问你Vue响应式原理，你可以这么回答他](https://juejin.im/post/5adf0085518825673123da9a)
 [深入理解Vue的computed实现原理及其实现方式](https://juejin.im/post/5afbfce56fb9a07ac0226f21)
 
+## vue项目
+[全栈开发实战：用Vue2+Koa1开发完整的前后端项目](https://molunerfinn.com/Vue+Koa/#%E7%AE%80%E4%BB%8B)
+
 ## 测试
 
 
@@ -159,8 +171,9 @@ xss/csrf
 webpack的使用，webpack4.0升级指南
 gulp的插件与任务的编写
 [实战笔记：Jenkins打造强大的前端自动化工作流](https://juejin.im/post/5ad1980e6fb9a028c42ea1be)
+[前端流程自动化(很全，但是估计操作性不强)](https://juejin.im/post/5aab8b3c5188255579186a51)
 
-### wepack
+### webpack
 [webpack4-用之初体验，一起敲它十一遍](https://juejin.im/post/5adea0106fb9a07a9d6ff6de)
 [Webpack 常见静态资源处理 - 模块加载器（Loaders）+ExtractTextPlugin插件](https://www.cnblogs.com/sloong/p/5826818.html)
 
@@ -187,6 +200,8 @@ gulp的插件与任务的编写
 [迁移Hexo博客到Google渐进式Web应用(PWA)](https://blog.csdn.net/qinyuanpei/article/details/78574205)
 [PWA 入门: 写个非常简单的 PWA 页面](https://zhuanlan.zhihu.com/p/25459319)
 
+[PWA笔记(各种相关点不详细，但是启发性强)](http://www.codedata.cn/hacknews/152721517217630198)
+[【PWA学习与实践】(3) 让你的WebApp离线可用](https://juejin.im/post/5aca14b6f265da237c692e6f)
 
 
 ### 快应用

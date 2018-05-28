@@ -207,6 +207,11 @@ function defineReactive (obj, key, val) {
 首先在 observer 的过程中会注册 get 方法，该方法用来进行「依赖收集」。在它的闭包中会有一个 Dep 对象，这个对象用来存放 Watcher 对象的实例。其实「依赖收集」的过程就是把 Watcher 实例存放到对应的 Dep 对象中去。get 方法可以让当前的 Watcher 对象（Dep.target）存放到它的 subs 中（addSub）方法，在数据变化时，set 会调用 Dep 对象的 notify 方法通知它内部所有的 Watcher 对象进行视图更新。
 
 **参考资料**
+**[(非常好)深入浅出 - vue变化侦测原理](https://juejin.im/post/5aaf1c796fb9a028cb2d6cdd)**
+**[Vue 模板编译原理](https://juejin.im/post/5aaa506ff265da239236131b)**
+[Vue2 原理浅谈](https://juejin.im/post/59f2845e6fb9a0451a759e85)
+[深入浅出 - vue变化侦测原理](https://juejin.im/entry/5a2262ba6fb9a0450b6632a2)
+
 [Understanding Vue.js Reactivity in Depth with Object.defineProperty()](https://www.timo-ernst.net/blog/2017/07/26/understanding-vue-js-reactivity-depth-object-defineproperty/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Vue.js%20Feed)
 
 
