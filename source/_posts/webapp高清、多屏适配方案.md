@@ -33,6 +33,8 @@ date: 2017-10-13 10:05:15
 * 屏幕密度：屏幕密度是指一个设备表面上存在的像素数量，它通常以每英寸有多少像素来计算(PPI)。
 * dpr设备像素比(device pixel ratio):设备像素比简称为dpr，其定义了物理像素和设备独立像素的对应关系。它的值可以按下面的公式计算得到：
 **设备像素比 ＝ 物理像素 / 设备独立像素**
+
+
 **参考资料**
 [使用Flexible实现手淘H5页面的终端适配](https://github.com/amfe/article/issues/17)
 [走向视网膜（Retina）的Web时代](http://www.w3cplus.com/css/towards-retina-web.html)
@@ -42,6 +44,6 @@ http://www.html-js.com/article/Mobile-terminal-H5-mobile-terminal-HD-multi-scree
 http://www.w3cplus.com/css/when-to-use-em-vs-rem.html
 
 https://segmentfault.com/a/1190000008774953
-[]()
+[rem + simple-flexible 适配方案](https://juejin.im/post/5b0a9f266fb9a07aa114a908)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
