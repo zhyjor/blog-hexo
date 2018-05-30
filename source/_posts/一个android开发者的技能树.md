@@ -10,9 +10,17 @@ date: 2017-12-02 17:51:27
 android开发中技术点总结
 <!--more-->
 
-**参考资料**
-
-[android技术栈](https://github.com/francistao/LearningNotes)
+## 博客
+[francistao/LearningNotes(基础知识，读书笔记之类,android技术栈)](https://github.com/francistao/LearningNotes)
 [Android开发工程师面试指南](https://github.com/guoxiaoxing/android-interview)
+[AndroidInterview-Q-A](https://github.com/JackyAndroid/AndroidInterview-Q-A)
+[Android校招面试指南（包含很多算法）](https://github.com/LRH1993/android_interview)
+[android-open-source-project-analysis（掘金上一大神的源码分析）](https://github.com/guoxiaoxing/android-open-source-project-analysis)
+[掘金翻译计划](https://github.com/xitu/gold-miner)
+
+
+
+
+**参考资料**
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

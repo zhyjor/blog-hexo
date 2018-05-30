@@ -17,6 +17,20 @@ top: true
 [编写模块化CSS：BEM](https://www.w3cplus.com/blog/tags/325.html)
 
 ## Js/ES6/TypeSctipt
+[source](https://zhyjor.github.io/2018/02/25/InterviewSource%E4%B9%8B%E5%89%8D%E7%AB%AF/)
+### 相关博客
+[互联网公司技术架构，微信/淘宝/微博/腾讯/阿里/美团点评/百度/Google/Facebook/Amazon/eBay的架构，欢迎PR补充](https://github.com/davideuler/architecture.of.internet-product)
+[(articles-translator)一个前端相关的博客，翻译一些文章](https://neal1991.github.io/articles-translator/)
+[前端精读周刊dt-fe/weekly](https://github.com/dt-fe/weekly)
+[冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列](https://github.com/mqyqingfeng/Blog)
+[饿了么大前端Node interview of ElemeFE](https://github.com/ElemeFE/node-interview)
+[梁少峰的个人博客,js浏览器兼容，v8等很多内容](https://github.com/youngwind/blog)
+[Aaaaaaaty/blog,里面的很多细节不错，很深入（0.1+0.2问题）](https://github.com/Aaaaaaaty/blog)
+
+
+
+
+### 难点
 [ECMAScript 6 入门(阮一峰)](http://es6.ruanyifeng.com/)
 [Promise原理讲解 && 实现一个Promise对象 (遵循Promise/A+规范)](https://juejin.im/post/5aa7868b6fb9a028dd4de672)
 [性感的Promise](https://juejin.im/post/5ab20c58f265da23a228fe0f)
@@ -52,7 +66,7 @@ top: true
 [八大基础排序总结](https://juejin.im/post/5ab9ae9cf265da23830ae617)
 
 [数据结构与算法系列_目录](http://www.cnblogs.com/skywang12345/p/3603935.html)
-
+[]()
 
 ## TCP/http/TSL/SSL/
 
