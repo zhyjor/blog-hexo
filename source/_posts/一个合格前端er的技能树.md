@@ -71,6 +71,8 @@ top: true
 ## TCP/http/TSL/SSL/
 
 [面试时如何优雅的谈论HTTP／1.0／1.1／2.0](https://juejin.im/entry/5a40777df265da4322416cf0)
+[科普扫盲，HTTP Status Code详解，从此排错无忧！](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247485835&idx=1&sn=87ff45f07020e69dbc4ea2196ed5cc1b&chksm=e91b6c97de6ce581fd290de33dbe9a00c56181290d26984975d3fbeb220d5b5a7a2419385751&mpshare=1&scene=23&srcid=0530cWO1Xz8D5iIZaB9qlHUc#rd)
+
 ### jwt
 [理解JWT的使用场景和优劣](https://toutiao.io/posts/p6goeb)
 
