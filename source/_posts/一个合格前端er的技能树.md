@@ -133,6 +133,9 @@ xss/csrf
 
 ## MVVM框架的使用、原理及源码阅读
 
+## 优秀框架与资源
+[2018年最值得关注的30个Vue开源项目](https://blog.fundebug.com/2018/05/29/30-amazing-vuejs-open-source/)
+
 ### domDIFF
 [浅入浅出图解domDIff](https://juejin.im/post/5ad550f06fb9a028b4118d99)
 
