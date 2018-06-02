@@ -26,7 +26,7 @@ top: true
 [饿了么大前端Node interview of ElemeFE](https://github.com/ElemeFE/node-interview)
 [梁少峰的个人博客,js浏览器兼容，v8等很多内容](https://github.com/youngwind/blog)
 [Aaaaaaaty/blog,里面的很多细节不错，很深入（0.1+0.2问题）](https://github.com/Aaaaaaaty/blog)
-
+[前端路由简介以及vue-router实现原理](https://juejin.im/post/5b10b46df265da6e2a08a724)
 
 
 
@@ -102,6 +102,7 @@ sql/mongo
 [2018 前端性能检查表](https://juejin.im/post/5ac1d117f265da2396128b9f)
 [「前端那些事儿」② 极限性能优化](https://juejin.im/post/59ff2dbe5188254dd935c8ab)
 [web前端性能优化](https://juejin.im/post/5a6941e1f265da3e33048429)
+[网站性能优化实战——从12.67s到1.06s的故事](https://juejin.im/post/5b0b7d74518825158e173a0c)
 
 ## 浏览器的渲染机制
 [从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](https://zhuanlan.zhihu.com/p/34453198?group_id=957277540147056640)
@@ -130,6 +131,8 @@ xss/csrf
 [Web安全的三个攻防姿势](https://juejin.im/post/59e6b21bf265da43247f861d)
 [前端安全之XSS攻击](http://www.cnblogs.com/lovesong/p/5199623.html)
 [Web安全之点击劫持（ClickJacking）](http://www.cnblogs.com/lovesong/p/5248483.html)
+[令人惊叹的CSS漏洞攻击 Firefox 和 Chrome 中枪](https://www.cnbeta.com/articles/tech/732595.htm)
+[利用css攻击](https://www.evonide.com/side-channel-attacking-browsers-through-css3-features/)
 
 ## MVVM框架的使用、原理及源码阅读
 
@@ -142,6 +145,7 @@ xss/csrf
 ### vue的难点
 [为什么使用v-for时必须添加唯一的key?](https://juejin.im/post/5aae19aa6fb9a028d4445d1a?utm_medium=fe&utm_source=weixinqun)
 [vue-cli脚手架中webpack配置基础文件详解](https://segmentfault.com/a/1190000014804826)
+[前端路由简介以及vue-router实现原理](https://juejin.im/post/5b10b46df265da6e2a08a724)
 
 
 ### 理论基础
