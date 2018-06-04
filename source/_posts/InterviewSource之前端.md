@@ -28,6 +28,9 @@ date: 2018-02-25 08:59:44
 ## html
 [HTML5新特性](https://juejin.im/entry/5ab1b78af265da2378402505)
 
+## 趣味问题
+[作为前端，如何帮帝都的朋友租到合适的房子？](https://juejin.im/post/5afabdd4f265da0b9a6a1d8b)
+
 ## 合集
 [Web 前端知识点总结 Awsome frontend learning resource](https://juejin.im/entry/5809991d8ac247005b4295aa)
 [火爆：2017前端面试最新整理](https://juejin.im/entry/59ee1471f265da43052dca3c)

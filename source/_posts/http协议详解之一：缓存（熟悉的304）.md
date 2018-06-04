@@ -153,5 +153,7 @@ nginx的话，如果指定Expires指令，则它会在响应报文中添加Expir
 [浏览器的协商缓存与强缓存](http://caibaojian.com/browser-cache.html)
 [彻底弄懂HTTP缓存机制及原理](https://www.cnblogs.com/chenqf/p/6386163.html)
 [HTTP最强资料大全](https://juejin.im/post/58ddb636ac502e0063992865)
+[前端缓存机制](https://juejin.im/post/5b0ea4f1518825155d66a97b)
+[HTTP----HTTP缓存机制](https://juejin.im/post/5a1d4e546fb9a0450f21af23)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

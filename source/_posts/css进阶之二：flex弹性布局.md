@@ -183,6 +183,6 @@ flex布局通过方向轴和容器的概念很优雅的实现了水平垂直居�
 上一段时间写过一个基于twitter的UI，微博的内容的demo([twibo-vue]((https://github.com/zhyjor/twibo-vue)))，里面大量使用了flex布局,欢迎start,fork。
 
 **参考资料**
-[]()
+[进一步了解flex布局—来实现这些常见布局吧](https://juejin.im/post/5b0d6ca76fb9a009fd0e9329)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

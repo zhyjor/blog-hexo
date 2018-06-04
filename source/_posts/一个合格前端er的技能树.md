@@ -27,6 +27,8 @@ top: true
 [梁少峰的个人博客,js浏览器兼容，v8等很多内容](https://github.com/youngwind/blog)
 [Aaaaaaaty/blog,里面的很多细节不错，很深入（0.1+0.2问题）](https://github.com/Aaaaaaaty/blog)
 [前端路由简介以及vue-router实现原理](https://juejin.im/post/5b10b46df265da6e2a08a724)
+[JavaScript 算法与数据结构·很全](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
+[how-javascript-works·语言引擎，运行时和调用栈概述·如何在 V8 引擎中书写最优代码的 5 条小技巧·网页消息推送通知机制](https://github.com/Troland/how-javascript-works)
 
 
 
@@ -50,6 +52,7 @@ top: true
 ### babel
 [入门babel--实现一个es6的class转换器](https://juejin.im/post/5ac1c5bf518825558949f898)
 [babel插件入门-AST](https://juejin.im/post/5ab9f2f3f265da239b4174f0)
+[babel-polyfill使用与性能优化](https://www.chyingp.com/posts/understanding-babel-polyfill/)
 
 ### BOM与DOM相关api
 [JavaScript操作DOM常用的API](https://juejin.im/post/5af43bd5f265da0b8336c6f7)
@@ -246,6 +249,8 @@ jhipster
 
 ## 优秀博客
 [Jartto()](http://jartto.wang/)
+
+
 
 **参考资料**
 

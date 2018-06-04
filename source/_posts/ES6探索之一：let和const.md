@@ -348,4 +348,5 @@ var getGlobal = function () {
 **参考资料**
 [js关于for循环中的闭包问题？](https://www.zhihu.com/question/33468703)
 
+
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
