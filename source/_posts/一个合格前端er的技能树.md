@@ -30,7 +30,8 @@ top: true
 [JavaScript 算法与数据结构·很全](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 [how-javascript-works·语言引擎，运行时和调用栈概述·如何在 V8 引擎中书写最优代码的 5 条小技巧·网页消息推送通知机制](https://github.com/Troland/how-javascript-works)
 
-
+### 内存
+[JavaScript 内存机制（前端同学进阶必备）](https://juejin.im/post/5b10ba336fb9a01e66164346)
 
 ### 难点
 [ECMAScript 6 入门(阮一峰)](http://es6.ruanyifeng.com/)
