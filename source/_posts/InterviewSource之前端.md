@@ -48,6 +48,8 @@ date: 2018-02-25 08:59:44
 [51信用卡·前端开发看起来不多](http://job.u51.com/Search/detail.html?id=560120613&Salary=8)
 [中国移动杭州研究院](http://www.hotjob.cn/wt/zyhy/web/index/webPositionN300!getOnePosition?postId=101305&recruitType=2&brandCode=1&importPost=1&columnId=2)
 [贝贝网](https://www.zhipin.com/job_detail/c1380971b0ce50c103x_3Nq9GA~~.html?ka=comp_joblist_12_blank&lid=a3128ade-32fd-4b45-85cc-54b7fa799a05.brand_jod_list)
+[大搜车团队·看起来不错·印象分不错](https://www.liepin.com/company/8141158/)
+[畅唐网络·游戏公司·有微信技术栈](http://www.ct108.com/join/job)
 
 ### 深圳
 [今日头条](https://job.toutiao.com)
