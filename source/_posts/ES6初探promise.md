@@ -72,6 +72,9 @@ console.log('==Starting==');
 为了避免代码在不同的位置有不同的打印顺序，都采用了异步的方式`setTimeout(fn, 0);`
 
 **参考资料**
-[]()
+[大厂面试高频考点解析：手写一个符合Promises/A+规范的promise](https://juejin.im/post/5b16800fe51d4506ae719bae)
+[Promise原理讲解 && 实现一个Promise对象 (遵循Promise/A+规范)](https://juejin.im/post/5aa7868b6fb9a028dd4de672)
+[性感的Promise](https://juejin.im/post/5ab20c58f265da23a228fe0f)
+[Promise原理讲解 && 实现一个Promise对象 (遵循Promise/A+规范)](https://juejin.im/post/5aa7868b6fb9a028dd4de672)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

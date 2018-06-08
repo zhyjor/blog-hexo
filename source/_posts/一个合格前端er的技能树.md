@@ -36,6 +36,7 @@ top: true
 [JavaScript 内存机制（前端同学进阶必备）](https://juejin.im/post/5b10ba336fb9a01e66164346)
 
 ### 难点
+[大厂面试高频考点解析：手写一个符合Promises/A+规范的promise](https://juejin.im/post/5b16800fe51d4506ae719bae)
 [ECMAScript 6 入门(阮一峰)](http://es6.ruanyifeng.com/)
 [Promise原理讲解 && 实现一个Promise对象 (遵循Promise/A+规范)](https://juejin.im/post/5aa7868b6fb9a028dd4de672)
 [性感的Promise](https://juejin.im/post/5ab20c58f265da23a228fe0f)
@@ -51,6 +52,8 @@ top: true
 [[译] 一些ES6的小技巧](https://juejin.im/post/5ac23113f265da23906c2fbc)
 
 [[译] JavaScript 是如何工作的：Web 推送通知的机制](https://juejin.im/post/5b002766518825429d1f90bc)
+
+
 
 ### babel
 [入门babel--实现一个es6的class转换器](https://juejin.im/post/5ac1c5bf518825558949f898)
@@ -114,7 +117,8 @@ sql/mongo
 [从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](https://zhuanlan.zhihu.com/p/34453198?group_id=957277540147056640)
 [从输入 URL 到页面加载完成的过程中都发生了什么事情？](http://fex.baidu.com/blog/2014/05/what-happen/)
 [浏览器和Node不同的事件循环（Event Loop）](https://juejin.im/post/5aa5dcabf265da239c7afe1e?utm_medium=fe&utm_source=weixinqun)
-[从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872)
+**[从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872)**
+**[这一次，彻底弄懂 JavaScript 执行机制](https://juejin.im/post/59e85eebf265da430d571f89)**
 [V8 内存浅析](https://zhuanlan.zhihu.com/p/33816534)
 [关于WeakMap的一个问题](https://github.com/ruanyf/es6tutorial/issues/362#issuecomment-292109104)
 GC，垃圾回收机制，强弱引用的应用，nodejs，浏览器进行内存分析的方式
@@ -189,6 +193,7 @@ xss/csrf
 
 ## vue项目
 [全栈开发实战：用Vue2+Koa1开发完整的前后端项目](https://molunerfinn.com/Vue+Koa/#%E7%AE%80%E4%BB%8B)
+[Vue页面骨架屏](https://juejin.im/entry/5b04ca0f6fb9a07ac162c66a)
 
 ## 测试
 
@@ -201,6 +206,9 @@ webpack的使用，webpack4.0升级指南
 gulp的插件与任务的编写
 [实战笔记：Jenkins打造强大的前端自动化工作流](https://juejin.im/post/5ad1980e6fb9a028c42ea1be)
 [前端流程自动化(很全，但是估计操作性不强)](https://juejin.im/post/5aab8b3c5188255579186a51)
+[为什么我们的代码难以维护](https://my.oschina.net/wanjubang/blog/1580050)
+
+
 
 ### webpack
 [webpack4-用之初体验，一起敲它十一遍](https://juejin.im/post/5adea0106fb9a07a9d6ff6de)
