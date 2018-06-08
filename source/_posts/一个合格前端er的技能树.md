@@ -36,19 +36,17 @@ top: true
 [JavaScript 内存机制（前端同学进阶必备）](https://juejin.im/post/5b10ba336fb9a01e66164346)
 
 ### 难点
-[大厂面试高频考点解析：手写一个符合Promises/A+规范的promise](https://juejin.im/post/5b16800fe51d4506ae719bae)
+
 [ECMAScript 6 入门(阮一峰)](http://es6.ruanyifeng.com/)
-[Promise原理讲解 && 实现一个Promise对象 (遵循Promise/A+规范)](https://juejin.im/post/5aa7868b6fb9a028dd4de672)
-[性感的Promise](https://juejin.im/post/5ab20c58f265da23a228fe0f)
 [深度解析原型中的各个难点](https://juejin.im/post/5aa78fe66fb9a028d2079ca4)
 [JavaScript变量的生命周期：为什么let不被提升](https://juejin.im/post/5aa631ab5188255587233214?utm_medium=fe&utm_source=weixinqun)
-[Promise原理讲解 && 实现一个Promise对象 (遵循Promise/A+规范)](https://juejin.im/post/5aa7868b6fb9a028dd4de672)
+
 [深入理解JavaScript系列-汤姆大叔的博客](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
 [js深入系列目录/专题系列目录](https://github.com/mqyqingfeng/Blog)
 [深度解析原型中的各个难点](https://juejin.im/post/5aa78fe66fb9a028d2079ca4)
 [抱歉，学会 Proxy 真的可以为所欲为](https://zhuanlan.zhihu.com/p/35080324)
 
-[JavaScript instanceof 运算符深入剖析](https://www.ibm.com/developerworks/cn/web/1306_jiangjj_jsinstanceof/)
+
 [[译] 一些ES6的小技巧](https://juejin.im/post/5ac23113f265da23906c2fbc)
 
 [[译] JavaScript 是如何工作的：Web 推送通知的机制](https://juejin.im/post/5b002766518825429d1f90bc)
