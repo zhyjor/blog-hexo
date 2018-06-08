@@ -30,6 +30,7 @@ top: true
 [JavaScript 算法与数据结构·很全](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 [how-javascript-works·语言引擎，运行时和调用栈概述·如何在 V8 引擎中书写最优代码的 5 条小技巧·网页消息推送通知机制](https://github.com/Troland/how-javascript-works)
 [chenhongdong·发布订阅模式，在工作中它的能量超乎你的想象·不好意思！耽误你的十分钟，让MVVM原理还给你](https://juejin.im/user/585b9ec961ff4b0063e76dbe/posts)
+[Vue.js源码学习](https://violetjack.github.io/tags/Vue-js%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/)
 
 ### 内存
 [JavaScript 内存机制（前端同学进阶必备）](https://juejin.im/post/5b10ba336fb9a01e66164346)

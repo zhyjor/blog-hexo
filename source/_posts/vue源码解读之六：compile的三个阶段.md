@@ -1,8 +1,9 @@
 ---
 title: vue源码解读之六：compile的三个阶段
 tags:
-  - dev
-categories: dev
+  - vue源码解读
+  - vue
+categories: vue
 top: false
 copyright: true
 date: 2018-03-20 10:43:58
