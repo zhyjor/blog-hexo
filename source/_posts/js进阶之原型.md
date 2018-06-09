@@ -38,6 +38,10 @@ categories: js
 
 ** 所有的构造器都来自于 Function.prototype，甚至包括根构造器Object及Function自身。所有构造器都继承了`Function.prototype`的属性及方法。如length、call、apply、bind **
 
+再看一张图，读完本文希望可以明白这些关系
+
+
+
 ## 普通对象与函数对象
 Javascript中，一切都是对象，对象分为普通对象和函数对象，Object,Function是JS自带的函数对象
 ```js

@@ -254,5 +254,8 @@ extend (to: Object, _from: ?Object):Object Object类型浅拷贝方法代码在s
 **参考资料**
 [Vue2 源码漫游（一）](https://segmentfault.com/a/1190000011945068)
 [入口开始，解读Vue源码（一）—— 造物创世](https://github.com/muwoo/blogs/blob/master/src/Vue/1.md)
+[Vue技术内幕·内容更详细](http://hcysun.me/vue-design/art/)
+[Vue源码的最后一站](https://zhuanlan.zhihu.com/p/37853734)
+[Vue2.1.7源码学习](http://hcysun.me/2017/03/03/Vue%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
