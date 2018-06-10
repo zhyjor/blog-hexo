@@ -50,9 +50,14 @@ date: 2018-02-25 08:59:44
 [贝贝网](https://www.zhipin.com/job_detail/c1380971b0ce50c103x_3Nq9GA~~.html?ka=comp_joblist_12_blank&lid=a3128ade-32fd-4b45-85cc-54b7fa799a05.brand_jod_list)
 [大搜车团队·看起来不错·印象分不错](https://www.liepin.com/company/8141158/)
 [畅唐网络·游戏公司·有微信技术栈](http://www.ct108.com/join/job)
+[杭州小农网络科技有限公司·宋小菜·偏react技术栈·有微信技术栈](https://www.songxiaocai.com/join.html)
+[点我达动态·组件库·浏览器原理·js性能·不要求兼容·要求点react的经验·看起来还不错](http://job.dianwoda.com/#/social)
+官网做的不好，一返回提交的表单都没了，[点我达掘金内推](https://juejin.im/user/5af2e0756fb9a07a9d70552c)
+
 
 ### 深圳
 [今日头条](https://job.toutiao.com)
+[富途证券](https://help.futu5.com/about/detail?job=frontend)
 
 ### 广州
 [YY-欢聚时刻](http://hr.yy.com/#/job/53df420c-323a-4542-a98d-30d2cfd0b502?_k=tnzs3u)
