@@ -206,11 +206,15 @@ gulp的插件与任务的编写
 [前端流程自动化(很全，但是估计操作性不强)](https://juejin.im/post/5aab8b3c5188255579186a51)
 [为什么我们的代码难以维护](https://my.oschina.net/wanjubang/blog/1580050)
 
+### 领域驱动开发
+[前端开发-领域驱动设计](https://juejin.im/post/5b1c71ad6fb9a01e5918398d)
+
 
 
 ### webpack
 [webpack4-用之初体验，一起敲它十一遍](https://juejin.im/post/5adea0106fb9a07a9d6ff6de)
 [Webpack 常见静态资源处理 - 模块加载器（Loaders）+ExtractTextPlugin插件](https://www.cnblogs.com/sloong/p/5826818.html)
+[手把手教你撸一个简易的 webpack](https://juejin.im/post/5b192afde51d45069c2efe5a)
 
 ## 计算机原理相关
 ### 字符集与字符编码
@@ -246,6 +250,12 @@ gulp的插件与任务的编写
 ## 黑科技
 jhipster
 [用flow.js提升前端健壮性](https://juejin.im/post/5ae292c86fb9a07a9c03efab)
+
+### Taro
+[多端统一开发框架 - Taro](https://juejin.im/entry/5b19155bf265da6e083be667)
+
+### mpvue
+[基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系](https://www.awesomes.cn/repo/Meituan-Dianping/mpvue)
 
 ## 合集
 [前端知识集锦](https://juejin.im/post/5a961d496fb9a06356314a36)

@@ -1,7 +1,7 @@
 ---
-title: js进阶之原型
+title: JavaScript基础之一：原型到原型链与继承
 tags:
-  - js进阶
+  - JavaScript基础
   - js
 copyright: true
 date: 2017-11-28 10:29:38
@@ -39,10 +39,19 @@ categories: js
 ** 所有的构造器都来自于 Function.prototype，甚至包括根构造器Object及Function自身。所有构造器都继承了`Function.prototype`的属性及方法。如length、call、apply、bind **
 
 再看一张图，读完本文希望可以明白这些关系
+![](http://oankigr4l.bkt.clouddn.com/201806101427_712.png)
 
+## 序
+先不用管是否理解，先将一些疑惑解释如下：
 
+### 显式原型和隐式原型
+在 JavaScript 原型继承结构里面，规范中用 [[Prototype]] 表示对象隐式的原型，在 JavaScript 中用 __proto__ 表示，并且在 Firefox 和 Chrome 浏览器中是可以访问得到这个属性的，但是 IE 下不行。所有 JavaScript 对象都有 __proto__ 属性，但只有 Object.prototype.__proto__ 为 null，前提是没有在 Firefox 或者 Chrome 下修改过这个属性。这个属性指向它的原型对象。 至于显示的原型，在 JavaScript 里用 prototype 属性表示，这个是 JavaScript 原型继承的基础知识。
 
-## 普通对象与函数对象
+* 每个对象（包括函数、函数的prototype对象）都有一个__proto__属性，她指向创建该对象的函数的prototype属性
+* 每个函数都有一个prototype对象，而只有prototype对象才有constructor属性，其指向该函数本身，只有函数才有prototype属性
+* 函数都是由function Function(){}创建的，所以上图__proto__实际上就是Function.prototype
+
+### 普通对象与函数对象
 Javascript中，一切都是对象，对象分为普通对象和函数对象，Object,Function是JS自带的函数对象
 ```js
 // 普通对象
@@ -69,7 +78,7 @@ console.log(typeof o3); //object
 ```
 至于typeof的用法我们后续章节会重点说明的。
 
-## 构造函数
+### 构造函数
 如下的例子，看看构造函数的使用姿势
 ```js
 function Person(name, age, job) {
@@ -554,5 +563,7 @@ var dog = function(){};
 **参考资料**
 [最详尽的 JS 原型与原型链终极详解](https://www.jianshu.com/p/a4e1e7b6f4f8)
 [JavaScript中proto与prototype的关系](http://www.cnblogs.com/snandy/archive/2012/09/01/2664134.html)
+[IBM·JavaScript instanceof 运算符深入剖析·JavaScript 原型继承机制](https://www.ibm.com/developerworks/cn/web/1306_jiangjj_jsinstanceof/)
+[JavaScript深入之从原型到原型链·冴羽](https://github.com/mqyqingfeng/Blog/issues/2)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

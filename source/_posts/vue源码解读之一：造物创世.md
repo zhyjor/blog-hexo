@@ -257,5 +257,6 @@ extend (to: Object, _from: ?Object):Object Object类型浅拷贝方法代码在s
 [Vue技术内幕·内容更详细](http://hcysun.me/vue-design/art/)
 [Vue源码的最后一站](https://zhuanlan.zhihu.com/p/37853734)
 [Vue2.1.7源码学习](http://hcysun.me/2017/03/03/Vue%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/)
+**[Vue.js 技术揭秘·黄轶大大·慕课上有课](https://ustbhuangyi.github.io/vue-analysis/prepare/)**
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
