@@ -43,6 +43,7 @@ date: 2018-02-25 08:59:44
 [有赞团队](https://job.youzan.com/)
 [滴滴杭州](http://job.didichuxing.com/social/p/6472)
 [美丽联合·美丽说·蘑菇街·微信技术栈](http://job.mogujie.com/#/social?_k=zjfhxq)
+[蘑菇街内推·知乎上一个前端妹子·做过vue转小程序的](https://www.zhihu.com/people/lion-dande/activities)
 [同花顺·要求较低·看起来一般·无详细的技术栈](http://job.10jqka.com.cn/social.html)
 [挖财·要求资深和普通的都有·看来很cool·混合开发技术栈](http://job.wacai.com/#/job/7ec44126-b0c0-4a92-bd28-a48936dc0b1e?_k=7g3bf0)
 [51信用卡·前端开发看起来不多](http://job.u51.com/Search/detail.html?id=560120613&Salary=8)
@@ -57,6 +58,7 @@ date: 2018-02-25 08:59:44
 
 ### 深圳
 [今日头条](https://job.toutiao.com)
+[头条内推·2018 美团、腾讯、头条、蔚来 社招面试随谈](https://juejin.im/post/5ae13cfe5188256715475806)
 [富途证券](https://help.futu5.com/about/detail?job=frontend)
 
 ### 广州

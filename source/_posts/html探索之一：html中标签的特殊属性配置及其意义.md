@@ -1,9 +1,8 @@
 ---
-title: html中标签的特殊属性配置及其意义
+title: html探索之一：html中标签的特殊属性配置及其意义
 tags:
   - html
-  - 标签
-  - 属性
+  - html探索
 categories: html
 copyright: true
 date: 2018-02-05 14:39:30

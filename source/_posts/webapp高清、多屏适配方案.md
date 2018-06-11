@@ -45,5 +45,8 @@ http://www.w3cplus.com/css/when-to-use-em-vs-rem.html
 
 https://segmentfault.com/a/1190000008774953
 [rem + simple-flexible 适配方案](https://juejin.im/post/5b0a9f266fb9a07aa114a908)
+[等比适配的最后一个补丁](https://juejin.im/post/5b1dc52de51d4506907b52b3)
+[Viewport 等比适配始末](https://juejin.im/post/5936cb1b0ce46300573d67ae)
+[Rem 等比适配始末](https://juejin.im/post/5939444d5c497d006b65db53)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
