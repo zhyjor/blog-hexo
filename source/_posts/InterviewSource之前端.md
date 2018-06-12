@@ -24,6 +24,9 @@ date: 2018-02-25 08:59:44
 
 ## vue
 [Vue学习看这篇就够(可以梳理一下知识点，挺全的)](https://juejin.im/entry/5a54b747518825734216c3df)
+[你或许不知道Vue的这些小技巧](https://www.imooc.com/article/32884)
+[你不知道的Vue技巧之--开发一个可以通过方法调用的组件](https://www.imooc.com/article/24041)
+[投稿004期 |太原面经分享：如何在vue面试环节，展示你晋级阿里P6+的技术功底？](http://www.imooc.com/article/details/id/34154)
 
 ## html
 [HTML5新特性](https://juejin.im/entry/5ab1b78af265da2378402505)
