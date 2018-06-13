@@ -14,10 +14,13 @@ date: 2018-02-25 08:59:44
 [记前端工程师面试题，一起带大家理一理](https://juejin.im/post/5abf68886fb9a028b54802e0)
 [大前端/vue/分析](http://www.bslxx.com/m/list.php?tid=2)
 
+**[掘金面试合集](https://juejin.im/collection/5a9e4cd56fb9a00a0f45a9db)**
+
 ## js
 [25个最基本的JavaScript面试问题及答案](https://juejin.im/entry/59fc0494518825076a0c507f)
 [37个JavaScript基本面试问题和解答](https://juejin.im/entry/5b02806b518825673b625291)
 [深入浅出ES6知识大合集](https://juejin.im/post/5a321ff76fb9a0450d1118ae)
+[44道JavaScript难题（JavaScript Puzzlers!）](https://juejin.im/post/5b1f899fe51d4506c60e46ee)
 
 ## http相关
 [面试时如何优雅的谈论HTTP／1.0／1.1／2.0](https://juejin.im/entry/5a40777df265da4322416cf0)

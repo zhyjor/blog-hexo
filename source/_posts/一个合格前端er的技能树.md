@@ -132,6 +132,9 @@ GC，垃圾回收机制，强弱引用的应用，nodejs，浏览器进行内存
 
 [现代浏览器的工作原理](http://blog.jobbole.com/12749/)
 
+### js垃圾回收
+[javascript 垃圾回收算法了解一下](https://juejin.im/post/5b1f7e62e51d45068a6cb98f)
+
 
 ## 网络安全
 xss/csrf
@@ -143,6 +146,8 @@ xss/csrf
 [利用css攻击](https://www.evonide.com/side-channel-attacking-browsers-through-css3-features/)
 
 ## MVVM框架的使用、原理及源码阅读
+
+[50行代码的MVVM，感受闭包的艺术](https://juejin.im/post/5b1fa77451882513ea5cc2ca)
 
 ## 优秀框架与资源
 [2018年最值得关注的30个Vue开源项目](https://blog.fundebug.com/2018/05/29/30-amazing-vuejs-open-source/)
@@ -250,9 +255,14 @@ gulp的插件与任务的编写
 ## 黑科技
 jhipster
 [用flow.js提升前端健壮性](https://juejin.im/post/5ae292c86fb9a07a9c03efab)
+[JSBox: 一个创造工具的工具](https://sspai.com/post/42361)
+
+### JSBox
+[如何实现一个乞丐版JSBox (一) 引擎篇](https://juejin.im/post/5b1a21bb5188254fbb756b23)
 
 ### Taro
 [多端统一开发框架 - Taro](https://juejin.im/entry/5b19155bf265da6e083be667)
+[Taro 学习笔记](https://juejin.im/post/5b1f8bd96fb9a01e2c6987d6)
 
 ### mpvue
 [基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系](https://www.awesomes.cn/repo/Meituan-Dianping/mpvue)
