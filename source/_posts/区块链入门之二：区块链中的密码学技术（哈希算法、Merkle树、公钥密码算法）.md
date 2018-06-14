@@ -1,8 +1,9 @@
 ---
 title: 区块链入门之二：区块链中的密码学技术（哈希算法、Merkle树、公钥密码算法）
 tags:
-  - dev
-categories: dev
+  - 区块链入门
+  - 区块链
+categories: 区块链
 top: false
 copyright: true
 date: 2018-05-28 14:43:11

@@ -1,8 +1,8 @@
 ---
-title: vue基础之四：vue响应式原理
+title: vue进阶之三：vue响应式原理
 tags:
   - vue
-  - vue基础
+  - vue进阶
 categories: vue
 top: false
 copyright: true
