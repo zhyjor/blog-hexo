@@ -191,6 +191,27 @@ h1,.speaker{
 
 **在 @media中暂时不能 @extend @media外的代码片段，以后将会可以。**
 
+### mixin中的循环（each）
+在mixin中也可以定义循环，这里之前调用方式参考：
+```css
+@mixin border-retina ($poses: $border-poses, $border-retina-color: $gray-light) {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  transform: scale(.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+  box-sizing: border-box;
+
+  @each $pos in $poses {
+    border-#{$pos}: 1px solid $border-retina-color;
+  }
+}
+```
+
 **参考资料**
 [sass基础](https://www.w3cplus.com/sassguide/syntax.html)
 
