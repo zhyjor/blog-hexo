@@ -151,6 +151,7 @@ xss/csrf
 
 ## 优秀框架与资源
 [2018年最值得关注的30个Vue开源项目](https://blog.fundebug.com/2018/05/29/30-amazing-vuejs-open-source/)
+[『收藏』VUE优秀UI组件库合集](https://shimo.im/doc/LkpdnWxM1j40BDJj/)
 
 ### domDIFF
 [浅入浅出图解domDIff](https://juejin.im/post/5ad550f06fb9a028b4118d99)
@@ -225,6 +226,7 @@ gulp的插件与任务的编写
 ### 字符集与字符编码
 [学点编码知识又不会死：Unicode的流言终结者和编码大揭秘](http://www.freebuf.com/articles/others-articles/25623.html)
 [常见几种校验方法（CS和校验、CRC16、CRC32、BCC异或校验）](http://www.cnblogs.com/BHfeimao/p/7410537.html)
+[字符编码常识及问题解析](http://www.codeceo.com/article/encoding-problems.html)
 
 ## 23种设计模式
 [JavaScript 中常见设计模式整理](https://juejin.im/post/5afe6430518825428630bc4d)
