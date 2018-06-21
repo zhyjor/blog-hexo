@@ -48,5 +48,7 @@ https://segmentfault.com/a/1190000008774953
 [等比适配的最后一个补丁](https://juejin.im/post/5b1dc52de51d4506907b52b3)
 [Viewport 等比适配始末](https://juejin.im/post/5936cb1b0ce46300573d67ae)
 [Rem 等比适配始末](https://juejin.im/post/5939444d5c497d006b65db53)
+[REM，你这磨人的小妖精！](https://juejin.im/post/5b28b36af265da59a36e351e)
+[移动端使用 rem 单位时 css sprites 定位问题](https://juejin.im/post/5b2611665188257494641b59)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

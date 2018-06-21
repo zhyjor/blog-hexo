@@ -1,8 +1,11 @@
 ---
-title: underscore之美之一：美好的函数式编程
+title: 跟着underscore写代码之一：美好的函数式编程
 tags:
-  - dev
-categories: dev
+  - 跟着underscore写代码
+  - js
+  - underscore
+  - 函数式编程
+categories: js
 top: false
 copyright: true
 date: 2017-05-13 09:57:23
