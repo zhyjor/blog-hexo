@@ -1,10 +1,11 @@
 ---
-title: http协议之post与get的区别
+title: http协议详解之四：Method
 tags:
-  - dev
+  - http协议详解
+  - http
 copyright: true
 date: 2017-11-04 08:59:59
-categories:
+categories: http
 ---
 
 [转载](https://juejin.im/post/59fc04ecf265da4317697f26)
