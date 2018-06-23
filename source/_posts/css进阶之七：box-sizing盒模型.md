@@ -18,6 +18,40 @@ css盒模型是css的根本，最近经常看到分享的面经所到这个，�
 * W3C标准盒模型
 
 
+### box-sizing存在的初衷
+在 CSS 世界中，唯一离不开 box-sizing:border-box 的就是原生普通文本框`<input>`和文本域`<textarea>`的 100%自适应父容器宽度。
+
+拿文本域`<textarea>`举例， `<textarea>`为替换元素，替换元素的特性之一就是尺寸由内部元素决定，且无论其 display 属性值是 inline 还是 block。这个特性很有意思，对于非替换元素，如果其 display 属性值为 block，则会具有流动性，宽度由外部尺寸决定，但是替换元素的宽度却不受 display 水平影响，因此，我们通过 CSS 修改`<textarea>`的display 水平是无法让尺寸 100%自适应父容器的.
+
+```css
+textarea {
+  display: block; /* 还是原来的尺寸 */
+}
+```
+所以，我们只能通过 width 设定让`<textarea>`尺寸 100%自适应父容器。那么，问题就来了，`<textarea>`是有 border 的，而且需要有一定的 padding 大小，否则输入的时候光标会顶着边框，体验很不好。于是， width/border 和 padding 注定要共存，同时还要整体宽度 100%自适应容器。如果不借助其他标签，肯定是无解的。
+
+[在浏览器还没支持 box-sizing 的年代，我们的做法有点儿类似于“宽度分离”](http://demo.cssworld.cn/3/2-9.php)，外面嵌套`<div>`标签，模拟 border 和 padding，`<textarea>`作为子元素， border 和 padding全部为 0，然后宽度 100%自适应父级`<div>`。
+
+然而，这种模拟也有局限性，比如无法使用:focus 高亮父级的边框，因为 CSS 世界中并无父选择器，只能使用更复杂的嵌套加其他 CSS 技巧来模拟。
+
+因此，说来说去，也就 box-sizing:border-box 才是根本解决之道！
+
+```css
+textarea {
+	width: 100%;
+	-ms-box-sizing: border-box; /* for IE8 */
+	box-sizing: border-box;
+}
+```
+box-sizing 被发明出来最大的初衷应该是解决替换元素宽度自适应问题。如果真的如我所言，那`*{box-sizing:border-box}`是不是没用在点儿上呢？是不是应该像下面这样 CSS 重置才更合理呢？
+```css
+input, textarea, img, video, object {
+  box-sizing: border-box;
+}
+```
+** 对于替换元素，其宽度不受display影响，只能通过直接设置100%
+才能充满父元素。即通过父元素来设置该效果。这样处理的坏处就是padding,border都不能使用了，所以加入`box-sizing`就显得有必要了. **
+
 ### IE盒模型和W3C标准盒模型的区别是什么？
 
 **1、W3C 标准盒模型（content-box）：**
