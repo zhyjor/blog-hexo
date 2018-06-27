@@ -115,6 +115,155 @@ css很简单，完全不懂的人大概看个一两天，就可以实现基本�
 jQuery 中有个$().slideUp()/$().slideDown()方法，如果在使用这个动画效果的时候，发现这内容在动画开始或结束的时候会跳一下，那八九不离十就是布局存在 margin 合并。 跳动之所以产生，就是因为 jQuery 的 slideUp 和 slideDown方法在执行的时候会被对象元素添加 overflow:hidden 设置，而 overflow: hidden 会阻止 margin 合并，于是一瞬间间距变大，产生了跳动。
 
 
+## 单行文本的高度
+
+### 现象
+
+很多人都有这样一个错误的认知，认为对于单行文本，只要行高设置多少，其占据高度就是多少。比方说，对于下面非常简单的 CSS 和 HTML 代码：
+```
+.box { line-height: 32px; }
+.box > span { font-size: 24px; }
+<div class="box">
+	<span>文字</span>
+</div>
+
+```
+.box 元素的高度是多少？
+很多人一定认为是 32px：因为没有设置 height 等属性，高度就由 line-height 决定，与 font-size 无关，所以这里明摆着最终高度就是 32px。
+
+**但是事实上，高度并不是 32px，而是要大那么几像素（受不同字体影响，增加高度也不一样）， 比方说 36px如下图：**
+
+![](http://oankigr4l.bkt.clouddn.com/201806271636_756.png)
+
+### 分析
+
+这里，之所以最终.box 元素的高度并不等于 line-height，就是因为行高的朋友属性 vertical-align 在背后默默地下了黑手。
+
+其中有一个很关键的点，那就是 24px 的 font-size 大小是设置在`<span>`元素上的，这就导致了外部`<div>`元素的字体大小和`<span>`元素有较大出入。看不见的东西不利于理解，因此我们不妨使用一个看得见的字符 x占位，同时“文字”后面也添加一个 x，便于看出基线位置，于是就有如下 HTML：
+```html
+<div class="box">
+	x<span>文字 x</span>
+</div>
+```
+此时，我们可以明显看到两处大小完全不同的文字。一处是字母 x 构成了一个“匿名内联盒子”，另一处是“文字 x”所在的`<span>`元素，构成了一个“内联盒子”。由于都受 lineheight:32px影响，因此，这两个“内联盒子”的高度都是 32px。
+
+对字符而言， font-size 越大字符的基线位置越往下，因为文字默认全部都是基线对齐，所以当字号大小不一样的两个文字在一起的时候，彼此就会发生上下位移，如果位移距离足够大，就会超过行高的限制，而导致出现意料之外的高度,如下图：
+![](http://oankigr4l.bkt.clouddn.com/201806271642_860.png)
+
+### 解决
+知道了问题发生的原因，那问题就很好解决了。我们可以让“幽灵空白节点”和后面`<span>`元素字号一样大，也就是：
+```css
+.box {
+	line-height: 32px;
+	font-size: 24px;
+}
+.box > span { }
+```
+或者改变垂直对齐方式，如顶部对齐，这样就不会有参差位移了：
+
+```css
+.box { line-height: 32px; }
+.box > span {
+	font-size: 24px;
+	vertical-align: top;
+}
+```
+
+## 图片底部留有间隙(扩展上述问题)
+搞清楚了大小字号文字的高度问题，对更为常见的图片底部留有间隙的问题的理解就容易多了。现象是这样的：任意一个块级元素，里面若有图片，则块级元素高度基本上都要比图片的高度高。例如：
+### 问题描述
+```
+<div class="box">
+	<img src="1.jpg">
+</div>
+
+.box {
+	width: 280px;
+	outline: 1px solid #aaa;
+	text-align: center;
+}
+.box > img {
+	height: 96px;
+}
+```
+结果.box 元素底部平白无故多了 5 像素。
+
+![](http://oankigr4l.bkt.clouddn.com/201806271649_774.png)
+
+### 分析
+
+间隙产生的三大元凶就是“幽灵空白节点”、 line-height 和 vertical-align 属性。为了直观演示原理，我们可以在图片前面辅助一个字符 x 代替“幽灵空白节点”，并想办法通过背景色显示其行高范围，于是，大家就会看到如图所示的现象:
+
+![](http://oankigr4l.bkt.clouddn.com/201806271650_779.png)
+
+当前 line-height 计算值是 20px，而 font-size 只有 14px，因此，字母 x 往下一定有至少 3px 的半行间距（具体大小与字体有关），**而图片作为替换元素其基线是自身的下边缘。**根据定义，默认和基线（也就是这里字母 x 的下边缘）对齐，字母 x 往下的行高产生的多余的间隙就嫁祸到图片下面，让人以为是图片产生的间隙，实际上，是“幽灵空白节点”、line-height 和 vertical-align 属性共同作用的结果。
+
+### 解决
+知道了原理，要清除该间隙，就知道如何对症下药了。方法很多，具体如下。
+* 图片块状化。可以一口气干掉“幽灵空白节点”、 line-height 和 verticalalign。
+* 容器 line-height 足够小。只要半行间距小到字母 x 的下边缘位置或者再往上，自然就没有了撑开底部间隙高度空间了。比方说，容器设置 line-height:0。
+* 容器 font-size 足够小。此方法要想生效，需要容器的 line-height 属性值和当前 font-size 相关，如 line-height:1.5 或者 line-height:150%之类；否则只会让下面的间隙变得更大，因为基线位置因字符 x 变小而往上升了。
+* 图片设置其他 vertical-align 属性值。间隙的产生原因之一就是基线对齐，所以我们设置 vertical-align 的值为 top、 middle、bottom 中的任意一个都是可以的。
+
+
+## 内联特性导致的 margin 无效
+紧跟上述问题
+```
+<div class="box">
+	<img src="mm1.jpg">
+</div>
+.box > img {
+	height: 96px;
+	margin-top: -200px;
+}
+```
+这里的例子也很有代表性。一个容器里面有一个图片，然后这张图片设置 margin-top负值，让图片上偏移。但是，随着我们的负值越来越负，结果达到某一个具体负值的时候，图片不再往上偏移了。比方说，本例 margin-top 设置的是-200px，如果此时把 margin-top设置成-300px，图片会再往上偏移 100px 吗？不会！它会微丝不动， margin-top 变得无效了。要解释这里为何会无效，需要对 vertical-align 和内联盒模型有深入的理解。
+
+### 分析
+此时，按照理解， -200px 远远超过图片的高度，图片应该完全跑到容器的外面，但是，图片依然有部分在.box 元素中，而且就算 margin-top 设置成-99999px，图片也不会继续往上移动，完全失效。其原理和上面图片底部留有间隙实际上是一样的，图片的前面有个“幽灵空白节点”，**而在 CSS 世界中，非主动触发位移的内联元素是不可能跑到计算容器外面的，**导致图片的位置被“幽灵空白节点”的 vertical-align:baseline 给限死了。我们不妨把看不见的“幽灵空白节点”使用字符 x 代替,原因就一目了然了。
+
+![](http://oankigr4l.bkt.clouddn.com/201806271700_105.png)
+
+因为字符 x 下边缘和图片下边缘对齐，字符 x 非主动定位，不可能跑到容器外面，所以图片就被限死在此问题， margin-top 失效。
+
+## 空的 inline-block 元素的高度居然不是0
+紧跟上述，再看一个复杂点的问题：
+### 问题描述
+text-align:jusitfy 声明可以帮助我们实现兼容的列表两端对齐效果，但是 text-align:jusitfy 两端对齐需要内容超过一行，同时为了让任意个数的列表最后一行也是左对齐排列，我们需要在列表最后辅助和列表宽度一样的空标签元素来占位，类似下面 HTML 代码的`<i>`标签：
+```
+.box {
+	text-align: justify;
+}
+.justify-fix {
+	display: inline-block;
+	width: 96px;
+}
+<div class="box">
+	<img src="1.jpg" width="96">
+	<img src="1.jpg" width="96">
+	<img src="1.jpg" width="96">
+	<img src="1.jpg" width="96">
+	<i class="justify-fix"></i>
+	<i class="justify-fix"></i>
+	<i class="justify-fix"></i>
+</div>
+```
+空的 inline-block 元素的高度是 0，按照通常的理解，下面应该是一马平川，结果却有非常大的空隙存在:
+
+![](http://oankigr4l.bkt.clouddn.com/201806271708_269.png)
+
+为了便于大家看个究竟，我把占位`<i>`元素的 outline 属性用虚外框标示一下:
+![](http://oankigr4l.bkt.clouddn.com/201806271709_877.png)
+
+按照之前解决问题的方法，我们可以直接给.box 元素来个 line-height:0 解决垂直间隙问题，结果，这样设置之后的效果,图片和图片之间的间隙是没有了，但是图片和最后的占位元素之间依然有几像素的间距.
+
+### 分析
+
+简单现象的背后往往有大的学问，要明白其原因 ， 就需 要说 到 inline-block 元 素 和 基 线baseline 之间的一些纠缠的关系。
+
+vertical-align 属性的默认值 baseline 在文本之类的内联元素那里就是字符 x 的下边缘，对于替换元素则是替换元素的下边缘。但是，如果是 inline-block 元素，则规则要复杂了： **一个 inline-block 元素，如果里面没有内联元素，或者 overflow 不是 visible，则该元素的基线就是其 margin 底边缘；否则其基线就是元素里面最后一行内联元素的基线。**
+
+
 **参考资料**
 [css玄学之一二](https://www.colabug.com/2627987.html)
 [css玄学之一二·蘑菇街大神](https://echizen.github.io/tech/2018/04-05-read-css-world)

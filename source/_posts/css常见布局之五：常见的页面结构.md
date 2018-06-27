@@ -117,6 +117,58 @@ ul > li {
 
 #### border 和 table-cell 的优缺点
 顺便说说使用 border 和 table-cell 的优缺点：前者优势在于兼容性好，没有锚点定位的隐患，不足之处在于最多 3 栏，且由于 border 不支持百分比宽度，因此只能实现至少一侧定宽的布局； table-cell 的优点是天然等高，不足在于 IE8 及以上版本浏览器才支持，所以，如果项目无须兼容 IE6、 IE7，则推荐使用 table-cell 实现等高布局。
+
+#### border 等高布局技术
+这种利用border实现的功能，基本都保持着一个特点，就是这些模块都是一起的，其实是同一块，通过占位实现。理论上，通过border-style：double实现更多的列，但是这些太复杂，没必要。
+![](http://oankigr4l.bkt.clouddn.com/201806271433_604.png)
+
+也就是说，左侧深色背景区域是由 border-left 属性生成的。元素边框高度总是和元素自身高度保持一致，因此可以巧妙地实现等高布局效果
+
+```html
+<div class="box">
+  <nav>
+    <h3 class="nav">导航1</h3>
+  </nav>
+  <section>
+    <div class="module">模块1</div>
+  </section>
+</div>
+```
+此方法要想生效，有一点需要注意，父级容器不能使用 overflow:hidden 清除浮动影响，因为溢出隐藏是基于 padding box 的，如果设置了 overflow:hidden，则左浮动的导航列表元素就会被隐藏掉，这显然不是我们想要的效果。
+```css
+/* 导航背景区border创建 */
+.box { 
+  border-left: 150px solid #333;
+  background-color: #f0f3f9;
+}
+/* 清除浮动影响，不能使用overflow:hidden */
+.box:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* 布局主结构 */
+.box > nav {
+  width: 150px;
+  margin-left: -150px;
+  float: left;
+}
+.box > section {
+    overflow: hidden;
+}
+/* 导航列表和模块列表 */
+.nav {
+    line-height: 40px;
+    color: #fff;
+}
+.module {
+    line-height: 40px;
+}
+```
+此方法与用 margin+padding 实现的等高布局相比更加稳健，不会出现锚点定位带来的问题，但同样它也是有局限性的。
+首先，由于 border 不支持百分比宽度，因此，适合至少一栏是定宽的布局。当然，如果不考虑 IE8 浏览器，可以试试使用 vw 单位，其可实现近似的百分比宽度效果。
+其次，等高布局的栏目有限制,因为一个元素的边框数目是有限的.
+
 **参考资料**
 []()
 
