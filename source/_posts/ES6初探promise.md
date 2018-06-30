@@ -76,5 +76,7 @@ console.log('==Starting==');
 [Promise原理讲解 && 实现一个Promise对象 (遵循Promise/A+规范)](https://juejin.im/post/5aa7868b6fb9a028dd4de672)
 [性感的Promise](https://juejin.im/post/5ab20c58f265da23a228fe0f)
 [Promise原理讲解 && 实现一个Promise对象 (遵循Promise/A+规范)](https://juejin.im/post/5aa7868b6fb9a028dd4de672)
+[Promise之你看得懂的Promise](https://juejin.im/post/5b32f552f265da59991155f0)
+[BAT前端经典面试问题：史上最最最详细的手写Promise教程](https://juejin.im/post/5b2f02cd5188252b937548ab)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
