@@ -4,9 +4,9 @@ tags:
   - sass基础
   - sass
   - css
-categories: dev
+categories: css
 copyright: true
-date: 2018-03-20 17:32:34
+date: 2017-03-22 17:32:34
 ---
 sass的嵌套（Nesting）包括两种：一种是选择器的嵌套；另一种是属性的嵌套。我们一般说起或用到的都是选择器的嵌套。
 <!--more-->

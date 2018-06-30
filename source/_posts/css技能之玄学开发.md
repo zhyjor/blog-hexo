@@ -339,5 +339,6 @@ vertical-align 属性的默认值 baseline 在文本之类的内联元素那里�
 **参考资料**
 [css玄学之一二](https://www.colabug.com/2627987.html)
 [css玄学之一二·蘑菇街大神](https://echizen.github.io/tech/2018/04-05-read-css-world)
+[垂直对齐：vertical-align属性（转）](https://www.cnblogs.com/rixinren2010/archive/2012/03/10/2389301.html)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

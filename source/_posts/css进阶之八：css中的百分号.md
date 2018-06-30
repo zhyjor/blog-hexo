@@ -38,12 +38,38 @@ date: 2018-06-04 16:36:10
 * 然后再看使用场景，CSS 世界创造的背景主要是为图文展示服务的，我们给图片套个 1px 灰色边框，区域就明显了,没有需要使用百分比值的场景。
 
 ## line-height 
-是相对于 font-size 计算的
+他的数值属性和百分比属性，都是是相对于 font-size 计算的
 
 ## vertical-align 
 相对于 line-height 的计算值计算的。
 
+
+## font-size
+父元素的font-size
+
+## text-indent
+百分比值是相对于当前元素的“包含块”计算的，而不是当前元素。
+
+## background-position 百分比
+
+支持 1～4 个值，可以是具体数值，也可以是百分比值，还可以是 left、top、 right、 center 和 bottom 等关键字.
+
+其实就是相对于剩余空间的百分比
+
+```js
+positionX = (容器的宽度 - 图片的宽度) * percentX;
+positionY = (容器的高度 - 图片的高度) * percentY;
+```
+
+**支持负的百分比**
+假如图片宽度大于容器的话，会有些需要注意的地方：
+```css
+(容器的宽度−图片的宽度) × (-50%) 的结果是个正值；
+(容器的高度−图片的高度) × (-50%) 的结果也是个正值。
+```
+
 **参考资料**
 [你知道我们平时在CSS中写的%都是相对于谁吗？](https://juejin.im/post/5b0bc994f265da092918d421)
+
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
