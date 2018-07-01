@@ -40,6 +40,7 @@ top: true
 [ECMAScript 6 入门(阮一峰)](http://es6.ruanyifeng.com/)
 [深度解析原型中的各个难点](https://juejin.im/post/5aa78fe66fb9a028d2079ca4)
 [JavaScript变量的生命周期：为什么let不被提升](https://juejin.im/post/5aa631ab5188255587233214?utm_medium=fe&utm_source=weixinqun)
+[[译] ES2018（ES9）的新特性](https://juejin.im/post/5b2a186cf265da596d04a648)
 
 [深入理解JavaScript系列-汤姆大叔的博客](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
 [js深入系列目录/专题系列目录](https://github.com/mqyqingfeng/Blog)
@@ -51,7 +52,11 @@ top: true
 
 [[译] JavaScript 是如何工作的：Web 推送通知的机制](https://juejin.im/post/5b002766518825429d1f90bc)
 
+### 编码风格
+[JavaScript编码风格指南](https://juejin.im/post/5b2903ce51882574a86cd288)
 
+### zepto
+[读 Zepto 源码，分析 Zepto 源码](https://github.com/yeyuqiudeng/reading-zepto)
 
 ### babel
 [入门babel--实现一个es6的class转换器](https://juejin.im/post/5ac1c5bf518825558949f898)
@@ -123,6 +128,7 @@ GC，垃圾回收机制，强弱引用的应用，nodejs，浏览器进行内存
 [浏览器渲染流水线解析](https://juejin.im/post/5ab9a8006fb9a028db58b354)
 
 [从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](https://juejin.im/post/5a6547d0f265da3e283a1df7)
+[Event Loop 必知必会（六道题）](https://zhuanlan.zhihu.com/p/34182184)
 
 [浏览器工作原理(10篇)](https://blog.csdn.net/lxcao/article/category/6472061)
 [Chrome 渲染优化 - 层模型](https://www.oschina.net/translate/chrome-accelerated-rendering)
@@ -134,6 +140,12 @@ GC，垃圾回收机制，强弱引用的应用，nodejs，浏览器进行内存
 
 ### js垃圾回收
 [javascript 垃圾回收算法了解一下](https://juejin.im/post/5b1f7e62e51d45068a6cb98f)
+
+## 图形相关/canvas/webgl/three.js
+
+### canvas
+[用canvas画一个进度盘](https://juejin.im/post/5b25e3396fb9a00e7a3d5161)
+[]
 
 
 ## 网络安全
@@ -148,10 +160,14 @@ xss/csrf
 ## MVVM框架的使用、原理及源码阅读
 
 [50行代码的MVVM，感受闭包的艺术](https://juejin.im/post/5b1fa77451882513ea5cc2ca)
+[Airbnb: React Native 从选择到放弃](https://juejin.im/post/5b2a5368f265da595c0cf6d5)
 
-## 优秀框架与资源
+## 优秀框架与开源项目
 [2018年最值得关注的30个Vue开源项目](https://blog.fundebug.com/2018/05/29/30-amazing-vuejs-open-source/)
 [『收藏』VUE优秀UI组件库合集](https://shimo.im/doc/LkpdnWxM1j40BDJj/)
+[Vue + Koa 搭建 ACM OJ](https://juejin.im/post/5b28fc7751882574e202b461)
+[原生JS实现一个无缝轮播图插件(支持vue)](https://juejin.im/post/5b28efefe51d4558cf6e75dd)
+[vue-easytablevue table 组件，支持 单元格合并、单元格编辑、多表头固定、多列固定、列拖动、排序、自定义列、条件过滤、分页](http://doc.huangsw.com/vue-easytable/app.html#/intro)
 
 ### domDIFF
 [浅入浅出图解domDIff](https://juejin.im/post/5ad550f06fb9a028b4118d99)
@@ -221,6 +237,7 @@ gulp的插件与任务的编写
 [webpack4-用之初体验，一起敲它十一遍](https://juejin.im/post/5adea0106fb9a07a9d6ff6de)
 [Webpack 常见静态资源处理 - 模块加载器（Loaders）+ExtractTextPlugin插件](https://www.cnblogs.com/sloong/p/5826818.html)
 [手把手教你撸一个简易的 webpack](https://juejin.im/post/5b192afde51d45069c2efe5a)
+[这可能是vue-cli最全的解析了……](https://juejin.im/post/5b2872516fb9a00e8626e34f)
 
 ## 计算机原理相关
 ### 字符集与字符编码

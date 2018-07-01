@@ -6,7 +6,7 @@ tags:
   - css预处理器
 categories: css
 copyright: true
-date: 2018-03-20 19:45:52
+date: 2017-03-24 12:45:52
 ---
 sass定义了很多函数可供使用，尤其是各种比较函数、颜色函数等都是特别方便，当然你也可以自己定义函数，自定义函数以@fuction开始。
 <!--more-->

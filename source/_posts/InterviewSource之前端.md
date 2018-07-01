@@ -21,9 +21,16 @@ date: 2018-02-25 08:59:44
 [37个JavaScript基本面试问题和解答](https://juejin.im/entry/5b02806b518825673b625291)
 [深入浅出ES6知识大合集](https://juejin.im/post/5a321ff76fb9a0450d1118ae)
 [44道JavaScript难题（JavaScript Puzzlers!）](https://juejin.im/post/5b1f899fe51d4506c60e46ee)
+[Promise之你看得懂的Promise](https://juejin.im/post/5b32f552f265da59991155f0)
+[BAT前端经典面试问题：史上最最最详细的手写Promise教程](https://juejin.im/post/5b2f02cd5188252b937548ab)
+
+## 算法
+[前端你应该了解的数据结构与算法](https://juejin.im/post/5b331bc7f265da598451fd88)
 
 ## http相关
 [面试时如何优雅的谈论HTTP／1.0／1.1／2.0](https://juejin.im/entry/5a40777df265da4322416cf0)
+[人生苦短，了解一下前端必须明白的http知识点](https://juejin.im/post/5b34e6ba51882574d20bbdd4)
+[跟着动画来学习TCP三次握手和四次挥手](https://juejin.im/post/5b29d2c4e51d4558b80b1d8c)
 
 ## vue
 [Vue学习看这篇就够(可以梳理一下知识点，挺全的)](https://juejin.im/entry/5a54b747518825734216c3df)
@@ -36,6 +43,9 @@ date: 2018-02-25 08:59:44
 
 ## 趣味问题
 [作为前端，如何帮帝都的朋友租到合适的房子？](https://juejin.im/post/5afabdd4f265da0b9a6a1d8b)
+
+## git
+[为无线前端团队打造高效git工作流](https://juejin.im/post/5b2b76e251882574934c388d)
 
 ## 合集
 [Web 前端知识点总结 Awsome frontend learning resource](https://juejin.im/entry/5809991d8ac247005b4295aa)

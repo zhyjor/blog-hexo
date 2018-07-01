@@ -18,6 +18,9 @@ android开发中技术点总结
 [android-open-source-project-analysis（掘金上一大神的源码分析）](https://github.com/guoxiaoxing/android-open-source-project-analysis)
 [掘金翻译计划](https://github.com/xitu/gold-miner)
 
+## 适配
+[Android 目前最稳定和高效的UI适配方案](https://juejin.im/post/5ae9cc3a5188253dc612842b)
+
 
 
 
