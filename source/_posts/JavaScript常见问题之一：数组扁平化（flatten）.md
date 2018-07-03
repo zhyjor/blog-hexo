@@ -88,6 +88,6 @@ var arr = [1, 2, 3, 4, [1, [1, [32, 3], 23], 2]]
 console.log(flatten_deconstruction(arr))
 ```
 **参考资料**
-[]()
+[【干货】js 数组详细操作方法及解析合集](https://juejin.im/post/5b0903b26fb9a07a9d70c7e0)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

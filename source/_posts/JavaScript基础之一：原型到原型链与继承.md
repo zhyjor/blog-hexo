@@ -4,7 +4,7 @@ tags:
   - JavaScript基础
   - js
 copyright: true
-date: 2017-11-28 10:29:38
+date: 2017-02-28 10:29:38
 categories: js
 ---
 理解原型，剖析原型链，希望经过这次整理后能够对原型，原型链以及Object等相关知识有个深层次的认识。

@@ -14,6 +14,6 @@ date: 2018-06-21 10:13:21
 按钮就是 CSS 世界中极具代表性的 inline-block 元素，可谓展示“包裹性”最好的例子，具体表现为：按钮文字越多宽度越宽（内部尺寸特性），但如果文字足够多，则会在容器的宽度处自动换行（自适应特性）。`<button>`标签按钮才会自动换行， `<input>`标签按钮，默认 `white-space:pre`，是不会换行的，需要将 pre 值重置为默认的 normal。
 
 **参考资料**
-[]()
+[关于input的一些问题解决方法分享](https://juejin.im/post/5af68903f265da0b84557fab)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

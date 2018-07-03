@@ -32,6 +32,10 @@ top: true
 [chenhongdong·发布订阅模式，在工作中它的能量超乎你的想象·不好意思！耽误你的十分钟，让MVVM原理还给你](https://juejin.im/user/585b9ec961ff4b0063e76dbe/posts)
 [Vue.js源码学习](https://violetjack.github.io/tags/Vue-js%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/)
 
+[rccoder/blog·react·js基础·一般](https://github.com/rccoder/blog/issues?page=2&q=is%3Aissue+is%3Aopen)
+
+[汤姆大叔的博客·深入理解JavaScript系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
+
 ### 内存
 [JavaScript 内存机制（前端同学进阶必备）](https://juejin.im/post/5b10ba336fb9a01e66164346)
 

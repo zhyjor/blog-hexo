@@ -41,8 +41,15 @@ date: 2018-06-04 16:36:10
 他的数值属性和百分比属性，都是是相对于 font-size 计算的
 
 ## vertical-align 
-相对于 line-height 的计算值计算的。
+相对于 line-height 的计算值计算的，对于vertical-align默认的对齐方式时基线对齐。
 
+vertical的对齐选择的属性值分为以下四类：
+* 线类，如base-line,top
+* 文本类，如text-top,text-bottom
+* 上下标类，如sub,super
+* 数值百分比类
+
+数值的正负是相对于基线的上下位移，百分比则是相对于line-height的计算值
 
 ## font-size
 父元素的font-size

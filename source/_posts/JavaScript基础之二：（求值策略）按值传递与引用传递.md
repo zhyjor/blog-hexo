@@ -5,7 +5,7 @@ tags:
   - js
 categories: js
 copyright: true
-date: 2018-03-15 09:42:28
+date: 2017-03-06 09:42:28
 ---
 《js高级程序设计》上是这样叙述参数传递的：所有函数的参数都是按值传递的
 <!--more-->
