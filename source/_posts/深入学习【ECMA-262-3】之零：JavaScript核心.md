@@ -154,6 +154,141 @@ console.log(
 ![](http://oankigr4l.bkt.clouddn.com/201807031815_204.png)
 上述图示可以看出，每一个object都有一个prototype. 构造函数Foo也拥有自己的`__proto__`, 也就是Function.prototype, 而Function.prototype的`__proto__`指向了Object.prototype. 重申一遍，Foo.prototype只是一个显式的属性，也就是b和c的`__proto__`属性。
 
+这个问题完整和详细的解释在接下来还会有详细的解释。分两个部分：面向对象编程.一般理论(OOP. The general theory)，描述了不同的面向对象的范式与风格(OOP paradigms and stylistics)，以及与ECMAScript的比较, 面向对象编程.ECMAScript实现(OOP. ECMAScript implementation), 专门讲述了ECMAScript中的面向对象编程。
+
+## 执行上下文栈（Execution Context Stack）
+
+在ECMASscript中的代码有三种类型：global, function和eval。
+
+每一种代码的执行都需要依赖自身的上下文。当然global的上下文可能涵盖了很多的function和eval的实例。函数的每一次调用，都会进入函数执行中的上下文,并且来计算函数中变量等的值。eval函数的每一次执行，也会进入eval执行中的上下文，判断应该从何处获取变量的值。
+
+注意，一个function可能产生无限的上下文环境，因为一个函数的调用（甚至递归）都产生了一个新的上下文环境。
+
+```js
+function foo(bar) {}
+
+// 调用相同的function，每次都会产生3个不同的上下文
+//（包含不同的状态，例如参数bar的值）
+
+foo(10);
+foo(20);
+foo(30);
+```
+一个执行上下文可以激活另一个上下文，就好比一个函数调用了另一个函数(或者全局的上下文调用了一个全局函数)，然后一层一层调用下去。逻辑上来说，这种实现方式是栈，我们可以称之为上下文堆栈。
+
+激活其它上下文的某个上下文被称为 调用者(caller) 。被激活的上下文被称为被调用者(callee) 。被调用者同时也可能是调用者(比如一个在全局上下文中被调用的函数调用某些自身的内部方法)。
+
+当一个caller激活了一个callee，那么这个caller就会暂停它自身的执行，然后将控制权交给这个callee. 于是这个callee被放入堆栈，称为进行中的上下文[running/active execution context]. 当这个callee的上下文结束之后，会把控制权再次交给它的caller，然后caller会在刚才暂停的地方继续执行。在这个caller结束之后，会继续触发其他的上下文。一个callee可以用返回（return）或者抛出异常（exception）来结束自身的上下文。
+
+如下图，所有的ECMAScript的程序执行都可以看做是一个执行上下文堆栈[execution context (EC) stack]。堆栈的顶部就是处于激活状态的上下文。
+
+---
+
+当一段程序开始时，会先进入全局执行上下文环境[global execution context], 这个也是堆栈中最底部的元素。此全局程序会开始初始化，初始化生成必要的对象[objects]和函数[functions]. 在此全局上下文执行的过程中，它可能会激活一些方法（当然是已经初始化过的），然后进入他们的上下文环境，然后将新的元素压入堆栈。在这些初始化都结束之后，这个系统会等待一些事件（例如用户的鼠标点击等），会触发一些方法，然后进入一个新的上下文环境。
+
+有一个函数上下文“EC1″和一个全局上下文“Global EC”，下图展现了从“Global EC”进入和退出“EC1″时栈的变化:
+
+---
+
+ECMAScript运行时系统就是这样管理代码的执行。
+
+关于ECMAScript执行上下文栈的内容请查阅本系列教程的执行上下文(Execution context)。
+
+如上所述，栈中每一个执行上下文可以表示为一个对象。让我们看看上下文对象的结构以及执行其代码所需的 状态(state) 。
+
+## 执行上下文（Execution Context）
+一个执行的上下文可以抽象的理解为object。每一个执行的上下文都有一系列的属性（我们称为上下文状态），他们用来追踪关联代码的执行进度。这个图示就是一个context的结构。
+
+---
+
+除了这3个所需要的属性(变量对象(variable object)，this指针(this value)，作用域链(scope chain) )，执行上下文根据具体实现还可以具有任意额外属性。接着，让我们仔细来看看这三个属性。
+
+
+## 变量对象(Variable Object)
+
+> A variable object is a scope of data related with the execution context. 
+It’s a special object associated with the context and which stores variables and function declarations are being defined within the context.
+
+> 变量对象(variable object) 是与执行上下文相关的 数据作用域(scope of data) 。
+它是与上下文关联的特殊对象，用于存储被定义在上下文中的 变量(variables) 和 函数声明(function declarations) 。
+
+注意：函数表达式[function expression]（而不是函数声明[function declarations）是不包含在VO[variable object]里面的。
+
+变量对象（Variable Object）是一个抽象的概念，不同的上下文中，它表示使用不同的object。例如，在global全局上下文中，变量对象也是全局对象自身[global object]。（这就是我们可以通过全局对象的属性来指向全局变量的原因）。
+
+让我们看看下面例子中的全局执行上下文情况：
+
+```js
+var foo = 10;
+
+function bar() {} // // 函数声明
+(function baz() {}); // 函数表达式
+
+console.log(
+  this.foo == foo, // true
+  window.bar == bar // true
+);
+
+console.log(baz); // 引用错误，baz没有被定义
+```
+局上下文中的变量对象(VO)会有如下属性：
+
+---
+
+如上所示，函数“baz”如果作为函数表达式则不被不被包含于变量对象。这就是在函数外部尝试访问产生引用错误(ReferenceError) 的原因。请注意，ECMAScript和其他语言相比(比如C/C++)，仅有函数能够创建新的作用域。在函数内部定义的变量与内部函数，在外部非直接可见并且不污染全局对象。使用 eval 的时候，我们同样会使用一个新的(eval创建)执行上下文。eval会使用全局变量对象或调用者的变量对象(eval的调用来源)。
+
+那函数以及自身的变量对象又是怎样的呢?在一个函数上下文中，变量对象被表示为活动对象(activation object)。
+
+## 活动对象(activation object)
+当函数被调用者激活，这个特殊的活动对象(activation object) 就被创建了。它包含普通参数(formal parameters) 与特殊参数(arguments)对象(具有索引属性的参数映射表)。活动对象在函数上下文中作为变量对象使用。
+
+即：函数的变量对象保持不变，但除去存储变量与函数声明之外，还包含以及特殊对象arguments 。
+
+考虑下面的情况：
+```js
+function foo(x, y) {
+  var z = 30;
+  function bar() {} // 函数声明
+  (function baz() {}); // 函数表达式
+}
+
+foo(10, 20);
+```
+“foo”函数上下文的下一个激活对象(AO)如下图所示：
+
+---
+
+同样道理，function expression不在AO的行列。
+
+对于这个AO的详细内容可以通过本系列教程找到。
+
+我们接下去要讲到的是第三个主要对象。众所周知，在ECMAScript中，我们会用到内部函数[inner functions]，在这些内部函数中，我们可能会引用它的父函数变量，或者全局的变量。我们把这些变量对象成为上下文作用域对象[scope object of the context]. 类似于上面讨论的原型链[prototype chain]，我们在这里称为作用域链[scope chain]。
+
+## 作用域链(Scope Chains)
+> A scope chain is a list of objects that are searched for identifiers appear in the code of the context.
+作用域链是一个 对象列表(list of objects) ，用以检索上下文代码中出现的 标识符(identifiers) 。
+
+作用域链的原理和原型链很类似，如果这个变量在自己的作用域中没有，那么它会寻找父级的，直到最顶层。
+
+标示符[Identifiers]可以理解为变量名称、函数声明和普通参数。例如，当一个函数在自身函数体内需要引用一个变量，但是这个变量并没有在函数内部声明（或者也不是某个参数名），那么这个变量就可以称为自由变量[free variable]。那么我们搜寻这些自由变量就需要用到作用域链。
+
+在一般情况下，一个作用域链包括父级变量对象（variable object）（作用域链的顶部）、函数自身变量VO和活动对象（activation object）。不过，有些情况下也会包含其它的对象，例如在执行期间，动态加入作用域链中的—例如with或者catch语句。[译注：with-objects指的是with语句，产生的临时作用域对象；catch-clauses指的是catch从句，如catch(e)，这会产生异常对象，导致作用域变更]。
+
+当查找标识符的时候，会从作用域链的活动对象部分开始查找，然后(如果标识符没有在活动对象中找到)查找作用域链的顶部，循环往复，就像作用域链那样。
+
+```js
+var x = 10;
+ 
+(function foo() {
+  var y = 20;
+  (function bar() {
+    var z = 30;
+    // "x"和"y"是自由变量
+    // 会在作用域链的下一个对象中找到（函数”bar”的互动对象之后）
+    console.log(x + y + z);
+  })();
+})();
+```
 
 
 **参考资料**
