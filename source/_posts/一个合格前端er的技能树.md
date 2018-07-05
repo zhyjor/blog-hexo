@@ -31,8 +31,10 @@ top: true
 [how-javascript-works·语言引擎，运行时和调用栈概述·如何在 V8 引擎中书写最优代码的 5 条小技巧·网页消息推送通知机制](https://github.com/Troland/how-javascript-works)
 [chenhongdong·发布订阅模式，在工作中它的能量超乎你的想象·不好意思！耽误你的十分钟，让MVVM原理还给你](https://juejin.im/user/585b9ec961ff4b0063e76dbe/posts)
 [Vue.js源码学习](https://violetjack.github.io/tags/Vue-js%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/)
+[markyun/My-blog·马云云·高赞](https://github.com/markyun/My-blog/issues)
 
 [rccoder/blog·react·js基础·一般](https://github.com/rccoder/blog/issues?page=2&q=is%3Aissue+is%3Aopen)
+[pengliheng/pengliheng.github.io·一般·技术栈比较乱](https://github.com/pengliheng/pengliheng.github.io/issues)
 
 [汤姆大叔的博客·深入理解JavaScript系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
 
