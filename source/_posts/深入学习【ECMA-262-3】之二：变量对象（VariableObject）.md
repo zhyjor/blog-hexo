@@ -355,7 +355,7 @@ alert(delete b); // false
  
 alert(window.b); // still 20
 ```
-但是这个规则在有个上下文里不起走样，那就是eval上下文，变量没有{DontDelete}特性。
+**但是这个规则在eval上下文中不去作用**，这eval上下文中，变量没有{DontDelete}特性。
 ```js
 eval('var a = 10;');
 alert(window.a); // 10
