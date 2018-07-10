@@ -1,7 +1,7 @@
 ---
 title: JavaScript常见问题之四：变量类型的判断方式
 tags:
-  - JavaScript基础
+  - JavaScript常见问题
   - js
 categories: js
 top: false

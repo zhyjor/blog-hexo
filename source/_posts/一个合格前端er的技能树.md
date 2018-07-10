@@ -38,6 +38,10 @@ top: true
 
 [汤姆大叔的博客·深入理解JavaScript系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
 
+
+[TalkingData/fsd 浏览器相关较多](https://github.com/TalkingData/fsd/issues)
+[wy-ei/notebook浏览器相关以及优化](https://github.com/wy-ei/notebook/issues)
+
 ### 内存
 [JavaScript 内存机制（前端同学进阶必备）](https://juejin.im/post/5b10ba336fb9a01e66164346)
 
@@ -121,6 +125,7 @@ sql/mongo
 [「前端那些事儿」② 极限性能优化](https://juejin.im/post/59ff2dbe5188254dd935c8ab)
 [web前端性能优化](https://juejin.im/post/5a6941e1f265da3e33048429)
 [网站性能优化实战——从12.67s到1.06s的故事](https://juejin.im/post/5b0b7d74518825158e173a0c)
+[前端性能优化相关](https://github.com/wy-ei/notebook/issues/34#issuecomment-266946255)
 
 ## 浏览器的渲染机制
 [从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](https://zhuanlan.zhihu.com/p/34453198?group_id=957277540147056640)
