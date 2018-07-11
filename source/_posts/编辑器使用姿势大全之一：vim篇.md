@@ -1,8 +1,8 @@
 ---
-title: 编辑器/IDE的使用姿势大全：vim篇
+title: 编辑器使用姿势大全之一：vim篇
 tags:
-  - dev
-categories: dev
+  - 编辑器
+categories: 编辑器
 top: false
 copyright: true
 date: 2018-02-19 14:11:22
