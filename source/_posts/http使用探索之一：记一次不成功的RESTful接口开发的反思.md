@@ -1,8 +1,10 @@
 ---
-title: 记一次不成功的RESTful接口开发的反思
+title: http使用探索之一：记一次不成功的RESTful接口开发的反思
 tags:
-  - REST
-categories: REST
+  - http使用探索
+  - RESTful
+categories: http
+top: false
 copyright: true
 date: 2018-02-26 18:02:15
 ---
