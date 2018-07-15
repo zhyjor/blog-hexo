@@ -111,7 +111,7 @@ HTTP 中的 Cookie 知识点，基本上都已经讲解清楚了，我们再次�
 
 
 **参考资料**
-[cookie小结](http://www.cnblogs.com/xianyulaodi/p/6476991.html)
+[cookie-小结](http://www.cnblogs.com/xianyulaodi/p/6476991.html)
 [再好好聊一聊 HTTP 中的 Cookie 细节 | 实用 HTTP](https://mp.weixin.qq.com/s/xc8A2dKlZmPHUhFcAevPxw)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
