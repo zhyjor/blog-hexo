@@ -13,6 +13,7 @@ date: 2018-02-25 08:59:44
 [JavaScript：面试频繁出现的几个易错点](http://www.jqhtml.com/14909.html)
 [记前端工程师面试题，一起带大家理一理](https://juejin.im/post/5abf68886fb9a028b54802e0)
 [大前端/vue/分析](http://www.bslxx.com/m/list.php?tid=2)
+[BAT 要的是什么样的前端实习生？](https://www.villainhr.com/page/2018/03/26/BAT%20%E8%A6%81%E7%9A%84%E6%98%AF%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E5%89%8D%E7%AB%AF%E5%AE%9E%E4%B9%A0%E7%94%9F%EF%BC%9F)
 
 **[掘金面试合集](https://juejin.im/collection/5a9e4cd56fb9a00a0f45a9db)**
 
@@ -23,6 +24,7 @@ date: 2018-02-25 08:59:44
 [44道JavaScript难题（JavaScript Puzzlers!）](https://juejin.im/post/5b1f899fe51d4506c60e46ee)
 [Promise之你看得懂的Promise](https://juejin.im/post/5b32f552f265da59991155f0)
 [BAT前端经典面试问题：史上最最最详细的手写Promise教程](https://juejin.im/post/5b2f02cd5188252b937548ab)
+[近百高频知识点，十万余字，地表最强前端面试图谱了解下](https://juejin.im/post/5b4a9136f265da0f990d49cb)
 
 ## 算法
 [前端你应该了解的数据结构与算法](https://juejin.im/post/5b331bc7f265da598451fd88)
@@ -37,6 +39,7 @@ date: 2018-02-25 08:59:44
 [你或许不知道Vue的这些小技巧](https://www.imooc.com/article/32884)
 [你不知道的Vue技巧之--开发一个可以通过方法调用的组件](https://www.imooc.com/article/24041)
 [投稿004期 |太原面经分享：如何在vue面试环节，展示你晋级阿里P6+的技术功底？](http://www.imooc.com/article/details/id/34154)
+[Vue(ES6)中的data属性为什么不能是一个对象？](https://juejin.im/post/5b4c0a715188251acc22fdd7)
 
 ## html
 [HTML5新特性](https://juejin.im/entry/5ab1b78af265da2378402505)
