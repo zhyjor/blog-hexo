@@ -117,5 +117,6 @@ reflow几乎是无法避免的。现在界面上流行的一些效果，比如�
 
 **参考资料**
 [前端优化的一些小技巧](https://juejin.im/post/5afa6ad4518825426c68fbcb?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
+[移动端页面的 JavaScript 开销](http://www.css88.com/archives/8396)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
