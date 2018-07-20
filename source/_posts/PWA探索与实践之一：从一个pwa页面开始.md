@@ -221,5 +221,6 @@ PushManager 注册好之后， 那么要做的就是浏览器和服务器的绑�
 [什么是 PWA](https://juejin.im/post/5a9e8ad5f265da23a40456d4)
 
 [**PWA超简单入门**](https://juejin.im/post/5abba6a7f265da239706ec60)
+[**浏览器缓存、CacheStorage、Web Worker 与 Service Worker**](https://github.com/youngwind/blog/issues/113)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
