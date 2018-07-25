@@ -1,11 +1,12 @@
 ---
-title: html中webworker使用总结
+title: PWA探索与实践之三：WebWorkers的使用
 tags:
-  - dev
+  - PWA探索与实践
+  - PWA
+categories: 前端
+top: false
 copyright: true
-date: 2017-10-31 14:15:04
-categories:
----
+date: 2017-05-11 11:13:41
 
 Web Workers 是 HTML5 提供的一个javascript多线程解决方案，我们可以将一些大计算量的代码交由web Worker运行而不冻结用户界面。
 <!--more-->
@@ -241,3 +242,10 @@ web worker看起来很美好，但处处是魔鬼。
 3.各个浏览器对Worker的实现不大一致，例如FF里允许worker中创建新的worker,而Chrome中就不行
 
 4.不是每个浏览器都支持这个新特性
+
+
+
+**参考资料**
+[初探 HTML5 Web Workers](http://srtian96.gitee.io/blog/2018/07/21/%E5%88%9D%E6%8E%A2%20HTML5%20Web%20Workers/?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
+
+![](http://oankigr4l.bkt.clouddn.com/wexin.png)

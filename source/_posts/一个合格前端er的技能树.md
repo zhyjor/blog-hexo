@@ -26,6 +26,9 @@ top: true
 [饿了么大前端Node interview of ElemeFE](https://github.com/ElemeFE/node-interview)
 [梁少峰的个人博客,js浏览器兼容，v8等很多内容](https://github.com/youngwind/blog)
 [Aaaaaaaty/blog,里面的很多细节不错，很深入（0.1+0.2问题）](https://github.com/Aaaaaaaty/blog)
+[野生的一个前端大佬·360·博文·前端·后端](https://github.com/berwin/Blog)
+
+
 [前端路由简介以及vue-router实现原理](https://juejin.im/post/5b10b46df265da6e2a08a724)
 [JavaScript 算法与数据结构·很全](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 [how-javascript-works·语言引擎，运行时和调用栈概述·如何在 V8 引擎中书写最优代码的 5 条小技巧·网页消息推送通知机制](https://github.com/Troland/how-javascript-works)

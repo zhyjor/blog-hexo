@@ -1,0 +1,27 @@
+---
+title: webpack实践之一：一句话重点
+tags:
+  - webpack实践
+  - webpack
+categories: webpack
+top: false
+copyright: true
+date: 2018-07-09 08:59:36
+---
+标题为webpack配置中的一句话重点，其实就是有些不太引人注意，但是很重要，或者能很好的提高用户体验的细节。
+<!--more-->
+
+## vue-style-loader
+对于vue文件中的css，因为对于vue文件中的style，默认是按照普通文本处理的。而且这里修改样式不是同步更新到页面上，也就是说没有热更新。添加这个loader后，**就可以实现热更新了**
+
+## rimraf
+这里可以用来删除一个文件，文件夹，这个通常用在重新打包之前，删除旧的打包文件的操作。
+```
+// 删除dist文件夹
+rimraf dist
+```
+
+**参考资料**
+[]()
+
+![](http://oankigr4l.bkt.clouddn.com/wexin.png)

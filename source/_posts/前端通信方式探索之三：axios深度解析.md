@@ -1,8 +1,9 @@
 ---
 title: 前端通信方式探索之三：axios深度解析
 tags:
-  - dev
-categories: dev
+  - 前端通信方式探索
+  - 前端通信
+categories: 前端通信
 top: false
 copyright: true
 date: 2017-05-11 16:57:38
