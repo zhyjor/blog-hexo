@@ -18,6 +18,12 @@ date: 2018-02-25 08:59:44
 **[掘金面试合集](https://juejin.im/collection/5a9e4cd56fb9a00a0f45a9db)**
 [面试图谱：前端基础技术知识讲解](https://juejin.im/post/5b5567b25188256256696ee0#heading-5)
 **[面试图谱·大合集](https://yuchengkai.cn/docs/zh/frontend/)**
+**[总结了17年初到18年初百场前端面试的面试经验(含答案)](https://juejin.im/post/5b44a485e51d4519945fb6b7)**
+
+## 一般的合集
+[一些基础的前端技术面试问题·很基础](https://juejin.im/entry/57b68b8b0a2b58005c8270eb)
+[2017年前端面试题整理汇总100题](https://www.jianshu.com/p/1288380ec7cc)
+[前端开发面试题和答案（转载）](https://juejin.im/post/5a964b636fb9a0636264056f)
 
 ## js
 [25个最基本的JavaScript面试问题及答案](https://juejin.im/entry/59fc0494518825076a0c507f)
@@ -83,6 +89,7 @@ date: 2018-02-25 08:59:44
 [今日头条](https://job.toutiao.com)
 [头条内推·2018 美团、腾讯、头条、蔚来 社招面试随谈](https://juejin.im/post/5ae13cfe5188256715475806)
 [富途证券](https://help.futu5.com/about/detail?job=frontend)
+[京东凹凸实验室](https://aotu.io/join/)
 
 ### 广州
 [YY-欢聚时刻](http://hr.yy.com/#/job/53df420c-323a-4542-a98d-30d2cfd0b502?_k=tnzs3u)

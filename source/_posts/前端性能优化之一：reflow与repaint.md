@@ -7,10 +7,14 @@ top: false
 copyright: true
 date: 2018-01-19 15:11:41
 ---
+前端性能的优化包含很多方面，包括但是不限于用户打开的速度，它应该包括诸如**工作效率、速度性能、稳定性、响应式、兼容性、搜索SEO、信息无障碍**等等。
+
+前端优化是一个让人兴奋的一个点，你的页面每一次有成效的优化，都是对自己莫大的奖励，且优化是没有尽头的。
+<!--more-->
+
 对于前端来说，对性能最大的挑战就是dom的操作引起的浏览器的reflow与repaint，回流与重绘，引起reflow的原因除了dom的结构的改变还有一些属性的获取，引起repaint的原因主要是一些颜色等的改变。为了减少dom的操作也出现了很多visual dom的框架，以期提高性能，如vue，react。
 
 本文简单介绍浏览器的渲染，重点指出一些会引起dom性能变差的问题，其实一切慢的原因是引起浏览器回流的dom操作，让我们从documentfragment来开始。
-<!--more-->
 
 ## DocumentFragment的方式很好吗
 
@@ -118,5 +122,14 @@ reflow几乎是无法避免的。现在界面上流行的一些效果，比如�
 **参考资料**
 [前端优化的一些小技巧](https://juejin.im/post/5afa6ad4518825426c68fbcb?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
 [移动端页面的 JavaScript 开销](http://www.css88.com/archives/8396)
+[前端优化不完全指南 | Aotu.io「凹凸实验室」](https://juejin.im/entry/575ac312207703006ff2dc32)
+**[网站性能优化实战——从12.67s到1.06s的故事](https://juejin.im/post/5b0b7d74518825158e173a0c)**
+[「前端那些事儿」② 极限性能优化](https://juejin.im/post/59ff2dbe5188254dd935c8ab)
+[前端性能优化--从 10 多秒到 1.05 秒](https://juejin.im/post/5b0bff30f265da08f76cc6f0)
+[漫谈前端性能优化](https://juejin.im/post/5a4f09eef265da3e3b7a5399)
+[将 Web 应用性能提高十倍的 10 条建议](https://juejin.im/entry/5726013a71cfe40057801c3d)
+[前端性能优化常用总结](https://juejin.im/post/59e1bbc9f265da430f311fb1)
+
+**[2018 前端性能优化清单](https://juejin.im/post/5a966bd16fb9a0635172a50a#heading-7)**
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
