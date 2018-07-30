@@ -106,6 +106,6 @@ trim_trailing_whitespace = true
 
 
 **参考资料**
-[]()
+[Standard - JavaScript 代码规范 ](https://standardjs.com/readme-zhcn.html)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
