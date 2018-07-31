@@ -36,11 +36,15 @@ date: 2018-02-25 08:59:44
 
 ## 算法
 [前端你应该了解的数据结构与算法](https://juejin.im/post/5b331bc7f265da598451fd88)
+[2018年6月前端面试经历(中)·排序·查找·斐波那契·模板引擎](https://juejin.im/post/5b3b70ea6fb9a04fe91a5039)
+[编写一个简单的JavaScript模板引擎](https://juejin.im/post/5b3b93115188251afa62ad46)
+[前端与算法-动态规划之01背包问题浅析与实现](https://juejin.im/post/5b5dbcf8f265da0fa86750d1)
 
 ## http相关
 [面试时如何优雅的谈论HTTP／1.0／1.1／2.0](https://juejin.im/entry/5a40777df265da4322416cf0)
 [人生苦短，了解一下前端必须明白的http知识点](https://juejin.im/post/5b34e6ba51882574d20bbdd4)
 [跟着动画来学习TCP三次握手和四次挥手](https://juejin.im/post/5b29d2c4e51d4558b80b1d8c)
+[搞定计算机网络面试，看这篇就够了](https://juejin.im/post/5b5f20686fb9a04f844adbdd)
 
 ## vue
 [Vue学习看这篇就够(可以梳理一下知识点，挺全的)](https://juejin.im/entry/5a54b747518825734216c3df)
