@@ -45,6 +45,7 @@ date: 2018-02-25 08:59:44
 [人生苦短，了解一下前端必须明白的http知识点](https://juejin.im/post/5b34e6ba51882574d20bbdd4)
 [跟着动画来学习TCP三次握手和四次挥手](https://juejin.im/post/5b29d2c4e51d4558b80b1d8c)
 [搞定计算机网络面试，看这篇就够了](https://juejin.im/post/5b5f20686fb9a04f844adbdd)
+[前端面试总结——http、html和浏览器篇](https://github.com/forthealllight/blog/issues/19)
 
 ## vue
 [Vue学习看这篇就够(可以梳理一下知识点，挺全的)](https://juejin.im/entry/5a54b747518825734216c3df)

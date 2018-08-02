@@ -18,6 +18,9 @@ date: 2017-09-09 10:48:54
 
 
 **参考资料**
+[Vue Loader 是什么？](https://vue-loader-v14.vuejs.org/zh-cn/)
+[服务端渲染](https://cn.vuejs.org/v2/guide/ssr.html)
+[官方教材](https://cn.vuejs.org/)
 []()
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
