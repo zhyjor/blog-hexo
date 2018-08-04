@@ -48,7 +48,59 @@ http
 头信息压缩以及推送等提高效率的功能（头信息占用带宽很大）
 
 ## http的三次握手
-tcp连接一直都在，可以发送多次请求
+tcp连接一直都在，可以发送多次请求，多个请求一个连接就可以了。connection中。
+第一次：SYN=1,Seq=x
+第二次：SYN=1,ACK=x+1,Seq=Y
+第三次：ACK=Y+1,Seq=Z
+
+防止开启无用的连接，网络环境一般不稳定。
+第三次握手，还是很必要的。
+
+## url、uri、urn
+uniform resource locator
+统一资源定位器
+http://user:pass@host.com:80/path/?query=string#hash
+
+unifrom resource indentfier
+表示互联网上的唯一资源，包括了url,urn
+
+uniform resource  
+永久统一资源定位符，在资源移动之后，还能找到位置，业界还没有很好的解决方案
+
+## 报文形式
+### 请求报文
+首行 GET /test/hi-there.txt HTTP/1.0（换行）
+首部 Accept:text/*
+（空行）
+主体
+
+方法的实现取决与你自己。
+
+### 响应报文
+起始行 HTTP/2.0 200 OK
+首部
+
+主体
+
+### 方法
+用来定义对于资源的操作，语义是定义上的
+code: 
+
+## 跨域
+
+### Access-Control-Allow-Origin
+这里设置为"*",所有网站都可以，也可以直接设置为域名。 
+跨域头，跨域针对的是浏览器，浏览器运行某些标签的跨域比如script,img,link等。
+
+有些情况下不能使用设置这个头来设置。
+
+### CORS预请求
+有些头需要服务器进行验证
+Access-Control-Allow-Headers
+Access-Control-Allow-Methods
+Access-Control-Max-Age:'1000'允许跨域的时间
+
+
 
 **参考资料**
 []()
