@@ -122,7 +122,7 @@ nginx各个模块都是通过指定的配置文件进行控制的。
 ```
 server {
 	    listen 7003;
-	    server_name _;
+	    server_name _;// 浏览器中的hostname
 	    location / {
 			root /home/data/;
 	    }
@@ -197,7 +197,7 @@ server {
 ```
 server {  
     location / {  
-        proxy_pass http://localhost:8080;  
+        proxy_pass http://localhost:8080;  // 代理到这里的服务
     }  
     locaiton /images/ {  
         root /data;  
@@ -205,7 +205,7 @@ server {
 }  
 ```
 
-接着我们修改上面第二个的location块指令，它会把所有/images/前缀的请求映射到服务器的/data/images/目录下，为了是它能够只响应指定文件的请求，需要更改location块指令：
+接着我们修改上面第二个的location块指令，它会把所有/images/前缀的请求映射到服务器的/data/images/目录下，为了是它能够只响应指定文件的请求，需要更改location块指令： 
 
 ```
 location ~ \.(gif|jpg|png)$ {  
