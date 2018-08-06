@@ -7,6 +7,7 @@ categories: 前端
 top: false
 copyright: true
 date: 2017-05-11 11:13:41
+---
 
 Web Workers 是 HTML5 提供的一个javascript多线程解决方案，我们可以将一些大计算量的代码交由web Worker运行而不冻结用户界面。
 <!--more-->
