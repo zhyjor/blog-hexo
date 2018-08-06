@@ -1,5 +1,5 @@
 ---
-title: css常见布局之五：常见的页面结构
+title: css常见布局之五：两栏自适应页面结构
 tags:
   - css常见布局
   - css
