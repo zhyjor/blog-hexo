@@ -254,5 +254,6 @@ addEventListener('fetch', function(evt) {
 [前端 fetch 通信](https://www.villainhr.com/page/2016/09/25/%E5%89%8D%E7%AB%AF%20fetch%20%E9%80%9A%E4%BF%A1)
 [This API is so Fetching!](https://hacks.mozilla.org/2015/03/this-api-is-so-fetching/)
 [introduction-to-fetch](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
+[传统 Ajax 已死，Fetch 永生](https://github.com/camsong/blog/issues/2)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
