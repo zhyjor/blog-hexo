@@ -1,8 +1,9 @@
 ---
 title: 常见算法之二：汉诺塔（Hanoi）与递归
 tags:
-  - dev
-categories: dev
+  - 常见算法
+  - 数据结构与算法
+categories: 数据结构与算法
 top: false
 copyright: true
 date: 2018-02-02 10:28:05

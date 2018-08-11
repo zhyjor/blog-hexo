@@ -34,13 +34,13 @@ https的出现是为了抵抗MITM（Man In The Middle Attack）中间人攻击�
 域名劫持的根源就是域名服务器上的记录被修改，解决这个问题的方式当然就是使用靠谱的域名服务器，比如google提供的两个： 8.8.8.8 和 8.8.4.4。
 
 **域名污染**
-与域名劫持略有不同，域名污染拿到的假的域名是在传输中被修改的。域名污染发生在你和域名服务器中间，只要入侵者处于这个位置就可以发起域名污染，入侵者、ISP都可以进行，当然最著名的就是GFW了。域名污染分直接污染和间接污染（污染的pc还是dns解析服务器），当然普通的入侵者只能做到直接污染。
+与域名劫持略有不同，**域名污染拿到的假的域名是在传输中被修改的**。域名污染发生在你和域名服务器中间，只要入侵者处于这个位置就可以发起域名污染，入侵者、ISP都可以进行，当然最著名的就是GFW了。域名污染分直接污染和间接污染（污染的pc还是dns解析服务器），当然普通的入侵者只能做到直接污染。
 
 关于DNS详细的分解可以参看[《http协议详解：关于DNS》]()。
 
 #### ARP欺骗
 **ARP协议工作过程**
-局域网的传输使用的是物理地址，路由器只有在知道连接它的设备的物理地址的条件下才有可能吧数据包发你。地址解析协议（Address Resolution Protocol，ARP），是在仅仅知道主机的ip时来确定其物理地址的一种协议。在一个局域网的A需要给B发IP数据报。
+局域网的传输使用的是物理地址，路由器只有在知道连接它的设备的物理地址的条件下才有可能把数据包发你。地址解析协议（Address Resolution Protocol，ARP），是在仅仅知道主机的ip时来确定其物理地址的一种协议。在一个局域网的A需要给B发IP数据报。
 * A先在其ARP高速缓存中查询有无B的ip,若有将根据ip查到的硬件地址写入MAC帧并通过局域网发送到该硬件地址
 * 若无B的IP，A的ARP进程在本局域网上广播发送一个ARP请求分组，主要内容是A自己的IP地址、MAC地址，询问的IP地址（也就是B的IP地址）。
 * 在本局域网上的所有主机运行的ARP进程都收到此ARP请求分组。
@@ -51,11 +51,27 @@ https的出现是为了抵抗MITM（Man In The Middle Attack）中间人攻击�
 这种情况下可以截取Internet与这个目标主机的之间的全部通信，则会导致信息泄露，在主机看来访问外部服务的响应变慢
 
 ## https连接
-https是应对中间人攻击的唯一方式
-### 
+> cert is OK,This is the client side of SSL connection. Now check the name field in the cert against the desired hostname.NB:this is our only defense against Man-In-The-Middle(MITM) attacks!
+
+https是应对中间人攻击的唯一方式。
+### 客户端问候（Client Hello）
+在client hello中，将一些信息发送到服务器
+
+* 使用的TLS版本，TLS有三个版本，1.0，1.1，1.2，1.2是最新的版本
+* 客户端当前的时间和一个随机密码串
+* sessionId，会话ID，第一次连接时为0，如果有sessionId，则可以恢复会话，而不用重复握手过程
+* 浏览器支持的加密组合方式，加密套件的种类。
+* 还有一个是域名，域名是工作在应用层http里的，而握手是发生在TLS还在传输层。在传输层里面就把域名信息告诉服务器，好让服务根据域名发送相应的证书。
+
+### Server Hello
+服务器收到了Client Hello的信息后，就给浏览器发送了一个Server Hello的包，这个包里面有着跟Client Hello类似的消息：
+* 时间、随机数等，注意服务器还发送了一个Session Id给浏览器
+* 服务器选中的加密方式
+
 
 **参考资料**
 [扫盲 DNS 原理，以及“域名劫持”和“域名欺骗/域名污染”](https://www.cnblogs.com/huangxiaoying/p/5888969.html)
+[如何进行一次完整的 SSLStrip 攻击](https://www.jianshu.com/p/983d43b4ba1e)
 
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
