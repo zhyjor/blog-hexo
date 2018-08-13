@@ -10,6 +10,15 @@ date: 2018-05-10 13:54:23
 ---
 ECMAScript规范对一元运算符的规范
 <!--more-->
+```js
+console.log(1 +  "2" + "2");
+console.log(1 +  +"2" + "2");
+console.log(1 +  -"1" + "2");
+console.log(+"1" +  "1" + "2");
+console.log( "A" - "B" + "2");
+console.log( "A" - "B" + 2);
+
+```
 
 **参考资料**
 [隐式转换的玄学](https://github.com/mqyqingfeng/Blog/issues/26)

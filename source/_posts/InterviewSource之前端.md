@@ -33,6 +33,9 @@ date: 2018-02-25 08:59:44
 [Promise之你看得懂的Promise](https://juejin.im/post/5b32f552f265da59991155f0)
 [BAT前端经典面试问题：史上最最最详细的手写Promise教程](https://juejin.im/post/5b2f02cd5188252b937548ab)
 [近百高频知识点，十万余字，地表最强前端面试图谱了解下](https://juejin.im/post/5b4a9136f265da0f990d49cb)
+**[前端面试&笔试&错题指南(三）](https://juejin.im/post/5b5749cbe51d453467550494)**
+[Web-Project·实用项目·面试总结](https://github.com/forrany/Web-Project)
+[前端面试&笔试&错题指南（二）](https://juejin.im/post/5b5749cbe51d453467550494)
 
 ## 算法
 [前端你应该了解的数据结构与算法](https://juejin.im/post/5b331bc7f265da598451fd88)
