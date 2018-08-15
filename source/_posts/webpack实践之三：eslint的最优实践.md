@@ -104,8 +104,50 @@ trim_trailing_whitespace = true
 
 其实上面的命令就是利用了githook，具体的指令 还是由我们自己配置。
 
+## 手动实现一个配置
+把 eslint 安装为项目依赖而非全局命令，项目可移植性更高。
+```
+npm install eslint -D
+```
+用 eslint 做检查需要配置规则集，存放规则集的文件就是配置文件，使用如下文件生成配置文件,：
+```
+./node_modules/.bin/eslint --init
+```
+回车后根目录下就有了 .eslintrc.js 配置文件：
+
+```
+module.exports = {
+  env: {
+    es6: true,
+    node: true,
+  },
+  extends: 'eslint:recommended',
+  rules: {
+    indent: ['error', 4],
+    'linebreak-style': ['error', 'unix'],
+    quotes: ['error', 'single'],
+    semi: ['error', 'always'],
+  },
+};
+```
+在 package.json 的 scripts 字段中新增命令 eslint：
+```
+{
+  "scripts": {
+    "eslint": "eslint *.js",
+  },
+}
+```
+
+## eslint 完成 react、vue.js 代码的检查
+使用 eslint-plugin-react 检查 react 代码，使用 react-plugin-react-native 检查 react-native 代码，如果你比较懒，可以直接使用 eslint-config-airbnb，里面内置了 eslint-plugin-react，新人常遇到 peerDependencies 安装失败问题可参照 npmjs 主页上的方法解决.
+
+推荐使用 vue.js 官方的 eslint 插件：eslint-plugin-vue 来检查 vue.js 代码，具体的配置方法官方 README 写的清晰明了，这里就不赘述了。
+
+上面的几种 eslint 规则集的官方仓库都列出了各自支持的规则，如果你需要关闭某些规则，可以直接在自己的 .eslintrc* 里面的 rules 中配置.
 
 **参考资料**
 [Standard - JavaScript 代码规范 ](https://standardjs.com/readme-zhcn.html)
+[用 husky 和 lint-staged 构建超溜的代码检查工作流](https://juejin.im/post/592615580ce463006bf19aa0)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
