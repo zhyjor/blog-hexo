@@ -131,5 +131,6 @@ reflow几乎是无法避免的。现在界面上流行的一些效果，比如�
 [前端性能优化常用总结](https://juejin.im/post/59e1bbc9f265da430f311fb1)
 
 **[2018 前端性能优化清单](https://juejin.im/post/5a966bd16fb9a0635172a50a#heading-7)**
+[网站性能优化实战——从12.67s到1.06s的故事](https://juejin.im/post/5b6fa8c86fb9a0099910ac91)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
