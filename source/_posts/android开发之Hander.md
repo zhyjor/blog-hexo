@@ -1,10 +1,10 @@
 ---
 title: android开发之Hander
 tags:
-  - dev
+  - android开发
 copyright: true
 date: 2017-10-27 14:17:23
-categories:
+categories: android
 ---
-
+android开发之Hander
 <!--more-->
