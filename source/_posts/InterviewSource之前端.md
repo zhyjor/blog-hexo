@@ -14,6 +14,7 @@ date: 2018-02-25 08:59:44
 [记前端工程师面试题，一起带大家理一理](https://juejin.im/post/5abf68886fb9a028b54802e0)
 [大前端/vue/分析](http://www.bslxx.com/m/list.php?tid=2)
 [BAT 要的是什么样的前端实习生？](https://www.villainhr.com/page/2018/03/26/BAT%20%E8%A6%81%E7%9A%84%E6%98%AF%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E5%89%8D%E7%AB%AF%E5%AE%9E%E4%B9%A0%E7%94%9F%EF%BC%9F)
+[杭州17届前端期待加入一个更好的团队](https://juejin.im/post/5a718cd36fb9a01caa20d8a8)
 
 **[掘金面试合集](https://juejin.im/collection/5a9e4cd56fb9a00a0f45a9db)**
 [面试图谱：前端基础技术知识讲解](https://juejin.im/post/5b5567b25188256256696ee0#heading-5)
@@ -42,6 +43,7 @@ date: 2018-02-25 08:59:44
 [2018年6月前端面试经历(中)·排序·查找·斐波那契·模板引擎](https://juejin.im/post/5b3b70ea6fb9a04fe91a5039)
 [编写一个简单的JavaScript模板引擎](https://juejin.im/post/5b3b93115188251afa62ad46)
 [前端与算法-动态规划之01背包问题浅析与实现](https://juejin.im/post/5b5dbcf8f265da0fa86750d1)
+[前端笔试&面试爬坑系列---算法](https://juejin.im/post/5b72f0caf265da282809f3b5)
 
 ## http相关
 [面试时如何优雅的谈论HTTP／1.0／1.1／2.0](https://juejin.im/entry/5a40777df265da4322416cf0)

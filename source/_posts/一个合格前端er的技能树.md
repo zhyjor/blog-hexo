@@ -29,6 +29,8 @@ top: true
 [野生的一个前端大佬·360·博文·前端·后端](https://github.com/berwin/Blog)
 **[camsong/blog（阿里）](https://github.com/camsong/blog)**
 
+[趁你还年轻的博客](https://github.com/FrankKai/FrankKai.github.io)
+
 [前端路由简介以及vue-router实现原理](https://juejin.im/post/5b10b46df265da6e2a08a724)
 [JavaScript 算法与数据结构·很全](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 [how-javascript-works·语言引擎，运行时和调用栈概述·如何在 V8 引擎中书写最优代码的 5 条小技巧·网页消息推送通知机制](https://github.com/Troland/how-javascript-works)
