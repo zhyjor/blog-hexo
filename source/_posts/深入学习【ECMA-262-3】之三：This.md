@@ -34,7 +34,11 @@ obj.method(fn, 1);
 ```
 **那么这里第二次执行arguments[0]为什么结果是2？**
 
+这里绑定的this是不同的。
+
+
+
 **参考资料**
-[]()
+[深入理解JavaScript系列（13）：This? Yes,this!](http://www.cnblogs.com/TomXu/archive/2012/01/17/2310479.html)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

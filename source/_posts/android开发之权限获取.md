@@ -26,7 +26,7 @@ Android 将系统权限分成了四个保护等级：
 所以权限的控制很重要，不小心就会crash.
 
 #### 普通权限 (normal permission)
-普通权限 会在App安装期间被默认赋予。这类权限不需要开发人员进行额外操作，这类权限包括：
+普通权限 会在App安装期间被默认赋予。这类权限不需要开发人员进行额外操作就可以自己默认可以获取，这类权限包括：
 > ACCESS_LOCATION_EXTRA_COMMANDS
 ACCESS_NETWORK_STATE
 ACCESS_NOTIFICATION_POLICY
