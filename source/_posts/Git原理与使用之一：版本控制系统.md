@@ -13,6 +13,7 @@ date: 2016-12-20 17:32:57
 <!--more-->
 
 **参考资料**
+[geeeeeeeeek/git-recipes高质量的Git中文教程](https://github.com/geeeeeeeeek/git-recipes)
 [Git push 时如何避免出现 "Merge branch 'master' of ..."](http://www.cnblogs.com/Sinte-Beuve/p/9195018.html)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
