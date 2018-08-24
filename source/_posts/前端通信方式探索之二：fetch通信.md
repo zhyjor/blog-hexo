@@ -18,6 +18,10 @@ date: 2017-05-09 13:42:20
 
 在 PC 端上, 就 FF, Opera 和 Chrome 比较 fashion. mobile 的话, 基本上是不能用的. 当然, 官方已经有一个现成的 [polyfill](https://github.com/github/fetch) 可以使用。
 
+Chrome 45+， Opera 44+，Firefox 51+ 和 IE Edge 等这些版本的浏览器开始支持 Fetch API。移动端浏览器也在逐步得到支持。
+
+我们可以通过对 window.fetch 的能力检测，判断出浏览器是否支持 Fetch API。github 官方推出了一个 Fetch API 的 polyfill 库，可以让更多浏览器提前感受到 Fetch API 的便捷的开发体验。
+
 一般一个新的feature的使用需要判断兼容性，这块可以参考一下[ Modernizr 这个库](https://modernizr.com/)。
 
 ## 基本使用
@@ -250,10 +254,14 @@ addEventListener('fetch', function(evt) {
 });
 ```
 
+## 总结
+虽然 Fecth API 使用方便符合语义化，但是现阶段它也有所限制。Fetch API 是基于 Promise，由于 Promise 没有处理 timeout 的机制，所以无法通过原生方式处理请求超时后的中断，和读取进度的能力。但是相信未来为了支持流，Fetch API 最终将会提供可以中断执行读取资源的能力，并且提供可以读取进度的 API。
+
 **参考资料**
 [前端 fetch 通信](https://www.villainhr.com/page/2016/09/25/%E5%89%8D%E7%AB%AF%20fetch%20%E9%80%9A%E4%BF%A1)
 [This API is so Fetching!](https://hacks.mozilla.org/2015/03/this-api-is-so-fetching/)
 [introduction-to-fetch](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
 [传统 Ajax 已死，Fetch 永生](https://github.com/camsong/blog/issues/2)
+[了解 Fetch API](https://aotu.io/notes/2017/04/10/fetch-API/)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

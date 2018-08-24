@@ -8,7 +8,7 @@ top: false
 copyright: true
 date: 2017-05-24 09:28:30
 ---
-和其它版本控制系统一样，Git 能在特定的重要动作发生时触发自定义脚本，这就是我们所说的钩子。
+和其它版本控制系统一样，Git 能在特定的重要动作发生时触发自定义脚本，这就是我们所说的钩子，换句话说，钩子就是callback，可以在特定的时候，触发特定的callback。本文主要介绍git hooks、自动部署、Travis CI的相关知识。
 <!--more-->
 ## Git 钩子
 Git 钩子(hooks)是在 Git 仓库中特定事件(certain points)触发后被调用的脚本。通过钩子可以自定义 Git 内部的相关（如 git push）行为，在开发周期中的关键点触发自定义的行为。Git 含有两种类型的钩子：客户端的和服务器端的。**客户端钩子由诸如提交和合并这样的操作所调用，而服务器端钩子作用于诸如接收被推送的提交这样的联网操作。**
@@ -148,8 +148,138 @@ exit 0
 
 使用 `chmod +x post-receive` 改变一下权限后，服务器端的配置就基本完成了。
 
+## Webhooks
+Github或者Gitlab的Webhooks，允许用户订阅特定的事件，如commit, push，两者不尽相同，但本质差不太多。
 
+### 自动部署脚本
 
+Webhooks的作用就是在特定的事件执行的时候触发自定义的动作。本质上，Github的Webhooks触发后，会给相应的URL(自行设置，后面会讲解)发送POST请求，请求头中含有event等相应的信息。
+而正确响应后的事件，比如push完之后，触发自动部署脚本，现在我们来写一个简单的脚本。
+```bash
+#!/bin/bash
+PROJECT_DIR = 'path-to-your-project'
+
+echo 'start'
+cd $PROJECT_DIR
+
+echo 'pull code'
+git reset --hard origin/master && git clean -f
+git pull && git checkout master
+
+echo 'run npm script'
+npm run build
+
+echo 'finished'
+```
+脚本大概的作用就是cd到项目目录，拉取最新的代码，build代码(该步骤不一定需要，如果你的代码直接可以上测试/生产环境)。你必须保证，脚本中涉及的环境变量是可用的，比如git，npm等等。
+
+### 设置Webhooks
+这一步就不详细说明了，github、gitlab以及码云上基本都在setting里面有响应的设置，我们在填入在触发一些事件的时候加上对应的回调就可以了，一般都是post请求。下面我们看一下这个回调的服务怎么写，我们需要将这个回调放在我们的服务器上，等在调用。
+
+### 配置回调url
+目前Github上有很多处理的handler。对于前端，当然是node的最熟悉，可以采用github-webhook-handler，也可以使用：
+```
+npm install node-github-webhook --save
+```
+入口文件：
+```js
+var http = require('http')
+var createHandler = require('node-github-webhook')
+var handler = createHandler({ path: '/app', secret: 'appsecret' }) // single handler
+function execFunc(content) {
+  var exec = require('child_process').exec
+  exec(content, function(error, stdout, stderr) {
+    if (error) {
+      console.error('exec error:' + error)
+      return
+    }
+    console.log('stdout:' + stdout)
+    console.log('stderr:' + stderr)
+  })
+}
+http.createServer(function (req, res) {
+  handler(req, res, function (err) {
+    res.statusCode = 404
+    res.end('no such location')
+  })
+}).listen(7777)
+handler.on('error', function (err) {
+  console.error('Error:', err.message)
+})
+handler.on('push', function (event) {
+  console.log(
+    'Received a push event for %s to %s',
+    event.payload.repository.name,
+    event.payload.ref
+  )
+  execFunc('sh ./deploy.sh')
+})
+```
+path就是前面Payload URL的内容，切记，是不包含host的，secret就是自己设置的密码，多个项目也可通过修改这个文件来设置。
+
+### 守护程序与反向代理
+理论上，现在就可以运行了。
+```
+node app.js
+```
+但是，现在的node-github-webhook遇到错误是直接抛错的，会终止程序的进行，所以最好采用守护进程去运行，如pm2，forever
+```
+pm2 start app.js
+```
+**现在程序是在7777端口跑的，需要Ngnix反向代理到80端口。这里就不展开了。**
+
+## Travis CI
+Travis CI 提供的是持续集成服务（Continuous Integration，简称 CI）。它绑定 Github 上面的项目，只要有新的代码，就会自动抓取。然后，提供一个运行环境，执行测试，完成构建，还能部署到服务器。
+
+这里不详细展开了，对于github上的项目，可以通过配置Travis设置CI，一般编译通过示例如下：
+![](http://oankigr4l.bkt.clouddn.com/201808241458_294.png)
+
+Travis 要求项目的根目录下面，必须有一个.travis.yml文件。这是配置文件，指定了 Travis 的行为。该文件必须保存在 Github 仓库里面，一旦代码仓库有新的 Commit，Travis 就会去找这个文件，执行里面的命令。这里贴上我hexo博客的构建代码：
+```
+# blog-hexo/.travis.yml
+
+# 使用语言
+language: node_js
+# node版本
+node_js: stable
+# 设置只监听哪个分支
+branches:
+  only:
+  - master
+# 缓存，可以节省集成的时间，这里我用了yarn，如果不用可以删除
+cache:
+  apt: true
+  yarn: true
+  directories:
+    - node_modules
+# tarvis生命周期执行顺序详见官网文档
+before_install:
+- git config --global user.name "xx"
+- git config --global user.email "xxxx@163.com"
+# 由于使用了yarn，所以需要下载，如不用yarn这两行可以删除
+- curl -o- -L https://yarnpkg.com/install.sh | bash
+- export PATH=$HOME/.yarn/bin:$PATH
+- npm install -g hexo-cli
+install:
+# 不用yarn的话这里改成 npm i 即可
+- yarn
+script:
+- hexo clean
+- hexo generate
+after_success:
+- cd ./public
+- git init
+- git add --all .
+- git commit -m "Travis CI Auto Builder"
+# 这里的 REPO_TOKEN 即之前在 travis 项目的环境变量里添加的
+- git push --quiet --force https://$REPO_TOKEN@github.com/zhyjor/zhyjor.github.io
+  master
+```
+
+这里不详细说明了，[细节可以去阮一峰老师那里阅读。](http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html)
+
+## 总结
+以上就是Git钩子以及一些自动部署，持续集成的相关知识，希望通过本文，能让大家对自动部署的实现有一定的了解。
 
 
 **参考资料**
@@ -157,5 +287,6 @@ exit 0
 [用 Git 钩子进行简单自动部署](https://aotu.io/notes/2017/04/10/githooks/index.html)
 [python web 通过Git Hooks实现自动部署](https://zhuanlan.zhihu.com/p/25902833)
 [用 Git Hooks 进行自动部署](https://segmentfault.com/a/1190000003836345)
+[给你的项目增加Webhooks，自动进行部署（包含Github/Gitlab）](https://excaliburhan.com/post/add-webhooks-to-your-project.html)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
