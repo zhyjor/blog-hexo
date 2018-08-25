@@ -132,7 +132,13 @@ reflow几乎是无法避免的。现在界面上流行的一些效果，比如�
 
 [h5渲染性能一瞥](https://juejin.im/post/5b7e1585f265da436631a61b)
 
+**[16毫秒的优化·Web前端性能优化的微观分析](http://velocity.oreilly.com.cn/2013/ppts/16_ms_optimization--web_front-end_performance_optimization.pdf)**
+
 **[2018 前端性能优化清单](https://juejin.im/post/5a966bd16fb9a0635172a50a#heading-7)**
 [网站性能优化实战——从12.67s到1.06s的故事](https://juejin.im/post/5b6fa8c86fb9a0099910ac91)
+
+[CSS3动画那么强，requestAnimationFrame还有毛线用？](https://www.zhangxinxu.com/wordpress/2013/09/css3-animation-requestanimationframe-tween-%E5%8A%A8%E7%94%BB%E7%AE%97%E6%B3%95/)
+
+[《webkit技术内幕》这本书怎么样？里面的哪些内容有了变动？](https://www.zhihu.com/question/266787740/answer/313995802)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
