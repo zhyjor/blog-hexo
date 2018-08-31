@@ -51,4 +51,8 @@ https://segmentfault.com/a/1190000008774953
 [REM，你这磨人的小妖精！](https://juejin.im/post/5b28b36af265da59a36e351e)
 [移动端使用 rem 单位时 css sprites 定位问题](https://juejin.im/post/5b2611665188257494641b59)
 
+[基于react/vue的移动端终极适配方案（更新css-modules配置）](https://segmentfault.com/a/1190000014185590)
+
+[如何在Vue项目中使用vw实现移动端适配](https://www.w3cplus.com/mobile/vw-layout-in-vue.html)
+
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
