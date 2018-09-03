@@ -1,5 +1,5 @@
 ---
-title: webpack实践之一：一句话重点
+title: webpack实践之一：简单使用
 tags:
   - webpack实践
   - webpack
@@ -22,6 +22,6 @@ rimraf dist
 ```
 
 **参考资料**
-[]()
+[Webpack4+ 多入口程序构建](https://juejin.im/post/5af3a6cbf265da0ba266ff25)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

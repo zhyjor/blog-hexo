@@ -1,8 +1,9 @@
 ---
-title: 前端工程化之一：前端模块化历程与理解
+title: nodejs深入浅出之一：模块化历程与理解
 tags:
-  - 前端工程化
-categories: 前端
+  - nodejs深入浅出
+  - nodejs
+categories: nodejs
 top: false
 copyright: true
 date: 2017-10-24 08:50:50
@@ -22,5 +23,6 @@ date: 2017-10-24 08:50:50
 **参考资料**
 [axios+mockjs在vue中的使用](https://juejin.im/post/5b17ffcc51882513eb62e985)
 [深入浅出Node.js（三）：深入Node.js的模块机制](http://www.infoq.com/cn/articles/nodejs-module-mechanism)
+
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
