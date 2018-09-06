@@ -34,6 +34,15 @@ ImportError: DLL load failed: %1 不是有效的 Win32 应用程序。
 
 ```
 
+```
+Uncaught Error: Could not locate the bindings file. Tried:
+→ C:\Users\Demo\Desktop\app\node_modules\serialport\build\serialport.node
+→ C:\Users\Demo\Desktop\app\node_modules\serialport\build\Debug\serialport.node
+```
+Thank you very much, I installed the electron-rebuild and run ./node_modules/.bin/electron-rebuild.cmd and ./node_modules/.bin/electron .
+```bash
+.\node_modules\.bin\electron-rebuild.cmd
+```
 
 **参考资料**
 [node-serialport/node-serialport](https://github.com/node-serialport/node-serialport)
@@ -43,6 +52,8 @@ ImportError: DLL load failed: %1 不是有效的 Win32 应用程序。
 [如何在web页面上获取客户端的串口数据？](https://www.zhihu.com/question/53168610/answer/133789563)
 
 [MSBUILD : error MSB3428: 未能加载 Visual C++ 组件“VCBuild.exe”。](https://www.jianshu.com/p/03b93d32f015)
+[Could not locate the bindings file #1087](https://github.com/node-serialport/node-serialport/issues/1087)
 
+[electron/electron-rebuild](https://github.com/electron/electron-rebuild)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
