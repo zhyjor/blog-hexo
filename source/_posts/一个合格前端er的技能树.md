@@ -314,6 +314,7 @@ jhipster
 
 ## 优秀博客
 [Jartto()](http://jartto.wang/)
+[WEB开发积累](http://blog.404mzk.com/)
 
 
 

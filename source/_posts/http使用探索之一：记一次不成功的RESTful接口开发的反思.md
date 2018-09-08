@@ -23,5 +23,8 @@ date: 2018-02-26 18:02:15
 
 **参考资料**
 [Rest架构成熟度](https://blog.csdn.net/tpriwwq/article/details/46617993)
+[我所认为的RESTful API最佳实践](https://www.scienjus.com/my-restful-api-best-practices/)
+[HTTP后台端：RESTful API接口设计](https://crifan.github.io/http_restful_api/website/)
+[如何设计api分页](https://zhuanlan.zhihu.com/p/25301375)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
