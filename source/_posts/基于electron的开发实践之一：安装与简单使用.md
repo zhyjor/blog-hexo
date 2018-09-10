@@ -19,5 +19,6 @@ date: 2018-09-05 14:11:46
 **[electron-vue·中文文档](https://simulatedgreg.gitbooks.io/electron-vue/content/cn/)**
 **[Electron 文档](https://electronjs.org/docs)**
 [常用Electron App打包工具](https://www.jianshu.com/p/1c2ad78df208)
+[读写本地文件](https://simulatedgreg.gitbooks.io/electron-vue/cn/savingreading-local-files.html)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
