@@ -16,6 +16,7 @@ date: 2018-02-25 08:59:44
 [BAT 要的是什么样的前端实习生？](https://www.villainhr.com/page/2018/03/26/BAT%20%E8%A6%81%E7%9A%84%E6%98%AF%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E5%89%8D%E7%AB%AF%E5%AE%9E%E4%B9%A0%E7%94%9F%EF%BC%9F)
 [杭州17届前端期待加入一个更好的团队](https://juejin.im/post/5a718cd36fb9a01caa20d8a8)
 [面试官: 实现双向绑定Proxy比defineproperty优劣如何?](https://juejin.im/post/5acd0c8a6fb9a028da7cdfaf)
+[2018前端面试总结，看完弄懂，工资少说加3K | 掘金技术征文](https://juejin.im/post/5b94d8965188255c5a0cdc02)
 
 **[掘金面试合集](https://juejin.im/collection/5a9e4cd56fb9a00a0f45a9db)**
 [面试图谱：前端基础技术知识讲解](https://juejin.im/post/5b5567b25188256256696ee0#heading-5)
@@ -23,11 +24,13 @@ date: 2018-02-25 08:59:44
 **[总结了17年初到18年初百场前端面试的面试经验(含答案)](https://juejin.im/post/5b44a485e51d4519945fb6b7)**
 
 [Web前端面试指导(完结)](https://blog.csdn.net/lxcao/article/details/53011255)
+[上拉加载下拉刷新了解下](https://juejin.im/post/5b9091e7e51d450e70423161)
 
 ## 一般的合集
 [一些基础的前端技术面试问题·很基础](https://juejin.im/entry/57b68b8b0a2b58005c8270eb)
 [2017年前端面试题整理汇总100题](https://www.jianshu.com/p/1288380ec7cc)
 [前端开发面试题和答案（转载）](https://juejin.im/post/5a964b636fb9a0636264056f)
+[【译】使用 webpack 进行 web 性能优化（一）：减小前端资源大小](https://juejin.im/post/5b976f4b5188255c865e0240)
 
 ## js
 [25个最基本的JavaScript面试问题及答案](https://juejin.im/entry/59fc0494518825076a0c507f)
