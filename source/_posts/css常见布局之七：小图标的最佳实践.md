@@ -53,5 +53,6 @@ css中使用小图标可以使用字体图标，在远古时期有些还使用�
 **参考资料**
 [webpack 插件 svg-sprite-loader](https://blog.csdn.net/zb0567/article/details/77987727)
 [大神张鑫旭的文章：未来必热：SVG Sprite技术介绍](https://blog.csdn.net/zb0567/article/details/77987727)
+[Vue配置svg-sprite-loader以使用svg图标](https://github.com/justemit/coding-note/issues/2)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
