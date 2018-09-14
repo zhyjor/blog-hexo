@@ -34,6 +34,7 @@ date: 2018-03-13 22:43:20
 [JavaScript运行原理解析](https://blog.csdn.net/liaodehong/article/details/50488098)
 [Node.js编程之路之——与V8引擎共舞](http://cnodejs.org/topic/57590ff62ad3c06f1aa3d571)
 [认识 V8 引擎](https://zhuanlan.zhihu.com/p/27628685)
+[Babel是如何读懂JS代码的](https://zhuanlan.zhihu.com/p/27289600)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
 
