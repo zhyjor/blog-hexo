@@ -5,7 +5,7 @@ tags:
 categories: dev
 top: false
 copyright: true
-date: 2018-09-05 14:18:08
+date: 2018-08-25 14:18:08
 ---
 electron提供了node的环境，可以通过安装serialport包，来进行串口通信。
 <!--more-->
