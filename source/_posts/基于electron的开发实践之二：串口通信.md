@@ -1,8 +1,9 @@
 ---
 title: 基于electron的开发实践之二：串口通信
 tags:
-  - dev
-categories: dev
+  - 基于electron的开发实践
+  - electron
+categories: 前端
 top: false
 copyright: true
 date: 2018-08-25 14:18:08
