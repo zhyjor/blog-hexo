@@ -46,7 +46,10 @@ ps -ef|grep java|grep -v grep 显示出所有的java进程，去处掉当前的g
 常用：kill －9 324
 Linux下还提供了一个killall命令，可以直接使用进程的名字而不是进程标识号，例如：# killall -9 NAME
 
-## 
+## 权限
+```bash
+chmod +x xx.file
+```
 
 **参考资料**
 [Linux如何查看进程、杀死进程、启动进程等常用命令](https://blog.csdn.net/wojiaopanpan/article/details/7286430)
