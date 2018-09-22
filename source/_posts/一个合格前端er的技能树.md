@@ -145,6 +145,7 @@ GC，垃圾回收机制，强弱引用的应用，nodejs，浏览器进行内存
 [浏览器渲染流水线解析](https://juejin.im/post/5ab9a8006fb9a028db58b354)
 
 [从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](https://juejin.im/post/5a6547d0f265da3e283a1df7)
+[【朴灵评注】JavaScript 运行机制详解：再谈Event Loop](https://blog.csdn.net/lin_credible/article/details/40143961)
 [Event Loop 必知必会（六道题）](https://zhuanlan.zhihu.com/p/34182184)
 
 [浏览器工作原理(10篇)](https://blog.csdn.net/lxcao/article/category/6472061)

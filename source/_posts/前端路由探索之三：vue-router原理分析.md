@@ -501,5 +501,6 @@ getHash()方法返回的path为 '/' ，可与首页视图的路由匹配。
 [VueRouter 2 入门与提高](http://xc.hubwiz.com/course/5983d3aeff52d0da7e3e3d50?affid=20180313)
 
 **[VueRouter 源码深度解析](https://juejin.im/post/5b5697675188251b11097464)**
+[Vue页面跳转动画效果实现](https://juejin.im/post/5ba358a56fb9a05d2068401d)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
