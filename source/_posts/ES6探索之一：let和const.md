@@ -351,5 +351,6 @@ var getGlobal = function () {
 [js关于for循环中的闭包问题？](https://www.zhihu.com/question/33468703)
 [ES6核心，值得驻足花一天时间来学习·花不了一天·挺全](https://juejin.im/post/5b6d6f8ae51d453509566974)
 [精读《async/await 是把双刃剑》](https://juejin.im/post/5aefbb046fb9a07ab508cf25)
+[Javascript 模块化管理的来世今生](https://juejin.im/post/5ba9f5bff265da0af2136fd5)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
