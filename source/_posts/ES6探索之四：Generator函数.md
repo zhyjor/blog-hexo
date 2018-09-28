@@ -1,11 +1,11 @@
 ---
-title: ES6探索之：Generator函数
+title: ES6探索之四：Generator函数
 tags:
   - ES6
   - ES6探索
 categories: ES6
 copyright: true
-date: 2018-03-29 09:23:47
+date: 2018-03-19 09:23:47
 ---
 Generato顾名思义，就是一个生成器函数，生成什么？生成遍历器。换句话说 Generator 函数就是遍历器生成函数。
 <!--more-->

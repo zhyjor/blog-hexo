@@ -1,14 +1,22 @@
 ---
-title: 'ES6初探promise'
+title: ES6探索之三：深入Promise实现
 tags:
   - ES6
-  - promise
+  - ES6探索
 categories: ES6
 copyright: true
-date: 2018-03-05 09:21:57
+date: 2018-03-09 09:21:57
 ---
-本文对ES6中promise进行入门级的理解，对其源码进行分析，达到能用，知道为什么这样用即可
+promise在异步编程中使用的很频繁，then的链式写法比传统的回调函数写法更加的优雅。最新的网络操作模块fetch更是直接实现了promise的方式，es6也将其写入了语法标准中。
+
+本文算是
 <!--more-->
+
+## 什么是promise
+promise的确可以理解成一个容器，用这个容器的来处理我们的一些异步操作。通过promise对象提供的api，各种异步操作都可以使用相同的方法来处理。
+
+### 基本用法
+
 
 ### 实战Promise
 ####  Promise.resolve
@@ -78,5 +86,6 @@ console.log('==Starting==');
 [Promise原理讲解 && 实现一个Promise对象 (遵循Promise/A+规范)](https://juejin.im/post/5aa7868b6fb9a028dd4de672)
 [Promise之你看得懂的Promise](https://juejin.im/post/5b32f552f265da59991155f0)
 [BAT前端经典面试问题：史上最最最详细的手写Promise教程](https://juejin.im/post/5b2f02cd5188252b937548ab)
+[JavaScript Promise迷你书（中文版）](https://github.com/azu/promises-book)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

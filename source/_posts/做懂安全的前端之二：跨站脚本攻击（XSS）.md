@@ -34,6 +34,6 @@ date: 2018-05-26 12:37:36
 
 
 **参考资料**
-[]()
+[前端安全系列（一）：如何防止XSS攻击？](https://juejin.im/post/5bad9140e51d450e935c6d64)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
