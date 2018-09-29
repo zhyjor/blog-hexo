@@ -23,5 +23,6 @@ rimraf dist
 
 **参考资料**
 [Webpack4+ 多入口程序构建](https://juejin.im/post/5af3a6cbf265da0ba266ff25)
+[Webpack 打包优化之速度篇](https://jeffjade.com/2017/08/12/125-webpack-package-optimization-for-speed/)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

@@ -1,5 +1,5 @@
 ---
-title: webpack深入理解之一：常用Plugins的使用与分析
+title: webpack深入理解之三：常用Plugins的使用与分析
 tags:
   - webpack
   - webpack深入理解
@@ -7,7 +7,7 @@ tags:
 categories: webpack
 top: false
 copyright: true
-date: 2018-04-18 10:00:32
+date: 2018-05-08 10:00:32
 ---
 插件目的在于解决 loader 无法实现的其他事。本文简单介绍插件的使用方法，对于重要的plugin从原理的角度分析其实现的方法。插件是 webpack 的支柱功能。webpack 自身也是构建于，你在 webpack 配置中用到的相同的插件系统之上！
 <!--more-->

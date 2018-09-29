@@ -252,5 +252,6 @@ server {
 **参考资料**
 [Ubuntu 16.04安装Nginx](https://www.cnblogs.com/EasonJim/p/7806879.html)
 [当前标签: nginx](http://www.cnblogs.com/EasonJim/tag/nginx/)
+[Nginx与前端开发](https://juejin.im/post/5bacbd395188255c8d0fd4b2)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

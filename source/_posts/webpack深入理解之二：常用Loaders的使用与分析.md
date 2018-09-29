@@ -3,6 +3,7 @@ title: webpack深入理解之二：常用Loaders的使用与分析
 tags:
   - webpack深入理解
   - webpack
+  - 前端工程化
 categories: webpack
 top: false
 copyright: true
