@@ -188,6 +188,7 @@ xss/csrf
 [原生JS实现一个无缝轮播图插件(支持vue)](https://juejin.im/post/5b28efefe51d4558cf6e75dd)
 [vue-easytablevue table 组件，支持 单元格合并、单元格编辑、多表头固定、多列固定、列拖动、排序、自定义列、条件过滤、分页](http://doc.huangsw.com/vue-easytable/app.html#/intro)
 [2018年你应该知道的 15个 JavaScript 实用程序库](http://www.css88.com/archives/9631)
+[67 个拯救前端开发者的工具、库和资源](https://juejin.im/entry/59b202e96fb9a0249b487fd5)
 
 ### domDIFF
 [浅入浅出图解domDIff](https://juejin.im/post/5ad550f06fb9a028b4118d99)
