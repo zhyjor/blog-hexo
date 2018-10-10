@@ -236,6 +236,10 @@ xss/csrf
 [全栈开发实战：用Vue2+Koa1开发完整的前后端项目](https://molunerfinn.com/Vue+Koa/#%E7%AE%80%E4%BB%8B)
 [Vue页面骨架屏](https://juejin.im/entry/5b04ca0f6fb9a07ac162c66a)
 
+## react
+[React.js 小书](http://huziketang.mangojuice.top/books/react/lesson1)
+[一统江湖的大前端React.js-从开发者到工程师](https://zhuanlan.zhihu.com/p/41127320)
+
 ## 测试
 
 
