@@ -50,7 +50,7 @@ html中标签有很多种，最新的[《html5参考手册》](http://www.w3scho
 **参考资料**
 [HTML5 script 标签的 crossorigin 属性到底有什么用？](https://www.chrisyue.com/what-the-hell-is-crossorigin-attribute-in-html-script-tag.html)
 [WEB程序员必须知道的关于`<script>`标记的一些小知识](http://www.webhek.com/post/about-script-tag.html)
-[]()
+[浅谈JavaScript异步加载的三种方式——async和defer、动态创建script](https://blog.csdn.net/zhouziyu2011/article/details/60149590)
 []()
 
 ![](http://oankigr4l.bkt.clouddn.com/my_wx_code)
