@@ -341,5 +341,6 @@ vertical-align 属性的默认值 baseline 在文本之类的内联元素那里�
 [css玄学之一二·蘑菇街大神](https://echizen.github.io/tech/2018/04-05-read-css-world)
 [垂直对齐：vertical-align属性（转）](https://www.cnblogs.com/rixinren2010/archive/2012/03/10/2389301.html)
 [半深入理解CSS3 object-position/object-fit属性](https://www.zhangxinxu.com/wordpress/2015/03/css3-object-position-object-fit/)
+[小谈inline-block的那点空隙](http://ideazhao.lofter.com/post/1d377a05_709cb7f)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
