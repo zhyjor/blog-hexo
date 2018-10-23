@@ -20,7 +20,7 @@ android开发中技术点总结
 
 ## 适配
 [Android 目前最稳定和高效的UI适配方案](https://juejin.im/post/5ae9cc3a5188253dc612842b)
-
+[今日头条屏幕适配方案终极版正式发布!](https://juejin.im/post/5bce688e6fb9a05cf715d1c2)
 
 
 
