@@ -20,6 +20,7 @@ top: true
 ## Js/ES6/TypeSctipt
 [source](https://zhyjor.github.io/2018/02/25/InterviewSource%E4%B9%8B%E5%89%8D%E7%AB%AF/)
 ### 相关博客
+**[九部知识库](https://github.com/frontend9/fe9-library/blob/master/MEMBERS.md)**
 [互联网公司技术架构，微信/淘宝/微博/腾讯/阿里/美团点评/百度/Google/Facebook/Amazon/eBay的架构，欢迎PR补充](https://github.com/davideuler/architecture.of.internet-product)
 [(articles-translator)一个前端相关的博客，翻译一些文章](https://neal1991.github.io/articles-translator/)
 [前端精读周刊dt-fe/weekly](https://github.com/dt-fe/weekly)
