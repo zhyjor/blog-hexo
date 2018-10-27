@@ -8,8 +8,13 @@ top: false
 copyright: true
 date: 2018-10-10 19:33:20
 ---
-React 中的元素、组件、实例和节点，是React中关系密切的4个概念，也是很容易让React 初学者迷惑的4个概念。现在，老干部就来详细地介绍这4个概念，以及它们之间的联系和区别，满足喜欢咬文嚼字、刨根问底的同学
+React 中的元素、组件、实例和节点，是React中关系密切的4个概念，也是很容易让React 初学者迷惑的4个概念。现在就来详细地介绍这4个概念，以及它们之间的联系和区别
 <!--more-->
+## react技术特点
+Declarative声明式编码
+Component-Based组件化编码
+高效的Dom Diff算法，最小化页面重绘
+单向数据流，
 
 **参考资料**
 [React 深入系列１：React 中的元素、组件、实例和节点](https://zhuanlan.zhihu.com/p/35286087)
