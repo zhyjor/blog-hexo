@@ -46,6 +46,6 @@ genObj.next('b')
 
 
 **参考资料**
-[]()
+[异步Promise及Async/Await可能最完整入门攻略](https://segmentfault.com/a/1190000016788484)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
