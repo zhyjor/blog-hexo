@@ -139,6 +139,6 @@ Riot 3.0 提供了一个类似于基于组件的开发模型 (在 Riot 中称之
 * 更多成熟工具的支持。Vue 提供官方支持 webpack 和 Browserify，而 Riot 是依靠社区来建立集成系统。
 
 **参考资料**
-[]()
+[Vue.js 父子组件通信的十种方式](https://juejin.im/post/5bd18c72e51d455e3f6e4334)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
