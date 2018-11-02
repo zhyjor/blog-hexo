@@ -13,6 +13,13 @@ date: 2018-10-21 11:33:33
 <!--more-->
 
 ## 获取
+
+### 什么是Image
+文件和meta data的集合（root filesystem）
+分层的，并且每一层都可以添加改变，删除文件，成为一个新的image
+不同的image可以共享相同的layer
+image本身是一个read-only
+
 Docker Hub 上有大量的高质量的镜像可以用，从 Docker 镜像仓库获取镜像的命令是 docker pull。其命令格式为：
 ```
 docker pull [选项] [Docker Registry 地址[:端口号]/]仓库名[:标签]
@@ -309,6 +316,39 @@ CMD ["./app"]
 **`docker save 和 docker load**
 Docker 还提供了 docker load 和 docker save 命令，用以将镜像保存为一个 tar 文件，然后传输到另一个位置上，再加载进来。这是在没有 Docker Registry 时的做法，现在已经不推荐，镜像迁移应该直接使用 Docker Registry，无论是直接使用 Docker Hub 还是使用内网私有 Registry 都可以。
 
+
+#### dockerfile语法
+**FROM:使用base image**
+尽力使用官方的作为base
+**LABEL:作者，版本等**
+Metadata不可少，类似代码里的注释
+**RUN:运行命令**
+每运行一次run,都会增加一层，使用`&&`合并，使用`\`命令换行
+**WORKDIR:修改目录**
+若没有这个目录，会创建目录，要使用WORKdir,不要使用run cd，要使用绝对目录
+**ADD and COPY**
+可以添加文件到一个目录，也可以解压缩文件到一个目录；大部分时间COPY优于ADD，添加远程文件可以通过，curl和wget
+**ENV:设置常量**
+增加可维护性
+**VOLUME and EXPOSE**
+存储和网络
+**CMD and ENTRYPOINT**
+
+**如何进行debug**
+
+#### 对比RUN、CMD、ENTRYPOINT
+**RUN:**执行命令并创建新的ImageLayer
+**CMD:**设置容器启动后默认执行的命令和参数、若docker RUN指定的其他命令，CMD会被忽略，若定义了多个CMD，只有最后一个会执行
+**ENTRYPOINT:**设置容器启动时执行的命令，让容器以应用程序或者服务的形式运行，不会被忽略，一定会执行，最佳实践：写一个shell作为entrypoint
+
+```
+docker run -d '' # 后台运行
+```
+
+**shell格式：**执行的shell
+**exec格式：**RUN["",""]特定的格式
+
+
 ## 镜像的实现原理
 Docker 镜像是怎么实现增量的修改和维护的？
 
@@ -317,6 +357,18 @@ Docker 镜像是怎么实现增量的修改和维护的？
 通常 Union FS 有两个用途, 一方面可以实现不借助 LVM、RAID 将多个 disk 挂到同一个目录下,另一个更常用的就是将一个只读的分支和一个可写的分支联合在一起，Live CD 正是基于此方法可以允许在镜像不变的基础上允许用户在其上进行一些写操作。
 
 Docker 在 AUFS 上构建的容器也是利用了类似的原理。
+
+## 镜像的发布
+push上传的镜像斜线前的内容需要是自己dockerhub的用户名才能上传，否则会deny，如下：
+```
+docker login
+docker push 
+
+上传自己的镜像被拒绝denied: requested access to the resource is denied
+docker tag zhyjor163/hello-world zhyjor/hello-world:latest
+```
+
+注意使用私有仓库的时候需要修改`ect/docker/daemon.json`,和`/lib/systemd/system/docker.service`
 
 **参考资料**
 []()

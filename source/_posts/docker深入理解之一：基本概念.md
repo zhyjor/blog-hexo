@@ -116,8 +116,27 @@ hypervisor对物理资源虚拟化，最大化物理资源
 **安装：**
 选什么版本呢
 
+docker playground
+
 ## docker的镜像和容器
+
+### docker的底层技术
+docker提供了一个开发，打包，运行app的平台，将底层和app分离
+
+#### docker engine
+后台进程（dockerd）
+rest api server,容器的管理
+CLI接口（docker）
+
+#### 底层技术支持
+namespaces:隔离pid,net,ipc,mnt,uts
+control groups:资源限制
+union file systems:container和image分层
+
 ## docker的网络
+
+
+
 ## docker的持久化存储和数据共享
 ## docker compose多容器部署
 
