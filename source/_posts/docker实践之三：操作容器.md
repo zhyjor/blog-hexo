@@ -47,6 +47,57 @@ docker exec -it ${id} /bin/bash
 ## stress测试容器的压力
 容器资源的限制，设置相对权重
 
+## 多容器的管理（Compose）
+**方便本地开发，不适合生产环境**
+批处理的角色
+一个基于docker的命令行工具
+可以通过一个yml文件定义多容器docker应用
+可以通过一条命令去创建或者管理多个容器
+
+### docker-compose操作命令(单机多容器)
+```
+docker-compose up
+docker-compose down // 停止并删除
+docker-compose stop
+docker-compose exec
+```
+### Services
+一个service代表一个container，这个container可以从dockerhub的image创建，或者从本地dockerfile build出来的image来创建
+
+service的启动类似docker run,我们可以指定network,volume，可以给service指定network和volume的引用
+
+### haproxy实现负载均衡
+```
+docker-compose up --scale web=3 -d
+```
+注意这个haproxy怎么实现的
+```
+version: "3"
+
+services:
+
+  redis:
+    image: redis
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      REDIS_HOST: redis
+
+  lb:
+    image: dockercloud/haproxy
+    links:
+      - web
+    ports:
+      - 8080:80
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock 
+
+```
+
+
 
 **参考资料**
 []()
