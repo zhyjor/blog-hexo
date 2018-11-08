@@ -8,13 +8,13 @@ top: false
 copyright: true
 date: 2018-11-03 11:43:14
 ---
-持续化存储和数据共享使用普通的container是不行的
+持续化存储和数据共享使用普通的container是不行的，**基于本地文件系统的Volume**可以将主机的目录作为容器的数据卷；以及**基于plugin的Volume**。
 <!--more-->
-## 持久化方案
-**基于本地文件系统的Volume**:可以将主机的目录作为容器的数据卷
-**基于plugin的Volume**
 
-### Volume的类型
+
+
+
+## Volume的类型
 **受管理的data Volume：**由docker后台自动创建
 **绑定挂载的Volume**:挂载时指定
 
