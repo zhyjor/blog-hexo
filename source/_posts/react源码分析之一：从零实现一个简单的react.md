@@ -14,5 +14,8 @@ React 中的元素、组件、实例和节点，是React中关系密切的4个�
 **参考资料**
 [React 深入系列5：事件处理](https://mp.weixin.qq.com/s?__biz=MzU1ODQ0NzM2NA==&mid=2247483706&idx=1&sn=7682fa5f5db94bc2e975f82c9060554e&chksm=fc272f51cb50a6473137d51daabaeb684b58e97898f12391d46dcf730b6f5ed06382aefc773c#rd)
 [React事件系统和源码浅析](https://juejin.im/post/5bdf0741e51d456b8e1d60be)
+[React源码解析(一):组件的实现与挂载](https://juejin.im/post/5983dfbcf265da3e2f7f32de)
+[基于React版本16.2.0的源码解析（一）：组件实现（小白也可读）](https://juejin.im/post/5a9b95156fb9a028b86d7c4a)
+[React 源码解析](https://zhuanlan.zhihu.com/p/28697362)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)

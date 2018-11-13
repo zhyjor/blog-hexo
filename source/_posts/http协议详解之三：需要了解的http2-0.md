@@ -13,5 +13,5 @@ HTTP2.0大幅度的提高了web性能，在HTTP1.1完全语意兼容的基础上
 
 **参考资料**
 [HTTP----HTTP2.0新特性](https://juejin.im/post/5a4dfb2ef265da43305ee2d0)
-
+[HTTP/2 push is tougher than I thought](https://jakearchibald.com/2017/h2-push-tougher-than-i-thought/)
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
