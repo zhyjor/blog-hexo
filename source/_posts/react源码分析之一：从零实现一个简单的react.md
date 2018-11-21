@@ -6,10 +6,20 @@ tags:
 categories: react
 top: false
 copyright: true
-date: 2018-10-20 17:27:34
+date: 2018-10-29 17:27:34
 ---
-React 中的元素、组件、实例和节点，是React中关系密切的4个概念，也是很容易让React 初学者迷惑的4个概念。现在，老干部就来详细地介绍这4个概念，以及它们之间的联系和区别，满足喜欢咬文嚼字、刨根问底的同学
+经过一段时间资料的收集，发现很少有高质量的介绍react源码的文章。掌握这个技能最好的方式就是阅读其源码并进行其最小子集的实现。本文先实现一个最简的react原型，后续介绍其源码中值得玩味的地方。
 <!--more-->
+
+## 前言
+react源码还是很复杂的，直接看起来比较吃力，但是其核心内容却并不复杂，主要可以分为以下几个部分：
+* 虚拟dom对象，对应vue里的VNode
+* 虚拟dom diff算法
+* 单向数据流的实现，类似vue里的数据劫持和watch
+* 组件声明周期
+* 事件处理
+
+实现了这些基本一个react就实现了
 
 **参考资料**
 [React 深入系列5：事件处理](https://mp.weixin.qq.com/s?__biz=MzU1ODQ0NzM2NA==&mid=2247483706&idx=1&sn=7682fa5f5db94bc2e975f82c9060554e&chksm=fc272f51cb50a6473137d51daabaeb684b58e97898f12391d46dcf730b6f5ed06382aefc773c#rd)
@@ -17,5 +27,7 @@ React 中的元素、组件、实例和节点，是React中关系密切的4个�
 [React源码解析(一):组件的实现与挂载](https://juejin.im/post/5983dfbcf265da3e2f7f32de)
 [基于React版本16.2.0的源码解析（一）：组件实现（小白也可读）](https://juejin.im/post/5a9b95156fb9a028b86d7c4a)
 [React 源码解析](https://zhuanlan.zhihu.com/p/28697362)
+
+**[reactjs源码分析-上篇（首次渲染实现原理）](https://github.com/purplebamboo/blog/issues/2)**
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
