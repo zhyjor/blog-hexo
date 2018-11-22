@@ -30,4 +30,6 @@ react源码还是很复杂的，直接看起来比较吃力，但是其核心内
 
 **[reactjs源码分析-上篇（首次渲染实现原理）](https://github.com/purplebamboo/blog/issues/2)**
 
+**[《React源码解析》系列完结！](https://juejin.im/post/5a84682ef265da4e83266cc4)**
+
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
