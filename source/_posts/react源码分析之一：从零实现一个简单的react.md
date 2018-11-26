@@ -32,4 +32,6 @@ react源码还是很复杂的，直接看起来比较吃力，但是其核心内
 
 **[《React源码解析》系列完结！](https://juejin.im/post/5a84682ef265da4e83266cc4)**
 
+[React源码分析](https://icepy.gitbooks.io/react/content/di_yi_zhang_ff1a_mu_lu_yi_ji_wen_jian_fen_xi.html)
+
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
