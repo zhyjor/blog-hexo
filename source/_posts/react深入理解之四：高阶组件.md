@@ -1,5 +1,5 @@
 ---
-title: react深入理解之四：高阶组件与redux
+title: react深入理解之四：高阶组件
 tags:
   - react深入理解
   - react
