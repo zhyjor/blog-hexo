@@ -1,5 +1,5 @@
 ---
-title: 玩转canvas之一：canvas基本用法
+title: 玩转canvas之一：canvas入门准备
 tags:
   - 玩转canvas
   - canvas
@@ -66,6 +66,6 @@ Canvas 和 svg都允许你在浏览器中创建图形，但是它们在根本上
 绘制图标，web游戏开发，一些活动页面（如转盘抽奖，刮奖等），一些背景特效（如粒子特效，与鼠标的交互背景，web看板等）
 
 **参考资料**
-[]()
+[HTML5 Canvas半知半解](https://www.kancloud.cn/dennis/canvas/340109)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
