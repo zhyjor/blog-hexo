@@ -65,6 +65,10 @@ Canvas 和 svg都允许你在浏览器中创建图形，但是它们在根本上
 ### canvas的应用场景
 绘制图标，web游戏开发，一些活动页面（如转盘抽奖，刮奖等），一些背景特效（如粒子特效，与鼠标的交互背景，web看板等）
 
+## 好玩的栗子
+[14款震撼人心的HTML5文字特效](https://www.html5tricks.com/15-cool-html5-text-effect.html)
+[10大炫酷的HTML5文字动画特效欣赏](http://www.topthink.com/topic/10000.html)
+
 **参考资料**
 [HTML5 Canvas半知半解](https://www.kancloud.cn/dennis/canvas/340109)
 
