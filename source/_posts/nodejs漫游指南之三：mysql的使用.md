@@ -12,6 +12,6 @@ sql语句的使用是一个基本技能，在node的环境中如何使用mysql�
 <!--more-->
 
 **参考资料**
-[]()
+[egg-sequelize](https://github.com/eggjs/egg-sequelize)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
