@@ -14,6 +14,6 @@ React and redux based, lightweight and elm-style framework. (Inspired by elm and
 先看一下官网的这张图，
 ![](https://zos.alipayobjects.com/rmsportal/PPrerEAKbIoDZYr.png)
 **参考资料**
-[]()
+[dva.js 知识导图](https://github.com/dvajs/dva-knowledgemap)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
