@@ -24,6 +24,15 @@ date: 2019-02-28 16:06:33
 ### RequestTimeTooSkewedError
 RequestTimeTooSkewedError: The difference between the request time and the current time is too large
 
+### InternalErrorError
+```
+{
+	"category": "error",
+	"action": "uploadError",
+	"content": "{\"message\":\"Failed to upload some parts with error: InternalErrorError: Please contact the server administrator, oss@service.aliyun.com part_num: 5\",\"code\":\"InternalError\",\"stack\":\"InternalErrorError: Please contact the server administrator, oss@service.aliyun.com\\n    at D.<anonymous> (https://s.newscdn.cn/magic-web/vendor-354a12cd77cd42c10f59.js:17:1498154)\\n    at _ (https://s.newscdn.cn/magic-web/vendor-354a12cd77cd42c10f59.js:58:55290)\\n    at Generator._invoke (https://s.newscdn.cn/magic-web/vendor-354a12cd77cd42c10f59.js:58:55078)\\n    at Generator.e.(anonymous function) [as next] (https://s.newscdn.cn/magic-web/vendor-354a12cd77cd42c10f59.js:58:55469)\\n    at _ (https://s.newscdn.cn/magic-web/vendor-354a12cd77cd42c10f59.js:58:55290)\\n    at t (https://s.newscdn.cn/magic-web/vendor-354a12cd77cd42c10f59.js:58:55605)\\n    at https://s.newscdn.cn/magic-web/vendor-354a12cd77cd42c10f59.js:58:55754\"}"
+}
+```
+
 
 
 **参考资料**
