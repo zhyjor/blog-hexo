@@ -39,7 +39,7 @@ categories: js
 ** 所有的构造器都来自于 Function.prototype，甚至包括根构造器Object及Function自身。所有构造器都继承了`Function.prototype`的属性及方法。如length、call、apply、bind **
 
 再看一张图，读完本文希望可以明白这些关系
-![](http://oankigr4l.bkt.clouddn.com/201806101427_712.png)
+![](http://static.zhyjor.com/201806101427_712.png)
 
 ## 序
 先不用管是否理解，先将一些疑惑解释如下：
@@ -566,4 +566,4 @@ var dog = function(){};
 [IBM·JavaScript instanceof 运算符深入剖析·JavaScript 原型继承机制](https://www.ibm.com/developerworks/cn/web/1306_jiangjj_jsinstanceof/)
 [JavaScript深入之从原型到原型链·冴羽](https://github.com/mqyqingfeng/Blog/issues/2)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

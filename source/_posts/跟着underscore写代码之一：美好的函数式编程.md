@@ -18,4 +18,4 @@ date: 2017-05-13 09:57:23
 [underscore学习总结，献给晦涩的函数式编程之美](http://www.mamicode.com/info-detail-393238.html)
 [冴羽·underscore 系列之如何写自己的 underscore](https://github.com/mqyqingfeng/Blog/issues/56)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

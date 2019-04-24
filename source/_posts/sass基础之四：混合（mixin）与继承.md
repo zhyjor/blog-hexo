@@ -215,4 +215,4 @@ h1,.speaker{
 **参考资料**
 [sass基础](https://www.w3cplus.com/sassguide/syntax.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

@@ -77,4 +77,4 @@ etcd，分布式存储
 [Etcd 使用入门](https://www.hi-linux.com/posts/40915.html)
 [Docker Tutorials and Labs](https://github.com/docker/labs)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

@@ -14,4 +14,4 @@ React 中的元素、组件、实例和节点，是React中关系密切的4个�
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

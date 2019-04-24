@@ -29,7 +29,7 @@ if (vm.$options.el) {
 
 其实Vue的完整版渲染过程可以通过这个图来更好的进行了解： 
 
-![](http://oankigr4l.bkt.clouddn.com/201806061728_683.png)
+![](http://static.zhyjor.com/201806061728_683.png)
 
 其大致过程为： html字符串 → render函数 → vnode → 真实dom节点 而运行时渲染即所谓的去掉编译器的过程：render函数 → vnode → 真实dom节点。我们来看看源码里是不是这么实现的。 首先是完整版的实现：
 
@@ -180,4 +180,4 @@ this.isAsyncPlaceholder = false
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

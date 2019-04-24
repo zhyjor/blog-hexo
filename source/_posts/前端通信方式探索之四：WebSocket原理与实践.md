@@ -15,4 +15,4 @@ WebSocket 协议在2008年诞生，2011年成为国际标准。现在所有浏�
 [看完让你彻底理解 WebSocket 原理，附完整的实战代码（包含前端和后端）](http://www.cnblogs.com/nnngu/p/9347635.html?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
 [【WebSocket No.3】使用WebSocket协议来做服务器](http://www.cnblogs.com/yanbigfeg/p/9330613.html?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

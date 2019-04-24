@@ -12,4 +12,4 @@ date: 2018-02-23 14:00:28
 **参考资料**
 [&符在Sass中存在的问题](https://www.w3cplus.com/preprocessor/use-ampersand-in-selector-name-with-Sass.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

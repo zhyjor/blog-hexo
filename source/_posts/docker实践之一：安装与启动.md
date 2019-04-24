@@ -93,4 +93,4 @@ For more examples and ideas, visit:
 **参考资料**
 [搭建自己的图片处理服务 — 智能裁剪、旋转、占位一站搞定](https://www.jianshu.com/p/b4db00f73ab5)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

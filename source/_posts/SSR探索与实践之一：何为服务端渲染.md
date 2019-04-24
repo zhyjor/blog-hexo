@@ -87,4 +87,4 @@ SEO 很好理解。由于传统的搜索引擎只会从 HTML 中抓取数据，�
 [Here's why Client-side Rendering Won](https://medium.freecodecamp.com/heres-why-client-side-rendering-won-46a349fadb52)
 [精读前后端渲染之争](https://github.com/camsong/blog/issues/8)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

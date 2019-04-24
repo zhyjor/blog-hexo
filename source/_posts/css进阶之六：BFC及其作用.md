@@ -53,4 +53,4 @@ IE6-7 并不支持 W3C 的 BFC ，而是使用私有属性 hasLayout 。从表�
 
 [详说 Block Formatting Contexts (块级格式化上下文)](https://www.cnblogs.com/leejersey/p/3991400.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

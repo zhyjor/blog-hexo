@@ -38,4 +38,4 @@ RequestTimeTooSkewedError: The difference between the request time and the curre
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

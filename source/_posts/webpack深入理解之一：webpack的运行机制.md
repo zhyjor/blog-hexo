@@ -51,7 +51,7 @@ webpack4重写了事件流机制，其hook比较繁杂，但是有些重要的�
 
 ### 运行流程详解
 这里先放一张盗到的图，
-![](http://oankigr4l.bkt.clouddn.com/201809291735_592.png)
+![](http://static.zhyjor.com/201809291735_592.png)
 
 **初始化本次构建的配置参数**
 首先，webpack会读取你在命令行传入的配置以及项目里的 `webpack.config.js` 文件，初始化本次构建的配置参数，并且执行配置文件中的插件实例化语句，生成Compiler传入plugin的apply方法，为webpack事件流挂上自定义钩子。
@@ -70,11 +70,11 @@ emit阶段，所有文件的编译及转化都已经完成，包含了最终输�
 
 AST是一棵树，像这样：
 
-![](http://oankigr4l.bkt.clouddn.com/201809301013_647.png)
+![](http://static.zhyjor.com/201809301013_647.png)
 
 转换成AST的目的就是将我们书写的字符串文件转换成计算机更容易识别的数据结构，这样更容易提取其中的关键信息，而这棵树在计算机上的表现形式，其实就是一个单纯的Object。
 
-![](http://oankigr4l.bkt.clouddn.com/201809301014_622.png)
+![](http://static.zhyjor.com/201809301014_622.png)
 
 示例是一个简单的声明赋值语句，经过AST转化后各部分内容的含义就更为清晰明了了。
 
@@ -318,4 +318,4 @@ module.exports = {
 [webpack4.0源码分析之Tapable](https://juejin.im/post/5abf33f16fb9a028e46ec352)
 [ webpack hook](https://webpack.js.org/api/compiler-hooks/)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

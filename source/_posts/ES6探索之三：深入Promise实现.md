@@ -90,4 +90,4 @@ console.log('==Starting==');
 
 **[V8中更快的异步函数和promise](http://caibaojian.com/v8-promise.html)**
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

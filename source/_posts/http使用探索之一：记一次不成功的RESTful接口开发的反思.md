@@ -28,4 +28,4 @@ date: 2018-02-26 18:02:15
 [如何设计api分页](https://zhuanlan.zhihu.com/p/25301375)
 [精读《REST, GraphQL, Webhooks, & gRPC 如何选型》](https://juejin.im/post/5b95bc3df265da0af0336911)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

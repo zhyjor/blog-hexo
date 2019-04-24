@@ -58,7 +58,7 @@ constructor (
 ```
 包含了我们常用的一些标记节点的属性，为什么是VNode？其实网上已经有大量的资料可以了解到VNode的优势，比如大量副交互的性能优势，ssr的支持，跨平台Weex的支持...这里不再赘述。我们接下来看一下VNode的基本分类： 
 
-![](http://oankigr4l.bkt.clouddn.com/201806081358_426.png)
+![](http://static.zhyjor.com/201806081358_426.png)
 
 比如我们创建一个 emptyVNode:
 ```js
@@ -272,7 +272,7 @@ export function _createElement (
 ```
 经过上面的一系列过程，最终得到了我们的VNode，看起来是这样的: 
 
-![](http://oankigr4l.bkt.clouddn.com/201806081427_834.png)
+![](http://static.zhyjor.com/201806081427_834.png)
 
 ### 小结
 render函数的执行，调用了createElement方法，其内部通过传入的相关参数，根据不同类型，一步步解析出了VNode。那么 VNode如果进行渲染成不同平台所需的内容呢？下篇我们将会继续介绍patch的工作。
@@ -559,7 +559,7 @@ function patchVnode (oldVnode, vnode, insertedVnodeQueue, removeOnly) {
 }
 ```
 让我们来画张图屡一下大致的流程： 
-![](http://oankigr4l.bkt.clouddn.com/201806081456_806.png)
+![](http://static.zhyjor.com/201806081456_806.png)
 
 ## 图解diff算法
 addVnodes和removeVnodes都比较好理解，一个是增加一个节点元素，一个是删除节点元素。主要来看一下updateChildren方法。
@@ -682,36 +682,36 @@ addVnodes和removeVnodes都比较好理解，一个是增加一个节点元素�
 ### 图解updat过程
 
 **定义初始**
-![](http://oankigr4l.bkt.clouddn.com/201806081519_555.png)
+![](http://static.zhyjor.com/201806081519_555.png)
 
 **如果oldStartVnode 和 newStartVnode 是sameVnode，则patchVnode，同时彼此向后移动一位 **
 
-![](http://oankigr4l.bkt.clouddn.com/201806081545_205.png)
+![](http://static.zhyjor.com/201806081545_205.png)
 
 **5555如果oldEndVnode 和 newEndVnode 是sameVnode，则patchVnode，同时彼此向前移动一位 **
 
-![](http://oankigr4l.bkt.clouddn.com/201806081544_856.png)
+![](http://static.zhyjor.com/201806081544_856.png)
 
 **如果oldStartVnode 和 newEndVnode 是 sameVnode，则先 patchVnode，然后把oldStartVnode移到oldCh最后的位置即可，然后oldStartIdx向后移动一位，newEndIdx向前移动一位 **
 
 
-![](http://oankigr4l.bkt.clouddn.com/201806081543_418.png)
+![](http://static.zhyjor.com/201806081543_418.png)
 
 **如果oldEndVnode 和 newStartVnode 是 sameVnode，则先 patchVnode，然后把oldEndVnode移到oldCh最前的位置即可，然后newStartIdx向后移动一位，oldEndIdx向前移动一位 **
 
-![](http://oankigr4l.bkt.clouddn.com/201806081527_313.png)
+![](http://static.zhyjor.com/201806081527_313.png)
 
 **若为同一类型就调用patchVnode，就将对应下标处的oldVnode设置为undefined，把vnodeToMove插入到oldCh之前，newStartIdx继续向后移动。如果两个 vnode 不相似，视为新元素，执行 createElm创建。 **
 
-![](http://oankigr4l.bkt.clouddn.com/201806081531_194.png)
+![](http://static.zhyjor.com/201806081531_194.png)
 
 **如果老 vnode 数组的开始索引大于结束索引，说明新 node 数组长度大于老 vnode 数组，执行 addVnodes 方法添加这些新 vnode 到 DOM 中**
 
-![](http://oankigr4l.bkt.clouddn.com/201806081533_551.png)
+![](http://static.zhyjor.com/201806081533_551.png)
 
 **如果老 vnode 数组的开始索引小于结束索引，说明老 node 数组长度大于新 vnode 数组，执行 removeVnodes 方法从 DOM 中移除老 vnode 数组中多余的 vnode。**
 
-![](http://oankigr4l.bkt.clouddn.com/201806081534_869.png)
+![](http://static.zhyjor.com/201806081534_869.png)
 
 ## 总结
 
@@ -720,19 +720,19 @@ addVnodes和removeVnodes都比较好理解，一个是增加一个节点元素�
 * 两个相同的组件产生类似的DOM结构，不同的组件产生不同的DOM结构
 * 同一层级的一组节点，他们可以通过唯一的id进行区分 基于以上这两点假设，使得虚拟DOM的Diff算法的复杂度从O(n^3)降到了O(n)，当页面的数据发生变化时，Diff算法只会比较同一层级的节点：
 
-![](http://oankigr4l.bkt.clouddn.com/201806081537_580.png)
+![](http://static.zhyjor.com/201806081537_580.png)
 
 如果节点类型不同，直接干掉前面的节点，再创建并插入新的节点，不会再比较这个节点以后的子节点了。如果节点类型相同，则会重新设置该节点的属性，从而实现节点的更新。当某一层有很多相同的节点时，也就是列表节点时，Diff算法的更新过程默认情况下也是遵循以上原则。 比如一下这个情况：
 
-![](http://oankigr4l.bkt.clouddn.com/201806081538_812.png)
+![](http://static.zhyjor.com/201806081538_812.png)
 
 我们希望可以在B和C之间加一个F，Diff算法默认执行起来是这样的：
 
-![](http://oankigr4l.bkt.clouddn.com/201806081538_638.png)
+![](http://static.zhyjor.com/201806081538_638.png)
 
 即把C更新成F，D更新成C，E更新成D，最后再插入E，是不是很没有效率？ 所以我们需要使用key来给每个节点做一个唯一标识，Diff算法就可以正确的识别此节点，找到正确的位置区插入新的节点。
 
-![](http://oankigr4l.bkt.clouddn.com/201806081539_973.png)
+![](http://static.zhyjor.com/201806081539_973.png)
 
 所以一句话，**key的作用主要是为了高效的更新虚拟DOM**。另外vue中在使用相同标签名元素的过渡切换时，也会使用到key属性，其目的也是为了让vue可以区分它们，否则vue只会替换其内部属性而不会触发过渡效果。
 
@@ -740,4 +740,4 @@ addVnodes和removeVnodes都比较好理解，一个是增加一个节点元素�
 [Vue2.0 v-for 中 :key 到底有什么用？](https://www.zhihu.com/question/61064119/answer/183717717)
 [Vue.js 源码学习六 —— VNode虚拟DOM学习](https://violetjack.github.io/2018/02/22/Vue.js%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0%E5%85%AD%20%E2%80%94%E2%80%94%20VNode%E8%99%9A%E6%8B%9FDOM%E5%AD%A6%E4%B9%A0/)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

@@ -42,14 +42,14 @@ module.exports = function(content){
 }
 ```
 这样，loader会去匹配所有以.js后缀结尾的文件并在内容前追加{};这样一段代码，我们可以在输出文件中看到效果：
-![](http://oankigr4l.bkt.clouddn.com/201809301512_658.png)
+![](http://static.zhyjor.com/201809301512_658.png)
 
 所以，拿到了文件内容，你想对字符串进行怎样得处理都由你自定义～你可以引入babel库加个 babel(content) ，这样就实现了编译，也可以引入uglifyjs对文件内容进行字符串压缩，一切工作都由你自己定义。
 
 ## Loader实战常用技巧
 ### loader的用户自定义配置
 
-![](http://oankigr4l.bkt.clouddn.com/201809301513_544.png)
+![](http://static.zhyjor.com/201809301513_544.png)
 
 在我们在`webpack.config.js`书写loader配置时，经常会见到 options 这样一个配置项，这就是webpack为用户提供的自定义配置，在我们的loader里，如果要拿到这样一个配置信息，只需要使用这个封装好的库 `loader-utils` 就可以了：
 ```js
@@ -115,7 +115,7 @@ module.exports = function(content){
 ### loaders的执行顺序
 还记得我们配置CSS编译时写的loader嘛，它们是长这样的：
 
-![](http://oankigr4l.bkt.clouddn.com/201809301529_792.png)
+![](http://static.zhyjor.com/201809301529_792.png)
 
 在很多时候，我们的 use 里不只有一个loader，这些loader的执行顺序是从后往前的，你也可以把它理解为这个loaders数组的出栈过程。
 
@@ -184,4 +184,4 @@ npm i style-loader css-loader --dev
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

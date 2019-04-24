@@ -73,7 +73,7 @@ root      21724  0.0  0.0  14228  1092 pts/1    S+   17:58   0:00 grep --color=a
 
 查看 ip 地址 ，访问一下 Nginx,可以使用虚拟机开启nginx，在宿主机上进行调试查看。
 
-![](http://oankigr4l.bkt.clouddn.com/201805180912_307.png)
+![](http://static.zhyjor.com/201805180912_307.png)
 
 ## 配置
 nginx有一个主线程和几个工作线程，主进程的作用是读取配置文件，管理工作进程，工作进程做真正的处理请求。nginx采用event-based模型和OS-based机制，更有效地吧请求分发给各个工作进程。工作进程的数量在配置文件中定义，可以固定数目也可以根据CPU的数量动态地调整。
@@ -254,4 +254,4 @@ server {
 [当前标签: nginx](http://www.cnblogs.com/EasonJim/tag/nginx/)
 [Nginx与前端开发](https://juejin.im/post/5bacbd395188255c8d0fd4b2)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

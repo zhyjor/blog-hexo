@@ -97,11 +97,11 @@ if (eleLabel && eleSearch) {
 ## 画对话气泡
 border 属性可以轻松实现兼容性非常好的三角图形效果，为什么可以呢？ 其底层原因受inset/outset 等看上去没有实用价值的 border-style 属性影响，边框 3D 效果在互联网早期其实还是挺潮的，那个时候人们喜欢有质感的东西，为了呈现逼真的 3D 效果，自然在边框转角的地方一定要等分平滑处理，然后不同的方向赋予不同的颜色。 然后， 这一转角规则也被 solid类型的边框给沿用了。
 
-![](http://oankigr4l.bkt.clouddn.com/201806271410_992.png)
+![](http://static.zhyjor.com/201806271410_992.png)
 
 ### 画一个三角形
 因为border-style对转角的处理如下，我们当设置其他的三条边界为透明的时候，就会得到一个梯形.
-![](http://oankigr4l.bkt.clouddn.com/201806271415_265.png)
+![](http://static.zhyjor.com/201806271415_265.png)
 再进一步我们内容区的宽度设置为0的时候，三角形就出现了：
 ```css
 div {
@@ -110,7 +110,7 @@ div {
 	border-color: #f30 transparent transparent;
 }
 ```
-![](http://oankigr4l.bkt.clouddn.com/201806271413_385.png)
+![](http://static.zhyjor.com/201806271413_385.png)
 
 当我们修改某些边框的宽度的时候可让三角形的形状发生改变，比如当设置垂直宽度更大，三角形更狭长，当我们设置两侧的某一侧面的边框宽度为零的时候，就会出现一个垂直三角形。
 ```css
@@ -121,11 +121,11 @@ div {
 	border-color: #f30 #f30 transparent transparent;
 }
 ```
-![](http://oankigr4l.bkt.clouddn.com/201806271417_980.png)
+![](http://static.zhyjor.com/201806271417_980.png)
 
 ### 气泡画法
 如果把两个不同倾斜角度的三角效果叠加，则可以实现更加刁钻的尖角效果
-![](http://oankigr4l.bkt.clouddn.com/201806271424_475.png)
+![](http://static.zhyjor.com/201806271424_475.png)
 
 ## IE8浏览器添加圆角
 利用了border比实际的宽度略少一点
@@ -163,4 +163,4 @@ div {
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

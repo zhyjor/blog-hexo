@@ -118,7 +118,7 @@ export default Vue
 ## initGlobalAPI
 接下来，我们接着看initGlobalAPI这个东西，其实在[Vue官网](https://cn.vuejs.org/v2/api/#%E5%85%A8%E5%B1%80-API)上，就已经为我们说明了Vue的全局属性：
 
-![](http://oankigr4l.bkt.clouddn.com/201806060940_682.png)
+![](http://static.zhyjor.com/201806060940_682.png)
 
 打开源码看看：
 ```js
@@ -259,4 +259,4 @@ extend (to: Object, _from: ?Object):Object Object类型浅拷贝方法代码在s
 [Vue2.1.7源码学习](http://hcysun.me/2017/03/03/Vue%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/)
 **[Vue.js 技术揭秘·黄轶大大·慕课上有课](https://ustbhuangyi.github.io/vue-analysis/prepare/)**
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

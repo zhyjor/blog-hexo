@@ -14,4 +14,4 @@ JSBridge是Native代码与JS代码的通信桥梁。目前的一种统一方案�
 **参考资料**
 [Hybrid APP基础篇(四)->JSBridge的原理](https://www.cnblogs.com/dailc/p/5931324.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

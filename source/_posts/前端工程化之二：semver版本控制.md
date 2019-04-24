@@ -13,4 +13,4 @@ date: 2017-12-15 15:05:32
 **参考资料**
 [语义化版本 2.0.0](https://semver.org/lang/zh-CN/#%E8%AF%AD%E4%B9%89%E5%8C%96%E7%89%88%E6%9C%AC-200)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

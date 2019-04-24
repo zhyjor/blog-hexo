@@ -25,10 +25,10 @@ Netscape 官方文档中的定义为：
 HTTP 协议中的规则，都是通过在请求头和响应头中写入输入来实现，Cookie 也是这样的。
 
 服务端通过 `Set-Cookie` 这个响应头来向客户端中写入 Cookie 信息，而客户端读取 `Set-Cookie` 这个响应头中的信息存储起来，在下次请求的时候取出来，再通过 `Cookie` 这个请求头，将 Cookie 的数据传输给服务端。
-![](http://oankigr4l.bkt.clouddn.com/201807131400_568.png)
+![](http://static.zhyjor.com/201807131400_568.png)
 再看一个浏览器中，Cookie 使用的实例。
 
-![](http://oankigr4l.bkt.clouddn.com/201807131401_437.png)
+![](http://static.zhyjor.com/201807131401_437.png)
 
 在响应头（Response Header）中，使用 `Set-Cookie` 传递不同的 Cookie 数据，多个数据可以分开成多个 `Set-Cookie` 头。
 
@@ -62,7 +62,7 @@ Cookie 其实还支持其他的一些参数配置，打开 Chrome 的调试模�
 
 下面以一篇微信文章页面所存储的 Cookie 为例。
 
-![](http://oankigr4l.bkt.clouddn.com/201807131416_368.png)
+![](http://static.zhyjor.com/201807131416_368.png)
 
 这个表中，就是当前存储的所有 Cookie 信息，而表头，则是 Chrome 支持的 Cookie 信息。
 
@@ -81,7 +81,7 @@ Cookie 其实还支持其他的一些参数配置，打开 Chrome 的调试模�
 
 ### 浏览器对 Cookie 的限制
 大部分时候我们聊到 Cookie 都在说的是服务器和浏览器进行通信时候，而不同的浏览器对 Cookie 存储的限制是不一样的。例如：单个域名可存储的 Cookie 数量、Cookie 大小等。
-![](http://oankigr4l.bkt.clouddn.com/201807131420_851.png)
+![](http://static.zhyjor.com/201807131420_851.png)
 在进行页面 Cookie 操作的时候，应该尽量保证 Cookie 的个数小于 20 个，总大小小于 4KB，这是一个安全且保险的范围。
 
 ## Cookie的查缺补漏
@@ -114,4 +114,4 @@ HTTP 中的 Cookie 知识点，基本上都已经讲解清楚了，我们再次�
 [cookie-小结](http://www.cnblogs.com/xianyulaodi/p/6476991.html)
 [再好好聊一聊 HTTP 中的 Cookie 细节 | 实用 HTTP](https://mp.weixin.qq.com/s/xc8A2dKlZmPHUhFcAevPxw)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

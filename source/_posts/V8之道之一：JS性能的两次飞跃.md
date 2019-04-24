@@ -18,4 +18,4 @@ javascript 性能经过了两次飞跃：第 1 次飞跃是 2008 年 V8 发布�
 [面向前端开发者的V8性能优化z](https://docs.google.com/presentation/d/1YVWcMjrqbUZBnITUaIlo6-uqGCo2Q6iHNg1uz8JDeGY/edit#slide=id.p4)
 [认识 V8 引擎](https://zhuanlan.zhihu.com/p/27628685)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

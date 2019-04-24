@@ -16,7 +16,7 @@ date: 2018-07-04 15:45:00
 
 XML用于标记电子文件使其具有结构性的标记语言，可以用来标记数据、定义数据类型，是一种允许用户对自己的标记语言进行定义的源语言。XML文档结构包括XML声明、DTD文档类型定义（可选）、文档元素。
 
-![](http://oankigr4l.bkt.clouddn.com/201807041624_420.png)
+![](http://static.zhyjor.com/201807041624_420.png)
 
 ### xml文档的构建模块
 所有的 XML 文档（以及 HTML 文档）均由以下简单的构建模块构成：
@@ -141,65 +141,65 @@ xxe也就是xml外部实体注入。也就是上文中加粗的那一部分。
 ### 攻击方式
 
 #### 方式一：直接通过DTD外部实体声明
-![](http://oankigr4l.bkt.clouddn.com/201807041604_910.png)
+![](http://static.zhyjor.com/201807041604_910.png)
 
 #### 方式二：通过DTD文档引入外部DTD文档，再引入外部实体声明
 XML内容
 
-![](http://oankigr4l.bkt.clouddn.com/201807041605_961.png)
+![](http://static.zhyjor.com/201807041605_961.png)
 
 DTD文件内容：
 
-![](http://oankigr4l.bkt.clouddn.com/201807041605_949.png)
+![](http://static.zhyjor.com/201807041605_949.png)
 
 #### 方式三：通过DTD外部实体声明引入外部实体声明
 好像有点拗口，其实意思就是先写一个外部实体声明，然后引用的是在攻击者服务器上面的外部实体声明
 具体看例子,XML内容
 
-![](http://oankigr4l.bkt.clouddn.com/201807041606_373.png)
+![](http://static.zhyjor.com/201807041606_373.png)
 
 dtd文件内容：
 
-![](http://oankigr4l.bkt.clouddn.com/201807041607_348.png)
+![](http://static.zhyjor.com/201807041607_348.png)
 
 ### 支持的协议有哪些？
 不同程序支持的协议如下图：
 
-![](http://oankigr4l.bkt.clouddn.com/201807041608_40.png)
+![](http://static.zhyjor.com/201807041608_40.png)
 
 其中php支持的协议会更多一些，但需要一定的扩展支持。
 
-![](http://oankigr4l.bkt.clouddn.com/201807041608_504.png)
+![](http://static.zhyjor.com/201807041608_504.png)
 
 
 
 ### 产生哪些危害？
 #### XXE危害1：读取任意文件
-![](http://oankigr4l.bkt.clouddn.com/201807041612_276.png)
-![](http://oankigr4l.bkt.clouddn.com/201807041611_166.png)
+![](http://static.zhyjor.com/201807041612_276.png)
+![](http://static.zhyjor.com/201807041611_166.png)
 
 该CASE是读取/etc/passwd，有些XML解析库支持列目录，攻击者通过列目录、读文件，获取帐号密码后进一步攻击，如读取tomcat-users.xml得到帐号密码后登录tomcat的manager部署webshell。
 
 另外，数据不回显就没有问题了吗？如下图，
 
-![](http://oankigr4l.bkt.clouddn.com/201807041612_841.png)
+![](http://static.zhyjor.com/201807041612_841.png)
 
 不，可以把数据发送到远程服务器，
 
 #### XXE危害2：执行系统命令
-![](http://oankigr4l.bkt.clouddn.com/201807041613_175.png)
-![](http://oankigr4l.bkt.clouddn.com/201807041614_817.png)
+![](http://static.zhyjor.com/201807041613_175.png)
+![](http://static.zhyjor.com/201807041614_817.png)
 
 该CASE是在安装expect扩展的PHP环境里执行系统命令，其他协议也有可能可以执行系统命令。
 
 #### XXE危害3：探测内网端口
 
-![](http://oankigr4l.bkt.clouddn.com/201807041615_369.png)
+![](http://static.zhyjor.com/201807041615_369.png)
 
 该CASE是探测192.168.1.1的80、81端口，通过返回的“Connection refused”可以知道该81端口是closed的，而80端口是open的。
 
 #### XXE危害4：攻击内网网站
-![](http://oankigr4l.bkt.clouddn.com/201807041615_8.png)
+![](http://static.zhyjor.com/201807041615_8.png)
 
 该CASE是攻击内网struts2网站，远程执行系统命令。
 
@@ -238,4 +238,4 @@ xmlData = etree.parse(xmlSource,etree.XMLParser(resolve_entities=False))
 [未知攻焉知防——XXE漏洞攻防](https://security.tencent.com/index.php/blog/msg/69)
 [XXE漏洞的学习与利用总结](https://www.cnblogs.com/r00tuser/p/7255939.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

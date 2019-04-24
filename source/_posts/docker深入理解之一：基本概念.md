@@ -152,4 +152,4 @@ union file systems:container和image分层
 **参考资料**
 [美团容器平台架构及容器技术实践](https://mp.weixin.qq.com/s/_3Kt2eYoZMnSl-4YLbC5dQ)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

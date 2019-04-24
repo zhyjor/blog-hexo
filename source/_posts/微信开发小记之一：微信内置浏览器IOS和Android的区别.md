@@ -41,4 +41,4 @@ $(function() {
 
 **[微信里iphone后退不刷新问题解决方案，真实有效](https://blog.csdn.net/achenyuan/article/details/77769992)**
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

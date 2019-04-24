@@ -14,4 +14,4 @@ date: 2018-09-08 15:00:27
 [W3C DOM异常对象DOMException介绍](https://www.zhangxinxu.com/wordpress/2012/05/w3c-dom-domexception-object/)
 [vue中添加mp3音频文件](https://blog.csdn.net/woyidingshijingcheng/article/details/75311699)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

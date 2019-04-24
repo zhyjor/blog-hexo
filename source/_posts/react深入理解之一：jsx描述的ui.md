@@ -26,4 +26,4 @@ Component-Based组件化编码
 
 
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

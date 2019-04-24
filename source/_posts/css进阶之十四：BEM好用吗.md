@@ -17,4 +17,4 @@ BEM的意思就是块（block）、元素（element）、修饰符（modifier）
 [如何看待 CSS 中 BEM 的命名方式？](https://www.zhihu.com/question/21935157)
 [CSS命名规范——BEM思想（非常赞的规范）](http://www.cnblogs.com/dujishi/p/5862911.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

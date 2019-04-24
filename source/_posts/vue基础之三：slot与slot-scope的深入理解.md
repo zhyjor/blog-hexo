@@ -19,4 +19,4 @@ date: 2018-06-14 19:19:52
 **参考资料**
 [深入理解vue中的slot与slot-scope](https://segmentfault.com/a/1190000012996217#articleHeader3)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

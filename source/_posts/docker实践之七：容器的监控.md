@@ -52,4 +52,4 @@ Prometheus是一款开源的业务监控和时序数据库，可以看作是Goog
 [使用Prometheus+grafana打造高逼格监控平台](http://blog.51cto.com/youerning/2050543)
 [基于Prometheus的分布式在线服务监控实践](https://zhuanlan.zhihu.com/p/24811652)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

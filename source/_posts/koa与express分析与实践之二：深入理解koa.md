@@ -32,4 +32,4 @@ const main = ctx => {
 [node进阶——之事无巨细手写koa源码](https://juejin.im/post/5ba48fc4e51d450e704277fa)
 [KOA2框架原理解析和实现](https://juejin.im/post/5be3a0a65188256ccc192a87)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

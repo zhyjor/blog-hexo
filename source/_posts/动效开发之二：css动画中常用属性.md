@@ -124,4 +124,4 @@ transition: property duration timing-function delay;
 [CSS动画：animation、transition、transform、translate傻傻分不清](https://juejin.im/post/5b137e6e51882513ac201dfb)
 [【CSS3】transition过渡和animation动画](https://blog.csdn.net/XIAOZHUXMEN/article/details/52003135)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

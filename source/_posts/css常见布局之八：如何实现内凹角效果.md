@@ -14,4 +14,4 @@ date: 2018-07-06 13:49:19
 **参考资料**
 [CSS如何实现内凹角效果](http://ju.outofmemory.cn/entry/351653)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

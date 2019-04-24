@@ -22,13 +22,13 @@ JavaScript 于 1995 年问世，它的设计初衷并不是为了执行起来快
 
 正是由于这些 JIT 的引入，使得 JavaScript 的性能达到了一个转折点，JS 代码执行速度快了 10 倍。
 
-![](http://oankigr4l.bkt.clouddn.com/201807301404_160.png)
+![](http://static.zhyjor.com/201807301404_160.png)
 
 随着性能的提升，JavaScript 可以应用到以前根本没有想到过的领域，比如用于后端开发的 Node.js。性能的提升使得 JavaScript 的应用范围得到很大的扩展。
 
 现在通过 WebAssembly，我们很有可能正处于第二个拐点。
 
-![](http://oankigr4l.bkt.clouddn.com/201807301406_200.png)
+![](http://static.zhyjor.com/201807301406_200.png)
 
 所以，接下来，我们深入了解一下为什么 WebAssembly 更快、执行效率更高。
 
@@ -36,4 +36,4 @@ JavaScript 于 1995 年问世，它的设计初衷并不是为了执行起来快
 [WebAssembly 系列（一）：生动形象地介绍 WebAssembly](https://blog.csdn.net/GarfieldEr007/article/details/68215694)
 [WebAssembly最新发展路线图来了！](https://mp.weixin.qq.com/s/CCIlP56acmBWe1KDkujNSQ)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

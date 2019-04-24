@@ -36,5 +36,5 @@ date: 2018-03-13 22:43:20
 [认识 V8 引擎](https://zhuanlan.zhihu.com/p/27628685)
 [Babel是如何读懂JS代码的](https://zhuanlan.zhihu.com/p/27289600)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)
 

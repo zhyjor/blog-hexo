@@ -12,7 +12,7 @@ date: 2017-05-24 09:28:30
 <!--more-->
 ## Git 钩子
 Git 钩子(hooks)是在 Git 仓库中特定事件(certain points)触发后被调用的脚本。通过钩子可以自定义 Git 内部的相关（如 git push）行为，在开发周期中的关键点触发自定义的行为。Git 含有两种类型的钩子：客户端的和服务器端的。**客户端钩子由诸如提交和合并这样的操作所调用，而服务器端钩子作用于诸如接收被推送的提交这样的联网操作。**
-![](http://oankigr4l.bkt.clouddn.com/201808240946_295.png)
+![](http://static.zhyjor.com/201808240946_295.png)
 
 Git 钩子最常见的使用场景包括根据仓库状态改变项目环境、接入持续集成工作流等。由于脚本是可以完全定制，所以你可以用 Git 钩子来自动化或者优化你开发工作流中任意部分。
 
@@ -21,7 +21,7 @@ Git 钩子最常见的使用场景包括根据仓库状态改变项目环境、�
 
 所有的示例都是 shell 脚本，其中一些还混杂了 Perl 代码，不过，任何正确命名的可执行脚本都可以正常使用 —— 你可以用 Ruby 或 Python，或其它语言编写它们。
 
-![](http://oankigr4l.bkt.clouddn.com/201808240950_288.png)
+![](http://static.zhyjor.com/201808240950_288.png)
 
 这些示例的名字都是以 .sample 结尾，.sample拓展名是为了防止它们默认被执行，如果你想安装一个钩子需要启用它们，去掉.sample拓展名即可。
 
@@ -106,14 +106,14 @@ Git 钩子是对本地仓库相关操作影响，对于任何 Git 仓库来说�
 
 在开发团队中为了保持团队所使用钩子一致，维护起来算是比较复杂的，因为 .git/hooks 目录不随你的项目一起拷贝，也不受版本控制影响。
 
-![](http://oankigr4l.bkt.clouddn.com/201808241011_32.png)
+![](http://static.zhyjor.com/201808241011_32.png)
 
 > 简单的解决办法是把钩子文件存放在项目的实际目录中（在.git 外），这样就可以像其他文件一样进行版本控制，然后在.git/hooks中创建一个链接，或者简单地在更新后把它们复制到.git/hooks目录下。
 
 ## Git 钩子进行自动部署(Push to Deploy)
 如何实现 Git 钩子进行自动部署，其实原理很简单，我们只需要监听每次本地 git push到远程服务器，然后远程服务器同步拉取最新文件，重启服务器即可（pm2 reload xx）。
 
-![](http://oankigr4l.bkt.clouddn.com/201808241013_918.png)
+![](http://static.zhyjor.com/201808241013_918.png)
 
 ### 创建服务器端仓库
 服务器上需要配置两个仓库，一个用于代码中转的远程仓库，一个用于用户访问的本地仓库。这里的「远程仓库」并不等同于托管代码的「中央仓库」，这两个仓库都是为了自动同步代码并部署网站而存在。
@@ -232,7 +232,7 @@ pm2 start app.js
 Travis CI 提供的是持续集成服务（Continuous Integration，简称 CI）。它绑定 Github 上面的项目，只要有新的代码，就会自动抓取。然后，提供一个运行环境，执行测试，完成构建，还能部署到服务器。
 
 这里不详细展开了，对于github上的项目，可以通过配置Travis设置CI，一般编译通过示例如下：
-![](http://oankigr4l.bkt.clouddn.com/201808241458_294.png)
+![](http://static.zhyjor.com/201808241458_294.png)
 
 Travis 要求项目的根目录下面，必须有一个.travis.yml文件。这是配置文件，指定了 Travis 的行为。该文件必须保存在 Github 仓库里面，一旦代码仓库有新的 Commit，Travis 就会去找这个文件，执行里面的命令。这里贴上我hexo博客的构建代码：
 ```
@@ -289,4 +289,4 @@ after_success:
 [用 Git Hooks 进行自动部署](https://segmentfault.com/a/1190000003836345)
 [给你的项目增加Webhooks，自动进行部署（包含Github/Gitlab）](https://excaliburhan.com/post/add-webhooks-to-your-project.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

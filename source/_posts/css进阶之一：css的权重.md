@@ -16,4 +16,4 @@ css权重很多人都听过，也了解一些，但是很多人对具体的规�
 **参考资料**
 [你对CSS权重真的足够了解吗？](https://juejin.im/post/5afa98bf51882542c832e5ec)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

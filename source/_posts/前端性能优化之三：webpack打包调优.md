@@ -191,4 +191,4 @@ var CompressionWebpackPlugin = require('compression-webpack-plugin');
 [关于 webpack 打包后文件过大的那些事……](https://segmentfault.com/a/1190000007892189)
 [webpack 代码gzip压缩、注释、警告去除配置，设置缓存](https://juejin.im/post/5ac44443518825557e789a6d)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

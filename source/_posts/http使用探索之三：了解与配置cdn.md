@@ -121,4 +121,4 @@ CDN 往往被用来存放静态资源。上文中我们举例所提到的“根�
 [CDN是什么？使用CDN有什么优势？](https://www.zhihu.com/question/36514327)
 **[深度剖析：CDN内容分发网络技术原理](https://my.oschina.net/pooz/blog/95654)**
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

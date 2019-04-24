@@ -37,4 +37,4 @@ docker run -d -e WORDPRESS_DB_HOST=mysql:3306 --link mysql -p 8080:80 wordpress
 **参考资料**
 [dcoker入门,使用docker部署NodeJs应用](https://www.cnblogs.com/pass245939319/p/8473861.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

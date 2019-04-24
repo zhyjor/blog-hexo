@@ -16,4 +16,4 @@ date: 2018-07-04 14:17:25
 **参考资料**
 [你不知道的Virtual DOM（一）：Virtual Dom介绍](https://segmentfault.com/a/1190000016129036)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

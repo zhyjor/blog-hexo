@@ -420,4 +420,4 @@ koa是大势所趋。
 [koa官方文档](https://koa.bootcss.com/#)
 
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

@@ -168,4 +168,4 @@ minikube & kubectl
 
 [安装配置Rancher管理docker](https://blog.csdn.net/tianyaleixiaowu/article/details/75116394)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

@@ -163,7 +163,7 @@ console.log(NaN === NaN); // logs "false"
 事件流包括三个阶段:事件捕获阶段、处于目标阶段和事件冒泡阶段。首先发生的是事件捕获，
 
 为截获事件提供了机会。然后是实际的目标接收到事件。最后一个阶段是冒泡阶 段，可以在这个阶段对事件做出响应。单击`<div>`元素会按照如下图：
-![](http://oankigr4l.bkt.clouddn.com/201809141647_927.png)
+![](http://static.zhyjor.com/201809141647_927.png)
 
 ### script标签到defer和async属性有什么作用和区别
 async属性，表示后续文档的加载和渲染与js脚本的加载和执行是并行进行的，即异步执行。defer属性，加载后续文档的过程和js脚本的加载(此时仅加载不执行)是并行进行的(异步)，js脚本的执行需要等到文档所有元素解析完成之后，DOMContentLoaded事件触发执行之前。
@@ -303,4 +303,4 @@ destroyed: function () {
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

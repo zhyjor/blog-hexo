@@ -17,4 +17,4 @@ debounce防抖,在事件被触发n秒后再执行回调，如果在这n秒内又
 **参考资料**
 [7分钟理解JS的节流、防抖及使用场景](https://juejin.im/post/5b8de829f265da43623c4261)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

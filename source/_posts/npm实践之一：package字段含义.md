@@ -30,4 +30,4 @@ npm init -f
 **参考资料**
 [npm的package.json字段含义中文文档](http://www.yyyweb.com/4548.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

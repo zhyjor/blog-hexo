@@ -74,4 +74,4 @@ root /your server path  (写你自己的网站目录)
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

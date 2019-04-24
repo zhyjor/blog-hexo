@@ -33,7 +33,7 @@ var foo = {
 ```
 上述代码foo对象有两个显式的属性`[explicit own properties]`和一个自带隐式的 `__proto__` 属性`[implicit __proto__ property]`，指向foo的原型。
 
-![](http://oankigr4l.bkt.clouddn.com/201807031720_970.png)
+![](http://static.zhyjor.com/201807031720_970.png)
 
 为什么需要原型呢？让我们先看一下原型链。
 
@@ -85,7 +85,7 @@ c.calculate(40); // 80
 如果一个对象的prototype没有显示的声明过或定义过，那么`__proto__`的默认值就是object.prototype, 而object.prototype也会有一个`__proto__`, 这个就是原型链的终点了，被设置为`null`。
 
 下面的图示就是表示了上述a,b,c的继承关系
-![](http://oankigr4l.bkt.clouddn.com/201807031736_252.png)
+![](http://static.zhyjor.com/201807031736_252.png)
 
 ES5提供了一个替代的原型继承方案，可以通过Object.create函数实现：
 ```js
@@ -151,7 +151,7 @@ console.log(
 );
 ```
 上述代码可表示为如下的关系：
-![](http://oankigr4l.bkt.clouddn.com/201807031815_204.png)
+![](http://static.zhyjor.com/201807031815_204.png)
 上述图示可以看出，每一个object都有一个prototype. 构造函数Foo也拥有自己的`__proto__`, 也就是Function.prototype, 而Function.prototype的`__proto__`指向了Object.prototype. 重申一遍，Foo.prototype只是一个显式的属性，也就是b和c的`__proto__`属性。
 
 这个问题完整和详细的解释在接下来还会有详细的解释。分两个部分：面向对象编程.一般理论(OOP. The general theory)，描述了不同的面向对象的范式与风格(OOP paradigms and stylistics)，以及与ECMAScript的比较, 面向对象编程.ECMAScript实现(OOP. ECMAScript implementation), 专门讲述了ECMAScript中的面向对象编程。
@@ -182,13 +182,13 @@ foo(30);
 
 如下图，所有的ECMAScript的程序执行都可以看做是一个执行上下文堆栈[execution context (EC) stack]。堆栈的顶部就是处于激活状态的上下文。
 
-![](http://oankigr4l.bkt.clouddn.com/201807041707_165.png)
+![](http://static.zhyjor.com/201807041707_165.png)
 
 当一段程序开始时，会先进入全局执行上下文环境[global execution context], 这个也是堆栈中最底部的元素。此全局程序会开始初始化，初始化生成必要的对象[objects]和函数[functions]. 在此全局上下文执行的过程中，它可能会激活一些方法（当然是已经初始化过的），然后进入他们的上下文环境，然后将新的元素压入堆栈。在这些初始化都结束之后，这个系统会等待一些事件（例如用户的鼠标点击等），会触发一些方法，然后进入一个新的上下文环境。
 
 有一个函数上下文“EC1″和一个全局上下文“Global EC”，下图展现了从“Global EC”进入和退出“EC1″时栈的变化:
 
-![](http://oankigr4l.bkt.clouddn.com/201807041708_639.png)
+![](http://static.zhyjor.com/201807041708_639.png)
 
 ECMAScript运行时系统就是这样管理代码的执行。
 
@@ -199,7 +199,7 @@ ECMAScript运行时系统就是这样管理代码的执行。
 ## 执行上下文（Execution Context）
 一个执行的上下文可以抽象的理解为object。每一个执行的上下文都有一系列的属性（我们称为上下文状态），他们用来追踪关联代码的执行进度。这个图示就是一个context的结构。
 
-![](http://oankigr4l.bkt.clouddn.com/201807041708_312.png)
+![](http://static.zhyjor.com/201807041708_312.png)
 
 除了这3个所需要的属性(变量对象(variable object)，this指针(this value)，作用域链(scope chain) )，执行上下文根据具体实现还可以具有任意额外属性。接着，让我们仔细来看看这三个属性。
 
@@ -233,7 +233,7 @@ console.log(baz); // 引用错误，baz没有被定义
 ```
 局上下文中的变量对象(VO)会有如下属性：
 
-![](http://oankigr4l.bkt.clouddn.com/201807041731_596.png)
+![](http://static.zhyjor.com/201807041731_596.png)
 
 如上所示，函数“baz”如果作为函数表达式则不被不被包含于变量对象。这就是在函数外部尝试访问产生引用错误(ReferenceError) 的原因。请注意，ECMAScript和其他语言相比(比如C/C++)，仅有函数能够创建新的作用域。在函数内部定义的变量与内部函数，在外部非直接可见并且不污染全局对象。使用 eval 的时候，我们同样会使用一个新的(eval创建)执行上下文。eval会使用全局变量对象或调用者的变量对象(eval的调用来源)。
 
@@ -256,7 +256,7 @@ foo(10, 20);
 ```
 “foo”函数上下文的下一个激活对象(AO)如下图所示：
 
-![](http://oankigr4l.bkt.clouddn.com/201807041732_839.png)
+![](http://static.zhyjor.com/201807041732_839.png)
 
 同样道理，function expression不在AO的行列。
 
@@ -291,7 +291,7 @@ var x = 10;
 ```
 我们假设作用域链的对象联动是通过一个叫做`__parent__`的属性，它是指向作用域链的下一个对象。这可以在Rhino Code中测试一下这种流程，这种技术也确实在ES5环境中实现了(有一个称为outer链接).当然也可以用一个简单的数据来模拟这个模型。使用`__parent__`的概念，我们可以把上面的代码演示成如下的情况。（因此，父级变量是被存在函数的[[Scope]]属性中的）。
 
-![](http://oankigr4l.bkt.clouddn.com/201807041803_384.png)
+![](http://static.zhyjor.com/201807041803_384.png)
 
 在代码执行过程中，如果使用with或者catch语句就会改变作用域链。而这些对象都是一些简单对象，他们也会有原型链。这样的话，作用域链会从两个维度来搜寻。
 
@@ -337,7 +337,7 @@ console.log(x); // 10
 ```
 我们就会有如下结构图示。这表示，在我们去搜寻`__parent__`之前，首先会去`__proto__`的链接中。
 
-![](http://oankigr4l.bkt.clouddn.com/201807041805_101.png)
+![](http://static.zhyjor.com/201807041805_101.png)
 
 注意，不是所有的全局对象都是由Object.prototype继承而来的。上述图示的情况可以在SpiderMonkey中测试。
 
@@ -353,4 +353,4 @@ console.log(x); // 10
 [ECMA-262-3 in detail](http://dmitrysoshnikov.com/tag/ecma-262-3/)
 [JavaScript内部原理实践——真的懂JavaScript吗？（转）](http://www.bubuko.com/infodetail-1753692.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

@@ -26,7 +26,7 @@ npm i -S vue-server-renderer
 * 尽管 Node.js 最新版本能够完全支持 ES2015 特性，我们还是需要转译客户端代码以适应老版浏览器。这也会涉及到构建步骤。
 
 所以基本看法是，对于客户端应用程序和服务器应用程序，我们都要使用 webpack 打包 - 服务器需要「服务器 bundle」然后用于服务器端渲染(SSR)，而「客户端 bundle」会发送给浏览器，用于混合静态标记。
-![](http://oankigr4l.bkt.clouddn.com/201808071502_946.png)
+![](http://static.zhyjor.com/201808071502_946.png)
 
 上图是构建vue的过程，我们可以根据这些得出我们的大概的目录结构。大部分源码可以使用通用方式编写，可以使用 webpack 支持的所有功能。
 
@@ -372,4 +372,4 @@ node server.js
 [让vue-cli初始化后的项目集成支持SSR](https://blog.csdn.net/ligang2585116/article/details/78533793)
 [什么是服务端渲染？](https://www.cnblogs.com/jcscript/p/7574276.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

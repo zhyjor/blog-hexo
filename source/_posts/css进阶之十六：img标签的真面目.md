@@ -24,4 +24,4 @@ date: 2018-10-11 15:43:22
 **参考资料**
 [[转]你不知道的<img>标签](https://www.jianshu.com/p/9f47ae6b3b5b)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

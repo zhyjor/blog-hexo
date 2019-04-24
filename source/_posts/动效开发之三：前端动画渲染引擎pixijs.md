@@ -21,4 +21,4 @@ Pixi.js 使用 WebGL，是一个开源的超快的 HTML5 2D 渲染引擎。
 [Pixi官方文档译文（1）](https://blog.csdn.net/xiaofeiaiai/article/details/56012843)
 [前端动画渲染引擎pixi.js系列（1）简单介绍及应用](https://blog.csdn.net/zeping891103/article/details/70144835)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

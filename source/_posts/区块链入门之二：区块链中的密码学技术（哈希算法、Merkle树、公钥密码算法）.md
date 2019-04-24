@@ -14,4 +14,4 @@ date: 2018-05-28 14:43:11
 **参考资料**
 [区块链中的密码学技术——哈希算法、Merkle树、公钥密码算法](https://blog.csdn.net/GuoXuan_CHN/article/details/78913335)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

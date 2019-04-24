@@ -141,4 +141,4 @@ reflow几乎是无法避免的。现在界面上流行的一些效果，比如�
 
 [《webkit技术内幕》这本书怎么样？里面的哪些内容有了变动？](https://www.zhihu.com/question/266787740/answer/313995802)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

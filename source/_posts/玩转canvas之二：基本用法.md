@@ -97,4 +97,4 @@ context.putImageData(imgData,x,y,dirtyX,dirtyY,dirtyWidth,dirtyHeight);
 **参考资料**
 [canvas的beginPath和closePath分析总结，包括多段弧的情况](https://www.cnblogs.com/xuehaoyue/p/6549682.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

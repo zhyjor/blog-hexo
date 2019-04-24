@@ -161,4 +161,4 @@ console.log(base2Str(1.2).toString(2));
 [JavaScript 浮点数陷阱及解法](https://github.com/camsong/blog/issues/9)
 [js-calculate](https://github.com/yuhaiyang1/float_calculate)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

@@ -13,4 +13,4 @@ date: 2018-11-16 10:27:19
 **参考资料**
 [React 16 ,webpack4加载性能优化指南](https://blog.csdn.net/sinat_17775997/article/details/81699437)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

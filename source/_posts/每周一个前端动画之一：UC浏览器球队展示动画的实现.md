@@ -13,7 +13,7 @@ date: 2018-02-02 20:24:30
 ### 源动画效果
 作为一个轻度伪球迷，经常会看些赛事比分，比如英超（利物浦是冠军）。使用UC的朋友应该发现过，UC在展示比赛时的效果还是很炫的，动画很简单，但是效果的确不错。效果图如下：
 
-![](http://oankigr4l.bkt.clouddn.com/UC_football_logo.gif)
+![](http://static.zhyjor.com/UC_football_logo.gif)
 
 ### 实现分析
 经过观察不难发现：
@@ -78,7 +78,7 @@ date: 2018-02-02 20:24:30
 ### 效果展示
 
 
-![](http://oankigr4l.bkt.clouddn.com/my_football_logo.gif)
+![](http://static.zhyjor.com/my_football_logo.gif)
 
 ### 关键点解读
 #### 计时函数`animation-timing-function`
@@ -96,4 +96,4 @@ date: 2018-02-02 20:24:30
 [深入理解CSS3 Animation 帧动画](https://www.cnblogs.com/aaronjs/p/4642015.html)
 
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

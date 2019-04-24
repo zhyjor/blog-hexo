@@ -57,4 +57,4 @@ Thank you very much, I installed the electron-rebuild and run ./node_modules/.bi
 
 [electron/electron-rebuild](https://github.com/electron/electron-rebuild)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

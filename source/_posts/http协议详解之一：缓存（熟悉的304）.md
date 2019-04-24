@@ -166,4 +166,4 @@ nginx的话，如果指定Expires指令，则它会在响应报文中添加Expir
 [面试 -- 网络 HTTP](https://juejin.im/post/5872309261ff4b005c4580d4)
 [前端跨域方法论](https://juejin.im/post/5b91d3be5188255c95380b5e)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

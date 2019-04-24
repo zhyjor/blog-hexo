@@ -28,4 +28,4 @@ date: 2018-10-14 10:24:28
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

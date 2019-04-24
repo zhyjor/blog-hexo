@@ -83,4 +83,4 @@ if($condition,$if-true,$if-false)
 **参考资料**
 [sass揭秘之@mixin，%，@function](https://www.w3cplus.com/preprocessor/sass-mixins-function-placeholder.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

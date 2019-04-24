@@ -30,7 +30,7 @@ css很简单，完全不懂的人大概看个一两天，就可以实现基本�
     background-color: gray;
 }
 ```
-![](http://oankigr4l.bkt.clouddn.com/201806261508_98.png)
+![](http://static.zhyjor.com/201806261508_98.png)
 
 ### 疑问点
 
@@ -42,7 +42,7 @@ css很简单，完全不懂的人大概看个一两天，就可以实现基本�
 
 ### 解释
 其实如下图所示，有些消失的字时被背景覆盖了
-![](http://oankigr4l.bkt.clouddn.com/201806261516_379.png)
+![](http://static.zhyjor.com/201806261516_379.png)
 
 对于white-space ：normal，文本自动处理换行.假如抵达容器边界内容会转到下一行，
 
@@ -80,7 +80,7 @@ css很简单，完全不懂的人大概看个一两天，就可以实现基本�
 }
 ```
 效果图：
-![](http://oankigr4l.bkt.clouddn.com/201806261612_12.png)
+![](http://static.zhyjor.com/201806261612_12.png)
 
 ### 问题解释
 
@@ -133,7 +133,7 @@ jQuery 中有个$().slideUp()/$().slideDown()方法，如果在使用这个动�
 
 **但是事实上，高度并不是 32px，而是要大那么几像素（受不同字体影响，增加高度也不一样）， 比方说 36px如下图：**
 
-![](http://oankigr4l.bkt.clouddn.com/201806271636_756.png)
+![](http://static.zhyjor.com/201806271636_756.png)
 
 ### 分析
 
@@ -148,7 +148,7 @@ jQuery 中有个$().slideUp()/$().slideDown()方法，如果在使用这个动�
 此时，我们可以明显看到两处大小完全不同的文字。一处是字母 x 构成了一个“匿名内联盒子”，另一处是“文字 x”所在的`<span>`元素，构成了一个“内联盒子”。由于都受 lineheight:32px影响，因此，这两个“内联盒子”的高度都是 32px。
 
 对字符而言， font-size 越大字符的基线位置越往下，因为文字默认全部都是基线对齐，所以当字号大小不一样的两个文字在一起的时候，彼此就会发生上下位移，如果位移距离足够大，就会超过行高的限制，而导致出现意料之外的高度,如下图：
-![](http://oankigr4l.bkt.clouddn.com/201806271642_860.png)
+![](http://static.zhyjor.com/201806271642_860.png)
 
 ### 解决
 知道了问题发生的原因，那问题就很好解决了。我们可以让“幽灵空白节点”和后面`<span>`元素字号一样大，也就是：
@@ -188,13 +188,13 @@ jQuery 中有个$().slideUp()/$().slideDown()方法，如果在使用这个动�
 ```
 结果.box 元素底部平白无故多了 5 像素。
 
-![](http://oankigr4l.bkt.clouddn.com/201806271649_774.png)
+![](http://static.zhyjor.com/201806271649_774.png)
 
 ### 分析
 
 间隙产生的三大元凶就是“幽灵空白节点”、 line-height 和 vertical-align 属性。为了直观演示原理，我们可以在图片前面辅助一个字符 x 代替“幽灵空白节点”，并想办法通过背景色显示其行高范围，于是，大家就会看到如图所示的现象:
 
-![](http://oankigr4l.bkt.clouddn.com/201806271650_779.png)
+![](http://static.zhyjor.com/201806271650_779.png)
 
 当前 line-height 计算值是 20px，而 font-size 只有 14px，因此，字母 x 往下一定有至少 3px 的半行间距（具体大小与字体有关），**而图片作为替换元素其基线是自身的下边缘。**根据定义，默认和基线（也就是这里字母 x 的下边缘）对齐，字母 x 往下的行高产生的多余的间隙就嫁祸到图片下面，让人以为是图片产生的间隙，实际上，是“幽灵空白节点”、line-height 和 vertical-align 属性共同作用的结果。
 
@@ -222,7 +222,7 @@ jQuery 中有个$().slideUp()/$().slideDown()方法，如果在使用这个动�
 ### 分析
 此时，按照理解， -200px 远远超过图片的高度，图片应该完全跑到容器的外面，但是，图片依然有部分在.box 元素中，而且就算 margin-top 设置成-99999px，图片也不会继续往上移动，完全失效。其原理和上面图片底部留有间隙实际上是一样的，图片的前面有个“幽灵空白节点”，**而在 CSS 世界中，非主动触发位移的内联元素是不可能跑到计算容器外面的，**导致图片的位置被“幽灵空白节点”的 vertical-align:baseline 给限死了。我们不妨把看不见的“幽灵空白节点”使用字符 x 代替,原因就一目了然了。
 
-![](http://oankigr4l.bkt.clouddn.com/201806271700_105.png)
+![](http://static.zhyjor.com/201806271700_105.png)
 
 因为字符 x 下边缘和图片下边缘对齐，字符 x 非主动定位，不可能跑到容器外面，所以图片就被限死在此问题， margin-top 失效。
 
@@ -250,10 +250,10 @@ text-align:jusitfy 声明可以帮助我们实现兼容的列表两端对齐效�
 ```
 空的 inline-block 元素的高度是 0，按照通常的理解，下面应该是一马平川，结果却有非常大的空隙存在:
 
-![](http://oankigr4l.bkt.clouddn.com/201806271708_269.png)
+![](http://static.zhyjor.com/201806271708_269.png)
 
 为了便于大家看个究竟，我把占位`<i>`元素的 outline 属性用虚外框标示一下:
-![](http://oankigr4l.bkt.clouddn.com/201806271709_877.png)
+![](http://static.zhyjor.com/201806271709_877.png)
 
 按照之前解决问题的方法，我们可以直接给.box 元素来个 line-height:0 解决垂直间隙问题，结果，这样设置之后的效果,图片和图片之间的间隙是没有了，但是图片和最后的占位元素之间依然有几像素的间距.
 
@@ -265,7 +265,7 @@ vertical-align 属性的默认值 baseline 在文本之类的内联元素那里�
 
 对于我们上面的问题，上面的规范已经说明了一切。第一个框里面没有内联元素，因此基线就是容器的margin 下边缘，也就是下边框下面的位置；而第二个框里面有字符，纯正的内联元素，因此第二个框就是这些字符的基线，也就是字母 x 的下边缘了。于是，我们就看到了左边框框下边缘和右边框框里面字符 x 底边对齐的好戏。
 
-![](http://oankigr4l.bkt.clouddn.com/201806280950_712.jpg)
+![](http://static.zhyjor.com/201806280950_712.jpg)
 
 因为字符实际占据的高度是由 line-height 决定的，当 line-height 变成 0 的时候，字符占据的高度也是 0，此时，高度的起始位置就变成了字符内容区域的垂直中心位置，于是文字就有一半落在框的外面了。
 
@@ -297,10 +297,10 @@ vertical-align 属性的默认值 baseline 在文本之类的内联元素那里�
 </div>
 ```
 为了更分明一些，我们将空格改为字符“xxx”，如下图：
-![](http://oankigr4l.bkt.clouddn.com/201806281018_628.png)
+![](http://static.zhyjor.com/201806281018_628.png)
 
 因为这个时候前两个`<i>`的元素错位已经没有了，最后一个自然就向上没有间隙了，但是，假如最后一个没有字符，依然会有间隙，如下图：
-![](http://oankigr4l.bkt.clouddn.com/201806281025_865.png)
+![](http://static.zhyjor.com/201806281025_865.png)
 
 这个时候的解释其实就是，虽然已经换行了，但是对齐点还是要和上一行的元素进行对齐，也就是说要和倒数第二个`<i>`对齐，就变成相同的问题了，即错位对齐了，所以每个`<i>`内都要添加元素才可以。
 
@@ -329,9 +329,9 @@ vertical-align 属性的默认值 baseline 在文本之类的内联元素那里�
 }
 ```
 下图是top对齐的情况，这个时候其实没有了对不齐的基线问题了肯定就不会显示异常了。
-![](http://oankigr4l.bkt.clouddn.com/201806281031_465.png)
+![](http://static.zhyjor.com/201806281031_465.png)
 这个时候还会有疑问，假如接着增加`<i>`的个数，就不会出现对不齐吗，当然不会，下一行都是相对于上一行进行的，也就是说其实换行，对齐依然对的是上一行的元素，**只要对齐位置没问题，就不会出现间隙。**
-![](http://oankigr4l.bkt.clouddn.com/201806281035_54.png)
+![](http://static.zhyjor.com/201806281035_54.png)
 
 ### 总结
 归根结底，就是inline-block基线位置问题，基线位置不同，就出现了错位的现象，只要消除了错位，就不会出现间隙。**时时刻刻谨记一个块级元素内出现内联元素的时候，这个时候一定要考虑匿名内联，考虑了匿名内联，就要考虑匿名内联的空白幽灵高度，然后还有考虑空白幽灵节点的对齐是基线对齐**
@@ -343,4 +343,4 @@ vertical-align 属性的默认值 baseline 在文本之类的内联元素那里�
 [半深入理解CSS3 object-position/object-fit属性](https://www.zhangxinxu.com/wordpress/2015/03/css3-object-position-object-fit/)
 [小谈inline-block的那点空隙](http://ideazhao.lofter.com/post/1d377a05_709cb7f)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

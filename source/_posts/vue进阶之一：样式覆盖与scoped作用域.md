@@ -21,4 +21,4 @@ date: 2018-04-17 22:14:23
 **参考资料**
 [vue ssr,webpack 页面初次渲染时CSS加载顺序问题](https://segmentfault.com/q/1010000010655549)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

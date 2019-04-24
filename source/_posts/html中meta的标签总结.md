@@ -64,5 +64,5 @@ meta标签共有两个属性，分别是http-equiv和name属性
 [参考](http://www.cnblogs.com/wangyang108/p/5995379.html)
 [参考](http://blog.csdn.net/kongjiea/article/details/17092413)
 
-![](http://oankigr4l.bkt.clouddn.com/8192dd88gy1fkekqx6gnoj20q10ftq4b.jpg)
+![](http://static.zhyjor.com/8192dd88gy1fkekqx6gnoj20q10ftq4b.jpg)
 

@@ -36,4 +36,4 @@ DNS domain name system 主要作用就是将主机域名转换为ip地址
 [域名”A记录，MX记录，CNAME记录,TTL值,URL转发”解释](http://www.cnblogs.com/yooplmqj/archive/2008/04/17/1158902.html)
 [A记录和CNAME记录的区别](http://blog.xieyc.com/differences-between-a-record-and-cname-record/)
 [DNS 原理入门 阮一峰](http://www.ruanyifeng.com/blog/2016/06/dns.html)
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

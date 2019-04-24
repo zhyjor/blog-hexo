@@ -141,4 +141,4 @@ Riot 3.0 提供了一个类似于基于组件的开发模型 (在 Riot 中称之
 **参考资料**
 [Vue.js 父子组件通信的十种方式](https://juejin.im/post/5bd18c72e51d455e3f6e4334)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)
