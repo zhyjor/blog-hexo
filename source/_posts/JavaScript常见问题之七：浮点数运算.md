@@ -159,5 +159,6 @@ console.log(base2Str(1.2).toString(2));
 **参考资料**
 [揭秘 0.1 + 0.2 != 0.3](http://www.cnblogs.com/hustskyking/p/ieee754-operation-in-js.html)
 [JavaScript 浮点数陷阱及解法](https://github.com/camsong/blog/issues/9)
+[js-calculate](https://github.com/yuhaiyang1/float_calculate)
 
 ![](http://oankigr4l.bkt.clouddn.com/wexin.png)
