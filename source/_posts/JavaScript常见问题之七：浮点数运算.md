@@ -1,5 +1,5 @@
 ---
-title: JavaScript常见问题之七：浮点数运算
+title: JavaScript常见问题之七：计算精度
 tags:
   - JavaScript常见问题
   - js
@@ -8,11 +8,18 @@ top: false
 copyright: true
 date: 2018-05-16 15:55:34
 ---
-“0.1 + 0.2 = ?”，这道题如果给小学生，他会立马告诉你答案是 0.3，但是交给一些程序去计算，结果就不是那么简单了。
+这是几个老生常谈的问题，但又经常遇到。“0.1 + 0.2 为什么不等于0.3”，“3.55保留一位小数的时候为什么是3.5”，为什么后端给我的一个ID突然不准确了，为什么很大的数字在简单计算时得到的结果不对，JavaScript在处理数字相关问题的时候，还是有坑的。
 <!--more-->
-事实上，不仅仅是 JS，在其他采用 IEEE754 浮点数标准的语言中，比如python，0.1 + 0.2 都不会等于 0.3，但是 0.2 + 0.3 却等于 0.5，在c中假如设置指定输出小数位为57位，结果同样也不是0.3。这是为何？想必这类问题也困扰着不少程序员。
-## IEEE754浮点数的演算
-我们知道，科学计数法中 30000 可以写成 3x104，以 10 为底数 4 为指数的科学计数法。在 IEEE754 标准中是比较类似的，只不过它是二进制数，底数也为 2。
+我们知道JavaScript采用的是双精确度（64位）的浮点数表示法。浮点数（Floating-point Number）是对实数的一种近似表示，由一个有效数字（即尾数）加上幂数来表示，通常是乘以某个基数的整数次幂得到。以这种表示法表示的数值，称为浮点数，利用浮点进行运算，称为浮点计算，这种运算通常伴随着因为无法精确表示而进行的近似或舍入。
+## IEEE754介绍
+IEEE754标准是电气和电子工程师协会（IEEE）确定的计算机对浮点数的表示的规范，在一些强类型语言与Java、C++等中，浮点数对应的有double，float类型。
+### 浮点数的存储格式
+wiki上是这样介绍浮点数
+二进制浮点数是以符号数值表示法的格式存储，对于如下图。最高有效位被指定为符号位（sign bit），接下来次高的e个比特是指数部分，最后剩下的f个低有效位的比特，存储有效数（significand）的小数部分（）。
+![](https://ws2.sinaimg.cn/large/006tNc79ly1g2ipqtte9qj32800c940w.jpg)
+![](https://ws1.sinaimg.cn/large/006tNc79ly1g2ip26osxzj30xc0de75t.jpg)
+### 浮点数运算
+我们知道，科学计数法中 30000 可以写成 3x10^4, 以 10 为底数 4 为指数的科学计数法。在 IEEE754 标准中是比较类似的，只不过它是二进制数，底数也为 2。
 
 IEEE 754 中最常用的浮点数值表示法是：单精确度（32位）和双精确度（64位），JavaScript 采用的是后者。举个例子，十进制数 150，使用双精度浮点数表示法，表示如下：
 ```js
@@ -160,5 +167,6 @@ console.log(base2Str(1.2).toString(2));
 [揭秘 0.1 + 0.2 != 0.3](http://www.cnblogs.com/hustskyking/p/ieee754-operation-in-js.html)
 [JavaScript 浮点数陷阱及解法](https://github.com/camsong/blog/issues/9)
 [js-calculate](https://github.com/yuhaiyang1/float_calculate)
+[该死的IEEE-754浮点数](https://segmentfault.com/a/1190000009084877)
 
 ![](http://static.zhyjor.com/wexin.png)
