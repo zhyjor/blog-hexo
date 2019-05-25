@@ -23,4 +23,4 @@ console.log( "A" - "B" + 2);
 **参考资料**
 [隐式转换的玄学](https://github.com/mqyqingfeng/Blog/issues/26)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

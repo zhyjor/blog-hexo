@@ -12,15 +12,15 @@ date: 2018-03-08 15:57:41
 <!--more-->
 ## vue响应式原理
 这个是官网的结构图
-![](http://oankigr4l.bkt.clouddn.com/201805181642_452.png)
+![](http://static.zhyjor.com/201805181642_452.png)
 再大概看看下图，简单画出一个响应式结构图，先从 Observer 开始谈起
-![](http://oankigr4l.bkt.clouddn.com/201806061457_878.png)
+![](http://static.zhyjor.com/201806061457_878.png)
 
 ### observe
 
 先看一下响应式这块的源码结构：
 
-![](http://oankigr4l.bkt.clouddn.com/201806061517_638.png)
+![](http://static.zhyjor.com/201806061517_638.png)
 
 源码内容如下：
 ```js
@@ -331,7 +331,7 @@ let app = new Vue({
   }
 })
 ```
-![](http://oankigr4l.bkt.clouddn.com/201806061557_490.png)
+![](http://static.zhyjor.com/201806061557_490.png)
 到这里，我们访问属性是通过this._data.xxx 这样不是很优雅，所以，我们需要设置一层代理，也就是重新进行一次数据访问拦截。当我们访问this.xxx就可以了：
 ```js
 proxy (target, sourceKey, key) {
@@ -527,4 +527,4 @@ export function callHook (vm, hook) {
 **参考资料**
 [非常不错·不好意思！耽误你的十分钟，让MVVM原理还给你](https://juejin.im/post/5abdd6f6f265da23793c4458)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

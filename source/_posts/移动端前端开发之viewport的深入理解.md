@@ -182,4 +182,4 @@ alert(document.documentElement.clientWidth); //弹出320，正常情况应该弹
 
 [参考](http://blog.csdn.net/tengdazhang770960436/article/details/50236245)
 
-![](http://oankigr4l.bkt.clouddn.com/8192dd88gy1fkekqxpsphj20ov0f9aau%20%281%29.jpg)
+![](http://static.zhyjor.com/8192dd88gy1fkekqxpsphj20ov0f9aau%20%281%29.jpg)

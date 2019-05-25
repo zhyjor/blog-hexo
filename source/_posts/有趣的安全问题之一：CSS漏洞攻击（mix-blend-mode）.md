@@ -15,4 +15,4 @@ date: 2018-06-04 10:02:50
 [Side-channel attacking browsers through CSS3 features](https://www.evonide.com/side-channel-attacking-browsers-through-css3-features/)
 [令人惊叹的CSS漏洞攻击 Firefox 和 Chrome 中枪](https://www.cnbeta.com/articles/tech/732595.htm)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

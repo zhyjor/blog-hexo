@@ -142,4 +142,4 @@ console.log(isEven(10001));
 [前端面试&笔试&错题指南（二）堆栈溢出之谜](https://juejin.im/post/5b5749cbe51d453467550494)
 **[underscore-contrib中源码](http://documentcloud.github.io/underscore-contrib/)**
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

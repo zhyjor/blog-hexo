@@ -74,4 +74,4 @@ https是应对中间人攻击的唯一方式。
 [如何进行一次完整的 SSLStrip 攻击](https://www.jianshu.com/p/983d43b4ba1e)
 
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

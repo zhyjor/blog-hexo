@@ -44,4 +44,4 @@ li:first-child:nth-last-child(3) ~ li {
 **参考资料**
 [制作简约CSS栅栏布局](https://www.jianshu.com/p/0871bc611a9b)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

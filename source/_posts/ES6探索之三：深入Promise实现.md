@@ -88,4 +88,6 @@ console.log('==Starting==');
 [BAT前端经典面试问题：史上最最最详细的手写Promise教程](https://juejin.im/post/5b2f02cd5188252b937548ab)
 [JavaScript Promise迷你书（中文版）](https://github.com/azu/promises-book)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+**[V8中更快的异步函数和promise](http://caibaojian.com/v8-promise.html)**
+
+![](http://static.zhyjor.com/wexin.png)

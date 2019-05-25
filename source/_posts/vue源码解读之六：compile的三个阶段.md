@@ -11,7 +11,7 @@ date: 2018-03-20 10:43:58
 template模板通过compile编译，最终得到render function，这里不是响应式式核心的内容，但是可以了解其大概的流程。compile主要分了parse、optimize、generate三个阶段。
 <!--more-->
 借一张图表示一下编译的三个阶段如下：
-![](http://oankigr4l.bkt.clouddn.com/201806071047_559.png)
+![](http://static.zhyjor.com/201806071047_559.png)
 
 ## parse函数生成AST
 compile 函数（src/compiler/index.js）就是将 template 编译成 render function 的字符串形式。
@@ -260,7 +260,7 @@ function parseStartTag () {
 
 经过上面一步的解析，我们得到了一个起始标签match的数据结构：
 
-![](http://oankigr4l.bkt.clouddn.com/201806071115_814.png)
+![](http://static.zhyjor.com/201806071115_814.png)
 
 再看一下handleStartTag函数
 ```js
@@ -420,7 +420,7 @@ export function createASTElement (
 
 我们看一下最终生成的AST语法树对象： 
 
-![](http://oankigr4l.bkt.clouddn.com/201806071125_530.png)
+![](http://static.zhyjor.com/201806071125_530.png)
 
 ## optimize标记节点
 上一节主要关注了compile的parse部分，我们完成了一个字符串模板解析成一个AST语法树的过程，接下来这一步是优化的关键，我们需要通过optimize方法，将AST节点进行静态节点标记。为后面 patch 过程中对比新旧 VNode 树形结构做优化。被标记为 static 的节点在后面的 diff 算法中会被直接忽略，不做详细的比较。
@@ -594,4 +594,4 @@ export function genElement (el: ASTElement, state: CodegenState): string {
 [Vue2.0 源码阅读：模板渲染](https://zhouweicsu.github.io/blog/2017/04/21/vue-2-0-template/)
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

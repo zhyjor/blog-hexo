@@ -116,4 +116,4 @@ p{
 [sass语法](https://www.w3cplus.com/sassguide/syntax.html)
 [sass揭秘之变量](https://www.w3cplus.com/preprocessor/sass-basic-variable.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

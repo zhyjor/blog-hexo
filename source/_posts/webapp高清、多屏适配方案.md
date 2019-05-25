@@ -15,7 +15,7 @@ date: 2017-10-13 10:05:15
 
 ### 什么是像素
 “像素”（Pixel）为图像显示的基本单位，是用来计算数码影像的一种单位。译自英文“pixel”，pix是英语单词picture的常用简写，加上英语单词“元素”element，就得到pixel，故“像素”表示“图像元素”之意，有时亦被称为pel（picture element）。每个这样的信息元素不是一个点或者一个方块，而是一个抽象的采样。仔细处理的话，一幅图像中的像素可以在任何尺度上看起来都不像分离的点或者方块；但是在很多情况下，它们采用点或者方块显示。像素是网页布局的基础。一个像素就是计算机能够显示一种特定颜色的最小区域。当设备尺寸相同但像素变得更密集时，屏幕能显示的画面的过渡更细致，网站看起来更明快。
-![](http://oankigr4l.bkt.clouddn.com/201805211521_476.png)
+![](http://static.zhyjor.com/201805211521_476.png)
 
 #### 像素分类
 实际上像素分为两种：设备像素和CSS像素
@@ -55,4 +55,4 @@ https://segmentfault.com/a/1190000008774953
 
 [如何在Vue项目中使用vw实现移动端适配](https://www.w3cplus.com/mobile/vw-layout-in-vue.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

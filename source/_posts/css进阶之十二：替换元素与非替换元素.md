@@ -20,4 +20,4 @@ CSS 世界中的替换元素和非替换元素看上去也是两个对立的派�
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

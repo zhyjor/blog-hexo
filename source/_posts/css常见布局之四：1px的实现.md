@@ -14,4 +14,4 @@ retina屏的1px并不是真的1px，具体原因和dpr有关，真正的1px的�
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

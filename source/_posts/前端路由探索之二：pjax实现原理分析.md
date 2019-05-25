@@ -31,7 +31,7 @@ history API中有几个新特性，分别是history.pushState和history.replaceS
 PJAX的基本思路是，用户点击一个链接，通过ajax更新页面变化的部分，然后使用HTML5的pushState修改浏览器的URL地址，这样有效地避免了整个页面的重新加载。如果浏览器不支持history的两个新API或者JS被禁用了，那这个链接就只能跳转并重新刷新整个页面了。和传统的ajax设计稍微不同，ajax通常是从后台获取JSON数据，然后由前端解析渲染，而PJAX请求的是一个在服务器上生成好的HTML碎片。
 过程如下图：
 
-![](http://oankigr4l.bkt.clouddn.com/201807201541_609.png)
+![](http://static.zhyjor.com/201807201541_609.png)
 
 * 客户端向服务器发送一个普通的请求（1）
 * 其实也就是点击了一个链接，服务器会响应这个请求（2）
@@ -131,4 +131,4 @@ function is_pjax(){
 [pjax的实现与应用](https://www.cnblogs.com/hustskyking/p/history-api-in-html5.html)
 
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

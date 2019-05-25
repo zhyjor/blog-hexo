@@ -52,7 +52,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
 简单的流程图如下：
 
-![](http://oankigr4l.bkt.clouddn.com/201807171724_580.png)
+![](http://static.zhyjor.com/201807171724_580.png)
 
 我们可以看到生命周期分为这么几个状态 安装中, 安装后, 激活中, 激活后, 废弃。
 
@@ -100,7 +100,7 @@ self.addEventListener('install', function(event) {
 ```
 这样，第一个 cache.addAll 是不会被捕获的，当然，由于异步的存在，这毋庸置疑会有一些问题。比如，当大文件还在加载的时候，SW 断开，那么这次请求就是无效的。不过，你这样写本来就算是一个 trick，这种情况在制定方案的时候，肯定也要考虑进去的。整个步骤，我们可以用下图表示:
 
-![](http://oankigr4l.bkt.clouddn.com/201807180930_434.png)
+![](http://static.zhyjor.com/201807180930_434.png)
 
 ### 缓存捕获（fetch）
 该阶段就是事关整个网页能否正常打开的一个阶段–非常关键。在这一阶段，我们将学会，如何让 web 使用缓存，如何做向下兼容。 先看一个简单的格式：
@@ -126,7 +126,7 @@ self.addEventListener('fetch', function(event) {
 
 简单来说，caches.match 根据 event.request，在缓存空间中查找指定路径的缓存文件，如果匹配到，那么 response 是有内容的。如果没有的话，则再通过 fetch 进行捕获。整个流图如下：
 
-![](http://oankigr4l.bkt.clouddn.com/201807181522_845.png)
+![](http://static.zhyjor.com/201807181522_845.png)
 
 OK，那现在有个问题，如果没有找到缓存，那么应该怎么做呢？
 
@@ -174,7 +174,7 @@ self.addEventListener('fetch', function(event) {
 ```
 那么整个流图变为：
 
-![](http://oankigr4l.bkt.clouddn.com/201807181535_955.png)
+![](http://static.zhyjor.com/201807181535_955.png)
 
 而里面最关键的地方就是 stream 这是现在浏览器操作数据的一个新的标准。为了避免将数据一次性写入内存，我们这里引入了 stream，相当于一点一点的吐。这个和 nodeJS 里面的 stream 是一样的效果。你用上述哪个流图，这估计得取决于你自己的业务。
 
@@ -191,7 +191,7 @@ SW.js 的更新不仅仅只是简单的更新，为了用户可靠性体验，�
 
 整个流程图为：
 
-![](http://oankigr4l.bkt.clouddn.com/201807181538_577.png)
+![](http://static.zhyjor.com/201807181538_577.png)
 
 如果上述步骤成功后，原来的 SW.js 就会被清除。但是，以前版本 SW.js 缓存文件没有被删除。针对于这一情况，我们可以在新的 SW.js 里面监听 activate 事件，进行相关资源的删除操作。当然，这里主要使用到的 API 和 caches 有很大的关系（因为，现在所有缓存的资源都在 caches 的控制下了）。比如，我以前的 SW 缓存的版本是 v1，现在是 v2。那么我需要将 v1 给删除掉，则代码为：
 ```js
@@ -326,7 +326,7 @@ self.addEventListener('install', function(event) {
 ```
 当成功获取到缓存之后， SW 并不会直接进行替换，他会等到用户下一次刷新页面过后，使用新的缓存文件。
 
-![](http://oankigr4l.bkt.clouddn.com/201807190856_952.png)
+![](http://static.zhyjor.com/201807190856_952.png)
 
 不过，这里请注意，我并没有说，我们更新缓存只能在 install 里更新，事实上，更新缓存可以在任何地方执行。它主要的目的是用来更新 caches 里面缓存套件。我们提取一下代码：
 
@@ -387,12 +387,12 @@ self.addEventListener('fetch', function(event) {
 ```
 
 这里比较难的地方在于，我们并没有去捕获 fetch(fetchRequest)… 相关内容。也就是说，这一块是完全独立于我们的主体业务的。他的 fetch 只是用更新文件而已。我们可以使用一个流图进行表示：
-![](http://oankigr4l.bkt.clouddn.com/201807190919_842.png)
+![](http://static.zhyjor.com/201807190919_842.png)
 
 #### 用户更新
 现在，为了更好的用户体验，我们可以做的更尊重用户一些。可以设置一个 button，告诉用户是否选择缓存指定文件。有同学可能会想到使用 postmessage API，来告诉 SW 执行相关的缓存信息。不过事实上，还有更简单的办法来完成，即，直接使用 caches 对象。caches 和 web worker 类似。都是直接挂载到 window 对象上的。所以，我们可以直接使用 caches 这个全局变量来进行搜索。那么该环节就不需要直接通过 SW，这个流程图可以画为：
 
-![](http://oankigr4l.bkt.clouddn.com/201807190922_924.png)
+![](http://static.zhyjor.com/201807190922_924.png)
 
 代码可以参考：
 
@@ -430,7 +430,7 @@ navigator.serviceWorker === ServiceWorkerContainer
 ```
 在该 API 上挂载了一些方法和属性，用来获取 service worker 上的相关状态。来看一下：
 
-![](http://oankigr4l.bkt.clouddn.com/201807190929_106.png)
+![](http://static.zhyjor.com/201807190929_106.png)
 
 其中和通信相关的就两个，一个是 controller，一个是 onmessage 事件。
 * controller: 通过其上挂载的 postMessage API 向 Service worker 发送信息。
@@ -534,7 +534,7 @@ reg.sync.register('yes');
 上面大致了解了一下关于 SW 的基本流程，不过说到底，SW 只是一个容器，它的内涵只是一个驻留后台进程。我们想关心的是，在这进程里面，我们可以做些什么？ 
 
 最主要的应该有两个东西，缓存和推送。这里我们主要讲解一下缓存。不过在SW 中，我们一般只能缓存 POST.上面在文件更新里面也讲了几个更新的方式。简单来说:
-![](http://oankigr4l.bkt.clouddn.com/201807191027_424.png)
+![](http://static.zhyjor.com/201807191027_424.png)
 
 简单的情形上面已经说了，我这里专门将一下比较复杂的内容。
 
@@ -599,7 +599,7 @@ self.addEventListener('fetch', function(event) {
 
 ### 最佳实践更新
 上面说的哪几种都有某一方面的缺陷，那如果才能实现一种比较靠谱的缓存方案呢？我们借鉴一下上面提到的 message 通信方式，方案为：
-![](http://oankigr4l.bkt.clouddn.com/201807191030_410.png)
+![](http://static.zhyjor.com/201807191030_410.png)
 
 我们对资源做的主要工作就是如果处理好 fetch 事件中的相关资源。这里，我们简单的通过文件类型这个点来进行划分，优先情况是缓存 js/css 文件。那在 fetch 事件中，我们就需要写为：
 ```js
@@ -682,7 +682,7 @@ isHTML(request.referrer);
 
 ## 总结
 这里放一张[总结图](http://static.zybuluo.com/jimmythr/wmxtwclpwx7r53wfgkgokddh/Service+Worker.svg)：
-![](http://oankigr4l.bkt.clouddn.com/201807191055_355.png)
+![](http://static.zhyjor.com/201807191055_355.png)
 
 
 **参考资料**
@@ -690,4 +690,4 @@ isHTML(request.referrer);
 [怎么使用 Service Worker](https://lavas.baidu.com/pwa/offline-and-cache-loading/service-worker/how-to-use-service-worker)
 [PWA超简单入门](https://juejin.im/post/5abba6a7f265da239706ec60)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

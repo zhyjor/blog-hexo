@@ -77,7 +77,7 @@ chunkC: axios someComponents
 #### SplitChunksPlugin
 与CommonsChunkPlugin的 父子关系 思路不同的是，SplitChunksPlugin引入了 chunkGroup 的概念，在入口chunk和异步chunk中发现被重复使用的模块，将重叠的模块以vendor-chunk的形式分离出来，也就是vendor-chunk可能有多个，不再受限于是所有chunk中都共同存在的模块，原理的示意如下图所示：
 
-![](http://oankigr4l.bkt.clouddn.com/201807251344_871.png)
+![](http://static.zhyjor.com/201807251344_871.png)
 
 其中，可以发现SplitChunksPlugin产出的vendor-chunk有多个，对于入口A来说，引入的代码只有chunkA、vendor-chunkA-B、vendor-chunkA-C、vendor-chunkA-B-C；这时候chunkA、vendor-chunkA-B、vendor-chunkA-C、vendor-chunkA-B-C形成了一个chunkGroup。下面举个列子：
 
@@ -157,7 +157,7 @@ optimization：{
 在webapck2开始支持ESModule后，webpack提出了tree-shaking进行无用模块的消除，主要依赖ES Module的静态结构。在webapck4之前，主要通过在.babelrc文件中设置 "modules": false 来开启无用的模块检测，该方法显然比较粗暴。webapck4灵活扩展了如何对某模块开展无用代码检测，主要通过在 package.json 文件中设置 sideEffects: false 来告诉编译器该项目或模块是pure的，可以进行无用模块删除。
 
 官方的github上提供了一个sideEffects的[demo示例](https://github.com/webpack/webpack/tree/master/examples/side-effects)供参考，如果对tree-shaking的概念不是太了解，可去官方的文档中tree-shaking部分详细了解。下面是官方提供的一个减包效果示例，仅供欣赏。
-![](http://oankigr4l.bkt.clouddn.com/201807251356_353.png)
+![](http://static.zhyjor.com/201807251356_353.png)
 
 ### 支持压缩ES6+代码
 在webapck4之前，webpack.prod.conf.js中关于UglifyJsPlugin的注释会有这么一段话：
@@ -278,12 +278,12 @@ module.exports = {
 ### 修改webpack.dev.conf.js
 添加mode属性，并设置为development模式；然后注释掉 webpack4开发模式已经内置的插件，如 webpack.NamedModulesPlugin 和 webpack.NoEmitOnErrorsPlugin 插件。
 
-![](http://oankigr4l.bkt.clouddn.com/201807251408_745.png)
+![](http://static.zhyjor.com/201807251408_745.png)
 
 ### 修改webpack.prod.conf.js
 添加mode属性，并设置为production模式；然后注释掉 webpack4生产模式已经内置的插件，如 CommonsChunkPlugin 、 uglifyjs-webpack-plugin 、 ModuleConcatenationPlugin 插件；最后根据webpack4提供的文档配置optimization，使用 splitChunks 和 runtimeChunk 完成chunk的提取和优化。
 
-![](http://oankigr4l.bkt.clouddn.com/201807251410_976.png)
+![](http://static.zhyjor.com/201807251410_976.png)
 
 ```js
 const webpackConfig = merge(baseWebpackConfig, {
@@ -344,4 +344,4 @@ webpack4集中发力在用户体验、构建性能（速度和产出大小）、
 [webpack4：连奏中的进化](https://www.colabug.com/2907164.html)
 [webpack4-用之初体验，一起敲它十一遍](https://juejin.im/post/5adea0106fb9a07a9d6ff6de)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

@@ -14,4 +14,4 @@ date: 2018-08-04 14:09:50
 [vue-cli3.0初体验～](https://segmentfault.com/a/1190000014123259)
 [Vue-cli原理分析 ](https://github.com/BooheeFE/weekly/issues/9)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

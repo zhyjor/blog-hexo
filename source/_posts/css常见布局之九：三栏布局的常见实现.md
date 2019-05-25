@@ -11,7 +11,7 @@ date: 2018-07-16 15:45:26
 三栏布局在前端开发中特别常见，即两边定宽，中间宽度自适应。最优的实现目前是双飞翼布局，兼容性和语义、以及加载性能都很好。
 <!--more-->
 对于三栏布局，如下图：
-![](http://oankigr4l.bkt.clouddn.com/201808061547_589.png)
+![](http://static.zhyjor.com/201808061547_589.png)
 
 ## Float方法
 
@@ -145,7 +145,7 @@ table的使用越来越少了。
 
 ## grid布局
 CSS Grid Layout的兼容性的确还是不容乐观，不过看起来也是已经一片绿了，api有可能还会变动，但是使用起来简单方便。
-![](http://oankigr4l.bkt.clouddn.com/201808061632_61.png)
+![](http://static.zhyjor.com/201808061632_61.png)
 ### 实现
 ```
 .container {
@@ -263,16 +263,16 @@ DOM结构为中-左-右。.container设置margin-left和margin-right为左右栏
 * 给外围的container加上padding：0 220px 0 220px
 * 将main部分放在最初的位置，加载最早，为了实现这样，只有将三者都采用float：left,为了调整两边栏的位置，给边栏再加上一个position:relative (因为相对定位后面会用到）
 * main部分因为需要自适应，width:100%占满宽度，因此这个时候边栏都在下面一行。
-![](http://oankigr4l.bkt.clouddn.com/201808061740_548.png)
+![](http://static.zhyjor.com/201808061740_548.png)
 
 * 这时因为main已经占满了，为了将left拉倒最左边，需要使用margin-left:-100%
-![](http://oankigr4l.bkt.clouddn.com/201808061742_14.png)
+![](http://static.zhyjor.com/201808061742_14.png)
 
 * 这时right还停留在原来的位置，让right向左移动一个身位，marign-left:-200px，right就可以来到上方的最右边。
-![](http://oankigr4l.bkt.clouddn.com/201808061742_351.png)
+![](http://static.zhyjor.com/201808061742_351.png)
 
 * 这时left会覆盖main的左端，对left使用使用相对定位left:-220px，同理right也要相对定位还原right:-220px
-![](http://oankigr4l.bkt.clouddn.com/201808061744_190.png)
+![](http://static.zhyjor.com/201808061744_190.png)
 
 ## 双飞翼布局
 圣杯布局实际看起来是复杂的后期维护性也不是很高，在淘宝UED的探讨下，出来了一种新的布局方式就是双飞翼布局，增加多一个div就可以不用相对布局了，只用到了浮动和负边距。
@@ -339,4 +339,4 @@ DOM结构为中-左-右。.container设置margin-left和margin-right为左右栏
 [CSS布局 -- 圣杯布局 & 双飞翼布局](https://www.cnblogs.com/imwtr/p/4441741.html#top)
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

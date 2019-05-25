@@ -14,7 +14,7 @@ date: 2017-05-09 13:42:20
 ## 兼容性
 作为一个未来常用的api,看一下他的兼容性.
 
-![](http://oankigr4l.bkt.clouddn.com/201807191627_156.png)
+![](http://static.zhyjor.com/201807191627_156.png)
 
 在 PC 端上, 就 FF, Opera 和 Chrome 比较 fashion. mobile 的话, 基本上是不能用的. 当然, 官方已经有一个现成的 [polyfill](https://github.com/github/fetch) 可以使用。
 
@@ -264,4 +264,4 @@ addEventListener('fetch', function(evt) {
 [传统 Ajax 已死，Fetch 永生](https://github.com/camsong/blog/issues/2)
 [了解 Fetch API](https://aotu.io/notes/2017/04/10/fetch-API/)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

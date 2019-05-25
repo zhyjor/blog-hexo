@@ -244,4 +244,4 @@ sass3.3.0中新增的功能，用来跳出选择器嵌套的。默认嵌套会�
 **参考资料**
 [sass基础](https://www.w3cplus.com/sassguide/syntax.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

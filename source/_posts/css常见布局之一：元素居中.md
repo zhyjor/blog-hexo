@@ -135,4 +135,4 @@ p > img {
 [水平垂直居中，这是一道面试必考题·可以参考，比较全面](https://github.com/yanhaijing/vertical-center)
 [CSS实现水平垂直居中的10种方式（史上最全）](https://juejin.im/post/5b9a4477f265da0ad82bf921)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

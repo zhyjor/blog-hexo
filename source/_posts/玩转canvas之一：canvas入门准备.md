@@ -1,5 +1,5 @@
 ---
-title: 玩转canvas之一：canvas基本用法
+title: 玩转canvas之一：canvas入门准备
 tags:
   - 玩转canvas
   - canvas
@@ -28,7 +28,7 @@ canvas标签允许脚本语言动态渲染位图像，使用该标签可以创�
 
 ### 兼容性
 Canvas 已经受到了主流浏览器的支持，并且支持情况良好，具体支持情况如下：
-![](http://oankigr4l.bkt.clouddn.com/201809171057_962.png)
+![](http://static.zhyjor.com/201809171057_962.png)
 
 ### canvas和其他技术的区别
 假如有个简单图形需要显示到界面上，我们可以通过很多种方式实现，比如：img标签直接使用图片，比如使用div+css，比如使用svg（和使用其他的图片格式在使用方式上基本没有区别），然后就是使用canvas。
@@ -65,7 +65,11 @@ Canvas 和 svg都允许你在浏览器中创建图形，但是它们在根本上
 ### canvas的应用场景
 绘制图标，web游戏开发，一些活动页面（如转盘抽奖，刮奖等），一些背景特效（如粒子特效，与鼠标的交互背景，web看板等）
 
-**参考资料**
-[]()
+## 好玩的栗子
+[14款震撼人心的HTML5文字特效](https://www.html5tricks.com/15-cool-html5-text-effect.html)
+[10大炫酷的HTML5文字动画特效欣赏](http://www.topthink.com/topic/10000.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+**参考资料**
+[HTML5 Canvas半知半解](https://www.kancloud.cn/dennis/canvas/340109)
+
+![](http://static.zhyjor.com/wexin.png)

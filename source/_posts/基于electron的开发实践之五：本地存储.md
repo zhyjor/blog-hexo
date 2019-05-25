@@ -14,4 +14,4 @@ date: 2018-09-17 16:47:01
 **参考资料**
 [Node嵌入式数据库——NeDB](http://www.alloyteam.com/2016/03/node-embedded-database-nedb/)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

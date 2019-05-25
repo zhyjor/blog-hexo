@@ -181,7 +181,7 @@ module.exports = {
 ```
 输出结果就是这样：
 
-![](http://oankigr4l.bkt.clouddn.com/201809301548_290.png)
+![](http://static.zhyjor.com/201809301548_290.png)
 
 我们拿到了call方法传入的数据，并且成功在environment时机里成功输出了。
 
@@ -212,11 +212,11 @@ module.exports = MyPlugin
 ```
 如果你认真读完了上个板块的内容，你会发现，这个 htmlWebpackPluginAfterHtmlProcessing 不就是这个插件自己挂载在webpack事件流上的自定义事件嘛，它会在生成输出文件准备注入HTML时调用你自定义的回调，并向回调里传入本次编译后生成的资源文件的相关信息以及待注入的HTML文件的内容（字符串形式）供我们自定义操作。在项目搜一下这个钩子：
 
-![](http://oankigr4l.bkt.clouddn.com/201809301552_106.png)
+![](http://static.zhyjor.com/201809301552_106.png)
 
 这不和我们在2.0里说的一样嘛，先实例化我们所需要的hook，从名字就可以看出来只有第一个是同步钩子，另外几个都是异步钩子。然后再找找事件的广播：
 
-![](http://oankigr4l.bkt.clouddn.com/201809301554_687.png)
+![](http://static.zhyjor.com/201809301554_687.png)
 
 和我们刚刚介绍的一模一样对吧，只不过异步钩子使用promise方法去广播，其他不就完全是我们自定义事件的流程。大家如果有兴趣可以去打下console看看 `htmlWebpackPluginAfterHtmlProcessing` 这个钩子向回调传入的数据，或许你能发现一片新大陆哦。
 
@@ -298,4 +298,4 @@ module.exports = {
 [webpack官方文档](https://webpack.js.org/concepts/)
 [手摸手，带你用合理的姿势使用webpack4（上）](https://juejin.im/post/5b56909a518825195f499806)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

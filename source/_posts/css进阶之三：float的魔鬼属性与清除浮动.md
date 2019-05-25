@@ -104,4 +104,4 @@ BFC 在 CSS 的可视化格式模型 (Visual Formatting Model) 中具有非常�
 **参考资料**
 [详说清除浮动](http://kayosite.com/remove-floating-style-in-detail.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

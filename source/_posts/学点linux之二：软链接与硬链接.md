@@ -138,4 +138,4 @@ rm -rf symbolic_name 注意不是rm -rf symbolic_name/
 [linux软链接的创建、删除和更新](https://blog.csdn.net/m290345792/article/details/78518360)
 [Linux软连接和硬链接](http://www.cnblogs.com/itech/archive/2009/04/10/1433052.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

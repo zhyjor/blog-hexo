@@ -51,7 +51,7 @@ Service Worker 有以下功能和特性：
 #### 缓存
 其实这个就是 我们平时做的 Session 啊、localStorage、CacheStorage 之类的。这里用的就是 cacheStorage 缓存，它提供了一个ServiceWorker类型的工作者或window范围可以访问的所有命名缓存的主目录, 并维护字符串的映射名称到相应的 Cache 对象。 主要方法包括：
 
-![](http://oankigr4l.bkt.clouddn.com/201807171518_937.png)
+![](http://static.zhyjor.com/201807171518_937.png)
 
 有了这些方法你可以对你的缓存进行操作。目前还在草案状态，仅火狐和谷歌浏览器支持此特性。
 
@@ -155,12 +155,12 @@ if ('serviceWorker' in navigator && 'PushManager' in window) {
 ```
 PushManager 注册好之后， 那么要做的就是浏览器和服务器的绑定了。
 
-![](http://oankigr4l.bkt.clouddn.com/201807171526_525.png)
+![](http://static.zhyjor.com/201807171526_525.png)
 
 此图是用户订阅某个应用程序的推送服务。
 客户端传入应用程序服务器公钥，向将生成端点的 webpush 服务器( 这是谷歌自己实现的一个推送功能的服务器)发出网络请求，将生成的端点(一个推送服务)与应用程序公钥关联，并将端点返回给应用程序。浏览器会将此端点添加到 PushSubscription，通过 promise异步成功时，可以将它的信息保存到你的数据库。
 
-![](http://oankigr4l.bkt.clouddn.com/201807171527_309.png)
+![](http://static.zhyjor.com/201807171527_309.png)
 
 服务器发送推送的时候,请求相关接口，验证成功后推送服务会发消息给客户端。如果你要自己实现推送，自己服务器要有公钥和私钥的获取， 这里可以通过 `https://web-push-codelab.glitch.me` 获取， 用 chrome 的 webpush 推送。
 
@@ -223,4 +223,4 @@ PushManager 注册好之后， 那么要做的就是浏览器和服务器的绑�
 [**PWA超简单入门**](https://juejin.im/post/5abba6a7f265da239706ec60)
 [**浏览器缓存、CacheStorage、Web Worker 与 Service Worker**](https://github.com/youngwind/blog/issues/113)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

@@ -21,4 +21,4 @@ date: 2017-09-16 09:54:46
 
 [一个开源的快速混合开发框架：quickhybrid](https://quickhybrid.github.io/quickhybrid-doc/index.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

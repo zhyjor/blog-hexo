@@ -10,7 +10,6 @@ date: 2018-07-28 11:17:31
 ---
 使用一个新技能之前，你需要明白这个技能是什么，能给你带来什么。本文就是在介绍这个技术之前探究一下我们到底需要ssr来做什么。
 <!--more-->
-参考文章列在文末。
 
 前端渲染主要面临的问题有两个 SEO、首屏性能。服务端渲染其实早期的ASP,Java,PHP这类渲染都是使用的后端渲染。这里提到的服务器端渲染，更多是指**同构渲染。**即前端渲染是未来趋势，但前端渲染遇到了首屏性能和SEO的问题。对于同构争议最多.
 ## 前端渲染
@@ -88,4 +87,4 @@ SEO 很好理解。由于传统的搜索引擎只会从 HTML 中抓取数据，�
 [Here's why Client-side Rendering Won](https://medium.freecodecamp.com/heres-why-client-side-rendering-won-46a349fadb52)
 [精读前后端渲染之争](https://github.com/camsong/blog/issues/8)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

@@ -46,4 +46,4 @@ date: 2018-07-11 11:04:42
 **参考资料**
 [js获取dom的高度和宽度(可见区域及部分等等)](https://www.jb51.net/article/38419.htm)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

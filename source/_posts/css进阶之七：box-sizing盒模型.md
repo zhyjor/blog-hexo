@@ -94,7 +94,7 @@ height = border + padding + 内容的高度
 }
 ```
 
-![](http://oankigr4l.bkt.clouddn.com/%E7%9B%92%E6%A8%A1%E5%9E%8B.png)
+![](http://static.zhyjor.com/%E7%9B%92%E6%A8%A1%E5%9E%8B.png)
 
 可以看到，盒子的底部产生了10px的空白。
 

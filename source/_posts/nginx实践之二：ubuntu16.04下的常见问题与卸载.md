@@ -63,4 +63,4 @@ nginx: [error] open() "/usr/local/var/run/nginx.pid" failed (2: No such file or 
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

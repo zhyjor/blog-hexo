@@ -14,4 +14,4 @@ ECMA262
 **参考资料**
 [[译] 我从没理解过 JavaScript 闭包](https://blog.hhking.cn/2018/09/08/i-never-understood-javascript-closures/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

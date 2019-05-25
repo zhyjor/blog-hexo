@@ -143,4 +143,4 @@ style="fill:white;stroke:red;stroke-width:2"/>
 **参考资料**
 [SVG教程(超级详细)](https://segmentfault.com/a/1190000012071386)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

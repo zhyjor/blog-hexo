@@ -16,4 +16,4 @@ date: 2018-09-12 17:24:34
 [菜单](http://doc.yzone.net/electron/docs-translations/zh-CN/api/menu.md)
 [Electron-vue开发实战1——Main进程和Renderer进程的简单开发](https://juejin.im/post/5a5ebb94f265da3e32458205)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

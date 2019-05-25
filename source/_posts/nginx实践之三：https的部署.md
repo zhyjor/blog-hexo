@@ -13,16 +13,16 @@ date: 2018-05-23 14:55:46
 ## 申请并下载证书
 在百度云或者阿里云上购买证书，当然如果个人测试用的免费版的足够了，因为我的域名是在百度云买的，为了方便就在[百度云](https://console.bce.baidu.com/cas/)上购买证书了
 
-![](http://oankigr4l.bkt.clouddn.com/201805231511_394.png)
+![](http://static.zhyjor.com/201805231511_394.png)
 
 在百度云的域名，申请证书很快的，基本几分钟就可以了，在证书列表点击查看证书，然后点击证书下载
 
-![](http://oankigr4l.bkt.clouddn.com/201805231514_441.png)
+![](http://static.zhyjor.com/201805231514_441.png)
 
 ## 证书部署
 将证书解压上传到服务器中，本地解压如下，解压密码就是上一步下载时填写的。
 
-![](http://oankigr4l.bkt.clouddn.com/201805231515_86.png)
+![](http://static.zhyjor.com/201805231515_86.png)
 
 因为我们是使用nginx部署的，因此直接使用文件上传到`/etc/nginx`即可。
 ## nginx配置
@@ -64,4 +64,4 @@ server {
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

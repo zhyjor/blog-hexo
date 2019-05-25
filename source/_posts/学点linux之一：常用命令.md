@@ -54,5 +54,6 @@ chmod +x xx.file
 **参考资料**
 [Linux如何查看进程、杀死进程、启动进程等常用命令](https://blog.csdn.net/wojiaopanpan/article/details/7286430)
 [解决运行nodejs代码Error: listen EADDRINUSE](http://blog.sina.com.cn/s/blog_96f94f710101cqas.html)
+[Ubuntu 16.04出现：Problem executing scripts APT::Update::Post-Invoke-Success 'if /usr/bin/test -w /var/](https://blog.csdn.net/zzq123686/article/details/77454066)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

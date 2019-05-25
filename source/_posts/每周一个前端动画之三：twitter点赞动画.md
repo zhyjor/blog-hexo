@@ -16,11 +16,11 @@ date: 2018-02-24 08:59:47
 ### 源动画效果
 可以看到鼠标在点击红心的时候，有些粒子效果，同时红心填充为红色，效果的确很赞。
 
-![](http://oankigr4l.bkt.clouddn.com/week3_twitter_like.gif)
+![](http://static.zhyjor.com/week3_twitter_like.gif)
 ### 实现分析
 我们应该记得在[《每周一个前端动画之一：UC浏览器球队展示动画的实现》](https://juejin.im/post/5a74902e5188257a64266f83)中提到了计时函数`animation-timing-function`，它的属性有个阶跃函数steps()，我们可以使用这个函数。使用包含一组渐变的效果的精灵图（如下图），设置好合适的步数，只要我们在水平轴跳跃的移动图片，就能达到我们的效果。
 
-![](http://oankigr4l.bkt.clouddn.com/week3_twitter_heart.png)
+![](http://static.zhyjor.com/week3_twitter_heart.png)
 
 ### 代码实现
 
@@ -57,7 +57,7 @@ date: 2018-02-24 08:59:47
 
 ### 效果展示
 
-![](http://oankigr4l.bkt.clouddn.com/week3_my_like.gif)
+![](http://static.zhyjor.com/week3_my_like.gif)
 
 ### 关键点解读
 本文的关键点就在于steps函数的使用，steps函数使用的地方很多，只要是这种特定步骤的动画，都可以实现。steps还有很多其他的使用方式，我们在后续的博文里也会多次的看到的。
@@ -71,4 +71,4 @@ date: 2018-02-24 08:59:47
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

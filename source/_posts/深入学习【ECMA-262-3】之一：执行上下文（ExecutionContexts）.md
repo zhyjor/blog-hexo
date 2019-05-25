@@ -141,4 +141,4 @@ bar(); // 2
 [JavaScript深入之执行上下文 #8](https://github.com/mqyqingfeng/Blog/issues/8)
 
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

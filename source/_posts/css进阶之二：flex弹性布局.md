@@ -18,7 +18,7 @@ date: 2018-04-27 08:52:50
 
 ### 方向：主轴与交叉轴（侧轴）
 useragent沿着伸缩容器的主轴配置伸缩项目，从容器的主轴起点边开始往终点边结束。交叉轴的方向与主轴垂直。常规的布局是基于块和内联流方向，而flex布局是基于flex-flow流的。如下图中flexItem在水平方向排列，这样就说明水平方向是主轴，垂直方向就是交叉轴。
-![](http://oankigr4l.bkt.clouddn.com/201804271139_706.png)
+![](http://static.zhyjor.com/201804271139_706.png)
 ### 容器：伸缩容器与伸缩项目
 通过display属性，显式地给一个元素设置flex或者inline-flex。这个容器就是一个伸缩容器。注意设置为块级和行内元素。若一个元素指定为inline-flex且元素是一个浮动或者绝对定位元素，则display的计算值为flex。
 一个伸缩容器内的每个子元素（盒修复元素？）都会成为一个伸缩项目。且用户代理会将任何直接在伸缩容器里的连续文字包起来成为匿名伸缩项目。
@@ -26,7 +26,7 @@ useragent沿着伸缩容器的主轴配置伸缩项目，从容器的主轴起�
 ## 属性详解与使用
 在查资料的的时候发现一张图很好的展示了flex的各个属性：
 图片来源[《一劳永逸的搞定 flex 布局》](https://juejin.im/post/58e3a5a0a0bb9f0069fc16bb)
-![](http://oankigr4l.bkt.clouddn.com/201804281028_360.png)
+![](http://static.zhyjor.com/201804281028_360.png)
 ### 容器的属性
 有六个属性可以作用到容器上
 * flex-direction
@@ -162,7 +162,7 @@ align-self: auto | flex-start | flex-end | center | baseline | stretch;
 
 ## 浏览器兼容性
 经过查询结果如下：
-![](http://oankigr4l.bkt.clouddn.com/201804271109_84.png)
+![](http://static.zhyjor.com/201804271109_84.png)
 
 兼容性并不好，且Flexbox有新旧版以及混合写法，可以说假如需要兼容旧版本的话可以说非常可怕了。
 新版旧版可以用以下方法简单区分：
@@ -185,4 +185,4 @@ flex布局通过方向轴和容器的概念很优雅的实现了水平垂直居�
 **参考资料**
 [进一步了解flex布局—来实现这些常见布局吧](https://juejin.im/post/5b0d6ca76fb9a009fd0e9329)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

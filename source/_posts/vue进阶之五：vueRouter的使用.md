@@ -107,4 +107,4 @@ component，接收一个函数，直接通过import(xxx.vue)这种形式就可�
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

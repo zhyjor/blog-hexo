@@ -16,4 +16,4 @@ date: 2018-06-21 10:13:21
 **参考资料**
 [关于input的一些问题解决方法分享](https://juejin.im/post/5af68903f265da0b84557fab)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

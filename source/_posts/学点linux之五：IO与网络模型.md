@@ -50,4 +50,4 @@ request的三个队列：plug（本地泄洪，先蓄势，排序合并，连续
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

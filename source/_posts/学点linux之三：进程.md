@@ -96,4 +96,4 @@ https://git.kernel.org/
 [深入理解Linux内存管理-之-目录导航](https://blog.csdn.net/gatieme/article/details/52384965)
 [《深入理解LINUX内存管理》学习笔记 ](http://www.uml.org.cn/embeded/201208071.asp)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

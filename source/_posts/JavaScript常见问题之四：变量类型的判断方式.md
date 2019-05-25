@@ -153,7 +153,7 @@ Object.prototype.toString.call(Symbol(1)) // "[object Symbol]"
 
 下表是 [[NativeBrand]]内部属性的值：
 
-![](http://oankigr4l.bkt.clouddn.com/201806101127_870.png)
+![](http://static.zhyjor.com/201806101127_870.png)
 
 可见,和[[class]]不同的是,并不是每个对象都拥有[[NativeBrand]].同时,Object.prototype.toString方法的规范也改成了下面这样:
 
@@ -173,7 +173,7 @@ Object.prototype.toString.call(Symbol(1)) // "[object Symbol]"
 * 返回三个字符串"[object ", tag, and "]"连接后的新字符串.
 
 下表是[[NativeBrand]] 标志值：
-![](http://oankigr4l.bkt.clouddn.com/201806101129_509.png)
+![](http://static.zhyjor.com/201806101129_509.png)
 
 可以看到,在规范上有了很大的变化,不过对于普通用户来说,貌似感觉不到.
 也许你发现了,ES6里的新类型Map,Set等,都没有在表29中.它们在执行toString方法的时候返回的是什么?
@@ -373,4 +373,4 @@ console.log(foo.isInstanceOf(Boo));//true
 [有哪些明明是 bug，却被说成是 feature 的例子？](https://www.zhihu.com/question/66941121/answer/247939890)
 [JavaScript中Object.prototype.toString方法的原理](https://www.jb51.net/article/79941.htm)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

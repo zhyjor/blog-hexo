@@ -249,4 +249,4 @@ web worker看起来很美好，但处处是魔鬼。
 **参考资料**
 [初探 HTML5 Web Workers](http://srtian96.gitee.io/blog/2018/07/21/%E5%88%9D%E6%8E%A2%20HTML5%20Web%20Workers/?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

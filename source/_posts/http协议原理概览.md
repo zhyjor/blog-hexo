@@ -10,7 +10,7 @@ date: 2018-08-02 11:05:15
 经典五层模型
 <!--more-->
 ## 经典五层模型
-![](http://oankigr4l.bkt.clouddn.com/201808021108_947.png)
+![](http://static.zhyjor.com/201808021108_947.png)
 
 ### 低三层
 * 物理层：物理设备如何传输数据
@@ -246,4 +246,4 @@ link标签 rel=preload
 **参考资料**
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

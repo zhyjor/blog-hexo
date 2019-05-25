@@ -16,4 +16,4 @@ date: 2018-03-06 10:32:20
 [回味JS基础:call apply 与 bind](https://mp.weixin.qq.com/s?__biz=MzAwNzgxMjYzMA==&mid=401455454&idx=1&sn=e413b27ad8a742668c00e704e72f768c#rd)
 [深入浅出妙用 Javascript 中 apply、call、bind](http://web.jobbole.com/83642/)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

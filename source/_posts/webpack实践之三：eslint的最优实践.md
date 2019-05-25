@@ -150,4 +150,4 @@ module.exports = {
 [Standard - JavaScript 代码规范 ](https://standardjs.com/readme-zhcn.html)
 [用 husky 和 lint-staged 构建超溜的代码检查工作流](https://juejin.im/post/592615580ce463006bf19aa0)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

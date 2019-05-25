@@ -23,4 +23,4 @@ date: 2017-09-09 10:48:54
 [官方教材](https://cn.vuejs.org/)
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

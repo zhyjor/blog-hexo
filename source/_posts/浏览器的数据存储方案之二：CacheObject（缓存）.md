@@ -14,7 +14,7 @@ Cache 虽然是在 SW 中定义的，但是我们也可以直接在 window 域�
 
 每个域名可以有多个 Cache Object，具体我们可以在控制台中查看：
 
-![](http://oankigr4l.bkt.clouddn.com/201807191037_507.png)
+![](http://static.zhyjor.com/201807191037_507.png)
 
 并且 Cache Object 是懒更新，实际上，就可以把它比喻为一个文件夹。如果你不自己亲自更新，系统是不会帮你做任何事情的。对于删除也是一样的道理，如果你不显示删除，它会一直存在的。不过，浏览器对于每个域名的 Cache Object 数量是有限制的，并且，会周期性的删掉一些缓存信息。最好的办法，是我们自己管理资源，官方给出的建议是: 使用版本号进行资源管理。
 
@@ -253,4 +253,4 @@ let res_with_hash = await cache.match("https://www.villainhr.com/styles/article.
 **参考资料**
 [Service Worker 全面进阶](https://www.villainhr.com/page/2017/01/08/Service%20Worker%20%E5%85%A8%E9%9D%A2%E8%BF%9B%E9%98%B6)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

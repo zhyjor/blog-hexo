@@ -16,4 +16,4 @@ date: 2017-03-26 20:30:45
 [Sass的新特性](https://www.w3cplus.com/preprocessor/future-sass.html)
 [CSS预编译：sass-scss](https://www.aliyun.com/jiaocheng/640575.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

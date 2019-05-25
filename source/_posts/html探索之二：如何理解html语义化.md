@@ -32,4 +32,4 @@ date: 2018-05-11 10:35:12
 **参考资料**
 [HTML语义化专题（一）—如何理解HTML语义化？](https://www.cnblogs.com/huoshanjun/p/6603580.html)
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)

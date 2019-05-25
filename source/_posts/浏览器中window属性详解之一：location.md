@@ -88,6 +88,11 @@ window.addEventListener("hashchange", func, false);
 
 通过这种机制，Google就可以索引动态的Ajax内容。
 
+## 如何返回
+如何判断顶部
+微信如何处理
+
+
 **参考资料**
 [location.hash详解](http://blog.csdn.net/baidu_31333625/article/details/54288223)
 

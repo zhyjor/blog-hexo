@@ -105,4 +105,4 @@ $(document).ready(function(){
 
 [点击查看参考内容](http://www.cnblogs.com/jams742003/archive/2009/08/29/1556187.html)
 
-![f14](http://oankigr4l.bkt.clouddn.com/f14.jpg)
+![f14](http://static.zhyjor.com/f14.jpg)

@@ -53,4 +53,4 @@ html中标签有很多种，最新的[《html5参考手册》](http://www.w3scho
 [浅谈JavaScript异步加载的三种方式——async和defer、动态创建script](https://blog.csdn.net/zhouziyu2011/article/details/60149590)
 []()
 
-![](http://oankigr4l.bkt.clouddn.com/my_wx_code)
+![](http://static.zhyjor.com/my_wx_code)

@@ -20,6 +20,8 @@ top: true
 ## Js/ES6/TypeSctipt
 [source](https://zhyjor.github.io/2018/02/25/InterviewSource%E4%B9%8B%E5%89%8D%E7%AB%AF/)
 ### 相关博客
+
+**[九部知识库](https://github.com/frontend9/fe9-library/blob/master/MEMBERS.md)**
 [互联网公司技术架构，微信/淘宝/微博/腾讯/阿里/美团点评/百度/Google/Facebook/Amazon/eBay的架构，欢迎PR补充](https://github.com/davideuler/architecture.of.internet-product)
 [(articles-translator)一个前端相关的博客，翻译一些文章](https://neal1991.github.io/articles-translator/)
 [前端精读周刊dt-fe/weekly](https://github.com/dt-fe/weekly)
@@ -27,6 +29,7 @@ top: true
 [饿了么大前端Node interview of ElemeFE](https://github.com/ElemeFE/node-interview)
 [梁少峰的个人博客,js浏览器兼容，v8等很多内容](https://github.com/youngwind/blog)
 [Aaaaaaaty/blog,里面的很多细节不错，很深入（0.1+0.2问题）](https://github.com/Aaaaaaaty/blog)
+[amandakelake/blog·参与过前端图谱](https://github.com/amandakelake/blog)
 [野生的一个前端大佬·360·博文·前端·后端](https://github.com/berwin/Blog)
 **[camsong/blog（阿里）](https://github.com/camsong/blog)**
 [前端工程师手册](https://leohxj.gitbooks.io/front-end-database/html-and-css-basic/css3-news.html)
@@ -330,4 +333,4 @@ jhipster
 **参考资料**
 
 
-![](http://oankigr4l.bkt.clouddn.com/wexin.png)
+![](http://static.zhyjor.com/wexin.png)
