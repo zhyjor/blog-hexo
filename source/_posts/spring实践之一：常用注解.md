@@ -30,6 +30,16 @@ public User getInfo(@PathVariable(name = "id") String idxxx){
 public interface UserSimpleView {};
 public interface UserDetailsView extends UserSimpleView {};
 ```
+
+## 处理创建请求与校验
+### @RequestBody
+取到前端数据
+### @Valid
+校验，直接打回请求
+
+## 验证注解（Hibernate Validator）
+@NotNull @Null @Email @AssertTure...
+
 **参考资料**
 []()
 
