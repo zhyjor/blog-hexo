@@ -40,6 +40,8 @@ public interface UserDetailsView extends UserSimpleView {};
 ## 验证注解（Hibernate Validator）
 @NotNull @Null @Email @AssertTure...
 
+## 使用方式
+
 **参考资料**
 []()
 
