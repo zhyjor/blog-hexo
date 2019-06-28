@@ -114,6 +114,47 @@ export default function forwardRef<Props, ElementType: React$ElementType>(
 ```
 
 ### ConcurrentMode(16后比较让人振奋)
+async-mode与sync-mode的区别
+
+### Suspense
+异步组件
+```js
+export function lazy<T, R>(ctor: () => Thenable<T, R>): LazyComponent<T> {
+  return {
+    $$typeof: REACT_LAZY_TYPE,
+    _ctor: ctor,
+    // React uses these fields to store the result.
+    _status: -1,
+    _result: null,
+  };
+}
+```
+
+### Hooks
+useState
+useEffect,根据第二个参数来判断是否需要更新，可以模拟出生命周期的效果。
+```js
+const ReactCurrentOwner = {
+  /**
+   * @internal
+   * @type {ReactComponent}
+   */
+  current: (null: null | Fiber),
+  currentDispatcher: (null: null | Dispatcher),
+};
+```
+
+### children
+props.children
+```js
+Children: {
+    map, // 有返回
+    forEach, // 返回原数组
+    count,
+    toArray,
+    only,
+  },
+```
 
 **参考资料**
 []()
