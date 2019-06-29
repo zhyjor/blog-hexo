@@ -148,7 +148,7 @@ const ReactCurrentOwner = {
 props.children
 ```js
 Children: {
-    map, // 有返回
+    map, // 有返回，可以返回一个展开的数组
     forEach, // 返回原数组
     count,
     toArray,
