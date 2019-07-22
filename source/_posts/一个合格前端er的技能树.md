@@ -31,6 +31,7 @@ top: true
 [Aaaaaaaty/blog,里面的很多细节不错，很深入（0.1+0.2问题）](https://github.com/Aaaaaaaty/blog)
 [amandakelake/blog·参与过前端图谱](https://github.com/amandakelake/blog)
 [野生的一个前端大佬·360·博文·前端·后端](https://github.com/berwin/Blog)
+[https://github.com/jawil/blog](https://github.com/jawil/blog)
 **[camsong/blog（阿里）](https://github.com/camsong/blog)**
 [前端工程师手册](https://leohxj.gitbooks.io/front-end-database/html-and-css-basic/css3-news.html)
 
