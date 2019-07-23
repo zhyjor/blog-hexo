@@ -17,4 +17,9 @@ date: 2019-07-22 17:31:11
 [MadLittleMods/node-usb-detection](https://github.com/MadLittleMods/node-usb-detection)
 [node-hid/node-hid](https://github.com/node-hid/node-hid)
 [song940/node-escpos ESC/POS Printer driver for node](https://github.com/song940/node-escpos)
+
+[Mount point of connected device (devicePath)](https://github.com/MadLittleMods/node-usb-detection/issues/19)
+
+[Using MTP on macOS with Node.js](https://blog.gerritniezen.com/using-mtp-on-macos/)
+
 ![](http://static.zhyjor.com/wexin.png)
