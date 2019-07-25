@@ -1,8 +1,9 @@
 ---
 title: 基于electron的开发实践之七：系统右键的处理
 tags:
-  - dev
-categories: dev
+  - 基于electron的开发实践
+  - electron
+categories: 前端
 top: false
 copyright: true
 date: 2019-07-23 11:50:56
