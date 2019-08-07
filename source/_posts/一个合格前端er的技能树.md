@@ -53,6 +53,8 @@ top: true
 [TalkingData/fsd 浏览器相关较多](https://github.com/TalkingData/fsd/issues)
 [wy-ei/notebook浏览器相关以及优化](https://github.com/wy-ei/notebook/issues)
 
+[qq449245884/xiaozhi侧重于react、vue、react native 与底层原理分析](https://github.com/qq449245884/xiaozhi)
+
 ### 内存
 [JavaScript 内存机制（前端同学进阶必备）](https://juejin.im/post/5b10ba336fb9a01e66164346)
 
