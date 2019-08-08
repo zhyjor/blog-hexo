@@ -21,6 +21,9 @@ date: 2017-10-10 16:27:16
 ## 合集
 [[原创]树莓派上手小记·看雪论坛](https://bbs.pediy.com/thread-182874.htm)
 [「树莓派」是什么以及普通人怎么玩？](https://www.zhihu.com/question/20859055)
+[awesome-raspberry-pi-zh(树莓派 (Raspberry Pi) 资源大全中文版)](https://juejin.im/entry/5815dc9ca0bb9f005875df1c)
+[A Plex Client for the Raspberry Pi computer](http://www.rasplex.com/)
+[thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi)
 
 **参考资料**
 []()
