@@ -9,7 +9,7 @@ top: false
 copyright: true
 date: 2019-06-22 17:18:28
 ---
-核心的API，先看看有哪些用的最多的API，这些差不多都定义在react中。
+核心的API，先看看有哪些用的最多的API，这些差不多 都定义在react中。
 <!--more-->
 
 ## API
