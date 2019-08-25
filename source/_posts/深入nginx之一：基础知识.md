@@ -2,8 +2,8 @@
 title: 深入nginx之一：基础知识
 tags:
   - 深入nginx
-  - nignx
-categories: nignx
+  - nginx
+categories: nginx
 top: false
 copyright: true
 date: 2019-08-24 10:29:09
