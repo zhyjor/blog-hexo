@@ -156,6 +156,11 @@ minikube & kubectl
 
 **Perform rolling update using a Replication Controller**
 
+### k8s常用命令
+```
+kubectl  logs -f --tail=200 pod-0 -n xhzy-backend | grep 'string'
+```
+
 **参考资料**
 [Linux服务器集群系统（一）章文嵩（LVS系统）](http://www.linuxvirtualserver.org/zh/lvs1.html)
 [【大型网站技术实践】初级篇：借助LVS+Keepalived实现负载均衡](http://www.cnblogs.com/edisonchou/p/4281978.html)
