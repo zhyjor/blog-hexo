@@ -30,6 +30,6 @@ react本身是一个定于，dom里才是具体的操作实现，是平台相关
 
 
 **参考资料**
-[]()
-
+[React Fiber架构](https://zhuanlan.zhihu.com/p/37095662)
+[MuYunyun/blog/React](https://github.com/MuYunyun/blog/tree/master/React)
 ![](http://static.zhyjor.com/wexin.png)

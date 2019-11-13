@@ -17,5 +17,6 @@ javascript 性能经过了两次飞跃：第 1 次飞跃是 2008 年 V8 发布�
 [JavaScript 开发者所需要知道的 V8（一）：V8 In NodeJS](http://huang-jerryc.com/2016/11/08/the-v8-what-javascripter-should-konw-of-v8-in-nodejs/)
 [面向前端开发者的V8性能优化z](https://docs.google.com/presentation/d/1YVWcMjrqbUZBnITUaIlo6-uqGCo2Q6iHNg1uz8JDeGY/edit#slide=id.p4)
 [认识 V8 引擎](https://zhuanlan.zhihu.com/p/27628685)
+[V8 引擎如何进行垃圾内存的回收, 看这篇就够啦](https://juejin.im/post/5dcb7f706fb9a04aad01615a?utm_source=gold_browser_extension)
 
 ![](http://static.zhyjor.com/wexin.png)
