@@ -19,6 +19,7 @@ top: true
 
 ## Js/ES6/TypeSctipt
 [source](https://zhyjor.github.io/2018/02/25/InterviewSource%E4%B9%8B%E5%89%8D%E7%AB%AF/)
+[一枚学霸的赴日经历](https://www.richang.be/)
 ### 相关博客
 
 **[九部知识库](https://github.com/frontend9/fe9-library/blob/master/MEMBERS.md)**
