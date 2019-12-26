@@ -28,6 +28,6 @@ date: 2018-10-14 10:24:28
 **参考资料**
 [React 16 加载性能优化指南](https://juejin.im/post/5b506ae0e51d45191a0d4ec9)
 [webpack详解](https://juejin.im/post/5aa3d2056fb9a028c36868aa)
-
+[请问一下 effects 中 yield put() 是一个非阻塞过程，如何做到 effects 中阻塞调用另一个 effect](https://github.com/dvajs/dva/issues/1212)
 
 ![](http://static.zhyjor.com/wexin.png)
