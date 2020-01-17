@@ -56,6 +56,8 @@ top: true
 
 [qq449245884/xiaozhi侧重于react、vue、react native 与底层原理分析](https://github.com/qq449245884/xiaozhi)
 
+[2019 - 写在一起学习群的未公开文章](https://www.yuque.com/docs/share/157434e7-1bee-4bbd-88e5-2cc2cbc1511c#2019.05)
+
 ### 内存
 [JavaScript 内存机制（前端同学进阶必备）](https://juejin.im/post/5b10ba336fb9a01e66164346)
 
