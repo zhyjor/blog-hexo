@@ -31,7 +31,7 @@ date: 2020-04-18 11:25:58
  > 免职声明：
  这篇译文完全是凭自己兴趣翻译，详情请参考原文和[React Ref的官方文档](https://reactjs.org/docs/refs-and-the-dom.html)
  
-### 什么是Refs
+## 什么是Refs
  > Refs provide a way to access DOM nodes or React elements created in the render method.
  Refs提供了一种在React中访问Dom节点的方式
  
@@ -93,7 +93,97 @@ const node: HTMLDivElement | null
 这样我们就得到了HTMLDivElement DOM api的自动提醒，还是很香的
 ![](http://static.zhyjor.com/blog/2020-04-18-0_gzeeS5C5h2tBDbv4.gif)
 
+### 给自定义Class组件添加Ref
+和上面的栗子类似，我们如果想在挂载自定义组件的时候就获取焦点，我们可以通过ref访问到自定义组件的实例，调用组件的focus方法，就可以实现：
+```js
+import React, { createRef, Component } from 'react'
+class AutoFocusTextInput extends Component {
+  // create ref with explicit generic parameter 
+  // this time instance of MyComponent
+  private myCmp = createRef<MyComponent>()
+  componentDidMount() {
+    // @FIXME
+    // non null assertion used, extract this logic to method!
+    this.textInput.current!.focus()
+  }
+  render() {
+    return <MyComponent ref={this.textInput} />
+  }
+}
+```
+⚠️
+* 这种方式仅仅适用于声明为class的自定义组件
+* 我们可以访问所有的实例方法
+
+![](http://static.zhyjor.com/blog/2020-04-23-114502.jpg)
+
+是不是很优雅🔥
+
+### Refs和函数组件
+> 因为函数组件没有实例，你可能不会在函数组件上使用ref属性；但是当你在函数组件内部的时候，还是可以通过ref来访问Dom节点或class组件的
+
+![](http://static.zhyjor.com/blog/2020-04-23-120025.jpg)
+
+## Forwarding Refs
+> Ref forwarding是一种将ref钩子自动传递给组件的子孙组件的技术
+
+### 传递refs到DOM components
+定义一个FancyButton组件，渲染一个原生的button到页面上
+![](http://static.zhyjor.com/blog/2020-04-23-122405.jpg)
+
+> Ref forwarding是组件一个可选的的特性。它可以接受上层组件传递下来的ref，然后传递给自己的子组件。
+
+在下面的例子中，我们给组件加上Forwarding Refs，这样在必要的时候我们就可以通过ref直接访问这个组件内的button节点，就像我们直接使用button节点一样
+![](http://static.zhyjor.com/blog/2020-04-23-122952.jpg)
+
+这里到底是什么实现的呢？
+* 我们创建并export一个Ref类型给我们组件的调用方
+* 使用forwardRef，我们获取到ref，并传递给子组件，这是一个包含两个参数的普通函数
+
+```js
+// react.d.ts
+function forwardRef<T, P = {}>(
+  Component: RefForwardingComponent<T, P>
+): ComponentType<P & ClassAttributes<T>>
+
+// 这里的T，P
+1:T是DOM的类型
+2:P是传递的Props
+3:返回值的定义是混合了props值和ref类型的组件的定义
+```
+
+这样我们就可以类型安全的调用了：
+![](http://static.zhyjor.com/blog/2020-04-23-0_OWdwypfLrHqpjoq2.gif)
+
+### 高阶组件中使用Forwarding refs
+[官方文档](https://reactjs.org/docs/forwarding-refs.html#forwarding-refs-in-higher-order-components)关于高阶组件使用Forwarding refs的方式还是比较复杂的;简答来说，我们只要用forwardRef API包一层你的组件就好了
+```js
+return forwardRef((props, ref) => {
+  return <LogProps {...props} forwardedRef={ref} />
+})
+```
+下面是class组件方式实现的FancyButton
+![](http://static.zhyjor.com/blog/2020-04-24-020526.jpg)
+这是我们想要如何使用这个组件
+![](http://static.zhyjor.com/blog/2020-04-24-020706.jpg)
+
+最后，我们通过ref forwarding实现这个高阶组件
+![](http://static.zhyjor.com/blog/2020-04-24-023935.jpg)
+
+使用ref forwarding的高阶组件需要我们明确参数类型
+```js
+const EnhancedFancyButton = withPropsLogger<
+  FancyButton, 
+  FancyButtonProps
+>(FancyButton)
+```
+这样我们就可以类型安全的使用了
+![](http://static.zhyjor.com/blog/2020-04-24-0_Rkp7RYK65NVE8-YB.gif)
+
+以上！
+
 **参考资料**
 [React Refs with TypeScript](https://medium.com/@martin_hotell/react-refs-with-typescript-a32d56c4d315)
+[Adding TypeScript](https://create-react-app.dev/docs/adding-typescript/)
 
 ![](http://static.zhyjor.com/wexin.png)
