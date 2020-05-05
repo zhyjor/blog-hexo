@@ -10,7 +10,7 @@ date: 2020-04-18 11:25:58
 ---
 先放上[原文链接](https://medium.com/@martin_hotell/react-refs-with-typescript-a32d56c4d315)
 
-今年4月的杭州天气总是让人摸不着头脑，可能也是今年疫情的原因，似乎并没有太多春天的感觉；虽然温度是慢慢的升上来了，但感觉没有春天的那种万物复苏，到处鲜花盛开的感觉；不知道是今年疫情的原因，还是视线被俗事一叶障目，想保持初心还是需要一些勇气的。闲话少叙，搬运一篇Martin Hochel的文章，开始吧
+今年4、5月的杭州天气总是让人摸不着头脑，可能也是今年疫情的原因，似乎并没有太多春天的感觉；虽然温度是慢慢的升上来了，但感觉没有春天的那种万物复苏，到处鲜花盛开的感觉；不知道是今年疫情的原因，还是视线被俗事一叶障目，总之一切都不太像想象中的样子。闲话少叙吧，搬运一篇Martin Hochel的文章，开始吧
 <!--more-->
 ![](http://static.zhyjor.com/blog/2020-04-18-034713.jpg)
 > 文章使用以下版本
@@ -26,7 +26,7 @@ date: 2020-04-18 11:25:58
 ```
  [源码地址](https://github.com/Hotell/blogposts/tree/master/2018-08/react-ts-refs)
  
- 经常会收到询问如何合适的定义react refs的类型的问题，我没有找到有人写过关于这个问题的资料，就写了这篇文章帮助那些新接触react和typescript的人。
+ 经常会收到询问typescript中如何合适的定义react refs的类型的问题，我没有找到有人写过关于这个问题的资料，就写了这篇文章帮助那些新接触react和typescript的人。
  
  > 免职声明：
  这篇译文完全是凭自己兴趣翻译，详情请参考原文和[React Ref的官方文档](https://reactjs.org/docs/refs-and-the-dom.html)
@@ -64,7 +64,7 @@ interface RefObject<T> {
 返回的`RefObject<T>`是泛型；由此我们就可以知道怎么解决上述验证报错的问题了：
 ![](http://static.zhyjor.com/blog/2020-04-18-151348.jpg)
 
-## 访问Refs
+## 使用Refs
 我们可以直接通过定义在ref上的current属性来访问这个node，如下
 ```js
 const node = this.myRef.current
@@ -181,6 +181,7 @@ const EnhancedFancyButton = withPropsLogger<
 ![](http://static.zhyjor.com/blog/2020-04-24-0_Rkp7RYK65NVE8-YB.gif)
 
 以上！
+最后的惯例，贴上[我的博客](https://github.com/zhyjor/homepage-index)，欢迎关注
 
 **参考资料**
 [React Refs with TypeScript](https://medium.com/@martin_hotell/react-refs-with-typescript-a32d56c4d315)
