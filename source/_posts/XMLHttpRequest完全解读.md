@@ -16,5 +16,6 @@ date: 2020-06-01 23:54:58
 
 **参考资料**
 [你真的会使用XMLHttpRequest吗？](https://segmentfault.com/a/1190000004322487)
+[【翻译】这个API很“迷人”——(新的Fetch API)](https://www.w3ctech.com/topic/854)
 
 ![](http://static.zhyjor.com/wexin.png)
