@@ -317,5 +317,7 @@ module.exports = {
 [Webpack揭秘——走向高阶前端的必经之路](https://juejin.im/post/5badd0c5e51d450e4437f07a)
 [webpack4.0源码分析之Tapable](https://juejin.im/post/5abf33f16fb9a028e46ec352)
 [ webpack hook](https://webpack.js.org/api/compiler-hooks/)
+[在淘宝的优化第一弹](https://juejin.im/post/5edd942af265da76f8601199)
+[妈妈再也不用担心我的优化｜Webpack系列（二）：SplitChunksPlugin源码讲解](https://juejin.im/post/5edd942af265da76f8601199)
 
 ![](http://static.zhyjor.com/wexin.png)
