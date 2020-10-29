@@ -57,4 +57,9 @@ Repository mirroring allows for mirroring of repositories to and from external s
 
 [GitLab CI流水线配置文件.gitlab-ci.yml详解](https://meigit.readthedocs.io/en/latest/gitlab_ci_.gitlab-ci.yml_detail.html)
 
+* issue
+
+[reset_token_url: reset_registration_token_admin_application_settings_path](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/57038)
+[Internal Server Error 500 while accessing $GITLAB/admin/runners](https://stackoverflow.com/questions/54216933/internal-server-error-500-while-accessing-gitlab-admin-runners)
+
 ![](http://static.zhyjor.com/wexin.png)
