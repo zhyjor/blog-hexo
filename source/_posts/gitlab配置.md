@@ -55,4 +55,6 @@ Repository mirroring allows for mirroring of repositories to and from external s
 [Docker安装Gitlab、Gitlab-Runner并实现项目CICD](https://juejin.im/post/6844904152955355149)
 [Repository mirroring](https://forge.etsi.org/rep/help/workflow/repository_mirroring.md)
 
+[GitLab CI流水线配置文件.gitlab-ci.yml详解](https://meigit.readthedocs.io/en/latest/gitlab_ci_.gitlab-ci.yml_detail.html)
+
 ![](http://static.zhyjor.com/wexin.png)
