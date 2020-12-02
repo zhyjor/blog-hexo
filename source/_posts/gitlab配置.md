@@ -62,4 +62,6 @@ Repository mirroring allows for mirroring of repositories to and from external s
 [reset_token_url: reset_registration_token_admin_application_settings_path](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/57038)
 [Internal Server Error 500 while accessing $GITLAB/admin/runners](https://stackoverflow.com/questions/54216933/internal-server-error-500-while-accessing-gitlab-admin-runners)
 
+[](https://blog.csdn.net/ouyang_peng/article/details/84066417)
+
 ![](http://static.zhyjor.com/wexin.png)
