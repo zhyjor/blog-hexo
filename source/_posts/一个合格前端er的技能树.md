@@ -185,6 +185,7 @@ xss/csrf
 [Web安全之点击劫持（ClickJacking）](http://www.cnblogs.com/lovesong/p/5248483.html)
 [令人惊叹的CSS漏洞攻击 Firefox 和 Chrome 中枪](https://www.cnbeta.com/articles/tech/732595.htm)
 [利用css攻击](https://www.evonide.com/side-channel-attacking-browsers-through-css3-features/)
+[前端安全系列（二）：如何防止CSRF攻击？](https://tech.meituan.com/2018/10/11/fe-security-csrf.html)
 
 ## MVVM框架的使用、原理及源码阅读
 
