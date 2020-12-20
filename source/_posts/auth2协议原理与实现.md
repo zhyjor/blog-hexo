@@ -19,6 +19,7 @@ auth2协议分两种，基于token和基于code两种，基于code的方式是�
 **参考资料**
 [OAuth2.0原理和验证流程分析](https://www.jianshu.com/p/d74ce6ca0c33)
 [The OAuth 2.0 Authorization Framework](https://tools.ietf.org/html/rfc6749)
-[]()
+[Auth 2.0 协议原理与实现：协议原理](https://my.oschina.net/wangzhenchao/blog/851773)
+[Run your own OAuth2 Server](https://www.ory.sh/run-oauth2-server-open-source-api-security/)
 
 ![](http://static.zhyjor.com/wexin.png)
