@@ -19,6 +19,8 @@ auth2协议分两种，基于token和基于code两种，基于code的方式是�
 ## Q 
 目前遇到的问题是gitlab回跳有问题
 
+gitlab回跳的时候遇到无法跳转的问题
+
 **参考资料**
 [OAuth2.0原理和验证流程分析](https://www.jianshu.com/p/d74ce6ca0c33)
 [The OAuth 2.0 Authorization Framework](https://tools.ietf.org/html/rfc6749)
