@@ -159,6 +159,10 @@ minikube & kubectl
 ### k8s常用命令
 ```
 kubectl  logs -f --tail=200 pod-0 -n xhzy-backend | grep 'string'
+
+kubectl get pod -A | grep magic
+
+kubectl exec -it magic-static-service-0 -n backend bash
 ```
 
 **参考资料**
