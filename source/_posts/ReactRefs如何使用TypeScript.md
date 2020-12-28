@@ -186,5 +186,6 @@ const EnhancedFancyButton = withPropsLogger<
 **参考资料**
 [React Refs with TypeScript](https://medium.com/@martin_hotell/react-refs-with-typescript-a32d56c4d315)
 [Adding TypeScript](https://create-react-app.dev/docs/adding-typescript/)
+[何时使用 Refs(官方文档)](http://doc.codingdict.com/react-cn-doc/docs/refs-and-the-dom/)
 
-![](http://static.zhyjor.com/wexin.png)
+![](https://static.zhyjor.com/wexin.png)
