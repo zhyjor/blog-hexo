@@ -11,6 +11,6 @@ date: 2020-12-08 19:54:55
 <!--more-->
 
 **参考资料**
-[]()
+[dragon/threejs教程](https://teakki.com/pe/58a3ef1bf0d40775548c908f)
 
-![](http://static.zhyjor.com/wexin.png)
+![](https://static.zhyjor.com/wexin.png)
