@@ -106,8 +106,8 @@ animation与transition 不同的是，keyframes提供更多的控制，尤其是
 ```css
 transition: property duration timing-function delay;
 ```
-|值|描述|
-	|--|--|
+| 值 | 描述 |
+	| -- | -- |
 |transition-property|规定设置过渡效果的 CSS 属性的名称|
 |transition-duration	|规定完成过渡效果需要多少秒或毫秒|
 |transition-timing-function	|规定速度效果的速度曲线|
