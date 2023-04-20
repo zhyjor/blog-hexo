@@ -1,18 +1,20 @@
-name: Build and Deploy
-on: [push]
+name: deploying Hexo project to GitHub pages
+on:
+  push:
+    branches:
+      - master # master 分支有 push 行为时就触发这个 action
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@master
-      with:
-        submodules: true
+      - name: Checkout
+        uses: actions/checkout@master
 
-    - name: Build and Deploy
-      uses: solybum/hexo-deploy@master
-      env:
-        PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-        PUBLISH_REPOSITORY: zhyjor/zhyjor.github.io # The repository the action should deploy to.
-        BRANCH: master  # The branch the action should deploy to.
-        PUBLISH_DIR: ./public # The folder the action should deploy.
+      - name: Build and Deploy
+        uses: theme-keep/hexo-deploy-github-pages-action@master # 使用专门部署 Hexo 到 GitHub pages 的 action
+        env:
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }} # secret 名
+          PUBLISH_REPOSITORY: zhyjor/zhyjor.github.io # 公共仓库，格式：GitHub 用户名/仓库名
+          BRANCH: master # 分支，填 gh-pages 就行
+          PUBLISH_DIR: ./public # 部署 public 目录下的文件
